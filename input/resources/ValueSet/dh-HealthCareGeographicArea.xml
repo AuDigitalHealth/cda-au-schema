@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="dh-HealthCareGeographicArea"/>
+    <url value="http://hl7.org/cda/stds/core/ValueSet/dh-HealthCareGeographicArea"/>
+    <name value="dh-HealthCareGeographicArea"/>
+    <title value="dh-HealthCareGeographicArea"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="Health Care Client Identifier Geographic Area"/>
+    <compose>
+        <include>
+            <system value="http://hl7.org/cda/stds/core/CodeSystem/dh-HealthCareGeographicArea"/>
+            <version value="1.0.0"/>
+            <concept>
+                <code value="L"/>
+            </concept>
+            <concept>
+                <code value="A"/>
+            </concept>
+            <concept>
+                <code value="S"/>
+            </concept>
+            <concept>
+                <code value="N"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

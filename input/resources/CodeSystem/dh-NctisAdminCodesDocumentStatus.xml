@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="dh-NctisAdminCodesDocumentStatus"/>
+    <url value="http://hl7.org/cda/stds/core/CodeSystem/dh-NctisAdminCodesDocumentStatus"/>
+    <name value="dh-NctisAdminCodesDocumentStatus"/>
+    <title value="dh-NctisAdminCodesDocumentStatus"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="NCTIS Admin Codes Document Status"/>
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <count value="3"/>
+    <concept>
+        <code value="I"/>
+        <display value="Interim"/>
+    </concept>
+    <concept>
+        <code value="F"/>
+        <display value="Final"/>
+    </concept>
+    <concept>
+        <code value="W"/>
+        <display value="Withdrawn"/>
+    </concept>
+</CodeSystem>

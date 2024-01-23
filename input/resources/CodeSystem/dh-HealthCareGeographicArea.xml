@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="dh-HealthCareGeographicArea"/>
+    <url value="http://hl7.org/cda/stds/core/CodeSystem/dh-HealthCareGeographicArea"/>
+    <name value="dh-HealthCareGeographicArea"/>
+    <title value="dh-HealthCareGeographicArea"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="Health Care Client Identifier Geographic Area"/>
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <count value="4"/>
+    <concept>
+        <code value="L"/>
+        <display value="Local Client (Unit Record) Identifier"/>
+    </concept>
+    <concept>
+        <code value="A"/>
+        <display value="Area/Region/District Identifier"/>
+    </concept>
+    <concept>
+        <code value="S"/>
+        <display value="State or Territory Identifier"/>
+    </concept>
+    <concept>
+        <code value="N"/>
+        <display value="National Identifier"/>
+    </concept>
+</CodeSystem>
