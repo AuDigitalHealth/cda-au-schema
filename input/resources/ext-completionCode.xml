@@ -17,7 +17,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <url value="http://hl7.org/cda/stds/core/StructureDefinition/ext-completionCode"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/ext-completionCode"/>
   <name value="ext-completionCode"/>
   <title value="Agency extension completionCode"/>
   <status value="active"/>

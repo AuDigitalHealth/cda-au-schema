@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/cda/stds/core/2023Sep" ciUrl="http://build.fhir.org/ig/HL7/CDA-core-sd/" defaultVersion="2.0.0-sd-ballot" defaultWorkgroup="sd" url="http://hl7.org/cda/stds/core">
-<version code="current" url="http://build.fhir.org/ig/HL7/CDA-core-sd/"/>
-<version code="2.0.0-sd-snapshot1" url="http://hl7.org/cda/stds/core/2.0.0-sd-snapshot1"/>
-<version code="2.0.0-sd-ballot" url="http://hl7.org/cda/stds/core/2023Sep"/>
-<version code="2.1.0-draft1" url="http://hl7.org/cda/stds/core/draft1"/>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="sd" url="http://ns.electronichealth.net.au/cda">
+<version code="current" url=""/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
@@ -35,6 +32,7 @@
 <artifact id="StructureDefinition/CS" key="StructureDefinition-CS" name="CS: CodedSimpleValue (V3 Data Type)"/>
 <artifact id="StructureDefinition/CV" key="StructureDefinition-CV" name="CV: CodedValue (V3 Data Type)"/>
 <artifact id="StructureDefinition/ClinicalDocument" key="StructureDefinition-ClinicalDocument" name="ClinicalDocument (CDA Class)"/>
+<artifact id="StructureDefinition/dh-ClinicalDocument" key="StructureDefinition-ClinicalDocument" name="ClinicalDocument (CDA Class)"/>
 <artifact id="StructureDefinition/Component" key="StructureDefinition-Component" name="Component (CDA Class)"/>
 <artifact id="StructureDefinition/ComponentOf" key="StructureDefinition-ComponentOf" name="ComponentOf (CDA Class)"/>
 <artifact deprecated="true" id="ValueSet/CDACompressionAlgorithm" key="ValueSet-CDACompressionAlgorithm" name="CompressionAlgorithm"/>

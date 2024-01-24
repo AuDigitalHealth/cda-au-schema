@@ -1,6 +1,6 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
 	<id value="hl7.cda.uv.core.dh"/>
-	<url value="http://hl7.org/cda/stds/core/ImplementationGuide/hl7.cda.uv.core.dh"/>
+	<url value="http://ns.electronichealth.net.au/cda/ImplementationGuide/hl7.cda.uv.core.dh"/>
 	<version value="1.0.0"/>
 	<name value="ClinicalDocumentArchitecture"/>
 	<title value="Australian Digital Health Agency Clinical Document Architecture"/>
@@ -892,6 +892,12 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/dh-ClinicalDocument"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/ext-asEntityIdentifier"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
@@ -1050,6 +1056,13 @@
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
 			</code>
 			<value value="html"/>
+		</parameter>
+		<parameter>
+			<code>
+				<code value="special-url-base"/>
+				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+			</code>			
+			<value value="http://hl7.org/cda/stds/core"/>
 		</parameter>		
 	</definition>
 </ImplementationGuide>
