@@ -159,7 +159,10 @@ This Implementation Guide represents the Clinical Document Architecture (CDA) us
 		<td>
 			<h3>ADHA ClinicalDocument</h3>
 			<ul>
-				<li><a href="StructureDefinition-dh-ClinicalDocument.html">dh-ClinicalDocument</a></li>
+				<li><a href="StructureDefinition-au-ClinicalDocument.html">au-ClinicalDocument</a></li>
+				<li><a href="StructureDefinition-au-RecordTarget.html">au-RecordTarget</a></li>
+				<li><a href="StructureDefinition-au-PatientRole.html">au-PatientRole</a></li>
+				<li><a href="StructureDefinition-au-Patient.html">au-Patient</a></li>
 			</ul>
 		</td>
 		<td>

@@ -32,7 +32,7 @@
 <artifact id="StructureDefinition/CS" key="StructureDefinition-CS" name="CS: CodedSimpleValue (V3 Data Type)"/>
 <artifact id="StructureDefinition/CV" key="StructureDefinition-CV" name="CV: CodedValue (V3 Data Type)"/>
 <artifact id="StructureDefinition/ClinicalDocument" key="StructureDefinition-ClinicalDocument" name="ClinicalDocument (CDA Class)"/>
-<artifact id="StructureDefinition/dh-ClinicalDocument" key="StructureDefinition-ClinicalDocument" name="ClinicalDocument (CDA Class)"/>
+<artifact id="StructureDefinition/au-ClinicalDocument" key="StructureDefinition-ClinicalDocument" name="ClinicalDocument (CDA Class)"/>
 <artifact id="StructureDefinition/Component" key="StructureDefinition-Component" name="Component (CDA Class)"/>
 <artifact id="StructureDefinition/ComponentOf" key="StructureDefinition-ComponentOf" name="ComponentOf (CDA Class)"/>
 <artifact deprecated="true" id="ValueSet/CDACompressionAlgorithm" key="ValueSet-CDACompressionAlgorithm" name="CompressionAlgorithm"/>
@@ -102,7 +102,9 @@
 <artifact id="StructureDefinition/Participant2" key="StructureDefinition-Participant2" name="Participant2 (CDA Class)"/>
 <artifact id="StructureDefinition/ParticipantRole" key="StructureDefinition-ParticipantRole" name="ParticipantRole (CDA Class)"/>
 <artifact id="StructureDefinition/Patient" key="StructureDefinition-Patient" name="Patient (CDA Class)"/>
+<artifact id="StructureDefinition/au-Patient" key="StructureDefinition-Patient" name="Patient (CDA Class)"/>
 <artifact id="StructureDefinition/PatientRole" key="StructureDefinition-PatientRole" name="PatientRole (CDA Class)"/>
+<artifact id="StructureDefinition/au-PatientRole" key="StructureDefinition-PatientRole" name="PatientRole (CDA Class)"/>
 <artifact id="StructureDefinition/Performer1" key="StructureDefinition-Performer1" name="Performer1 (CDA Class)"/>
 <artifact id="StructureDefinition/Performer2" key="StructureDefinition-Performer2" name="Performer2 (CDA Class)"/>
 <artifact id="StructureDefinition/Person" key="StructureDefinition-Person" name="Person (CDA Class)"/>
@@ -116,6 +118,7 @@
 <artifact id="StructureDefinition/REAL" key="StructureDefinition-REAL" name="REAL: RealNumber (V3 Data Type)"/>
 <artifact id="StructureDefinition/RTO-PQ-PQ" key="StructureDefinition-RTO-PQ-PQ" name="RTO_PQ_PQ: Ratio (V3 Data Type)"/>
 <artifact id="StructureDefinition/RecordTarget" key="StructureDefinition-RecordTarget" name="RecordTarget (CDA Class)"/>
+<artifact id="StructureDefinition/au-RecordTarget" key="StructureDefinition-RecordTarget" name="RecordTarget (CDA Class)"/>
 <artifact id="StructureDefinition/Reference" key="StructureDefinition-Reference" name="Reference (CDA Class)"/>
 <artifact id="StructureDefinition/RegionOfInterest" key="StructureDefinition-RegionOfInterest" name="RegionOfInterest (CDA Class)"/>
 <artifact id="StructureDefinition/RelatedDocument" key="StructureDefinition-RelatedDocument" name="RelatedDocument (CDA Class)"/>

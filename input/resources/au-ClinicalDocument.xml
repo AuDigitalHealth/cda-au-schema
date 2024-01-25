@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="dh-ClinicalDocument"/> 
+  <id value="au-ClinicalDocument"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -26,7 +26,7 @@
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-style">
     <valueUri value="cda"/>
   </extension> 
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/dh-ClinicalDocument"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-ClinicalDocument"/>
   <name value="ClinicalDocument"/>
   <title value="ClinicalDocument (CDA Class)"/>
   <status value="active"/>
@@ -245,7 +245,10 @@
       <min value="1"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/RecordTarget"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-RecordTarget"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-RecordTarget"
+        />
       </type>
     </element>
     <element id="ClinicalDocument.author">

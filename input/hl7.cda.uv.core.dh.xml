@@ -892,7 +892,7 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/dh-ClinicalDocument"/>
+				<reference value="StructureDefinition/au-ClinicalDocument"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
@@ -914,6 +914,24 @@
 				<reference value="StructureDefinition/ext-assigningGeographicArea"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-RecordTarget"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-PatientRole"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-Patient"/>
+			</reference>
+			<groupingId value="classes"/>
 		</resource>
 		<!-- Vocabulary -->
 		<resource>
