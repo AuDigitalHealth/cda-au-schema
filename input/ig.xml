@@ -1,7 +1,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
 	<id value="au.digitalhealth.cda.extensions"/>
 	<url value="http://ns.electronichealth.net.au/cda/ImplementationGuide/au.digitalhealth.cda.extensions"/>
-	<version value="1.0.0"/>
+	<version value="0.0.1"/>
 	<name value="ClinicalDocumentArchitectureAuSchemaExtensions"/>
 	<title value="Clinical Document Architecture with Australian Schema Extensions"/>
 	<status value="draft"/>
