@@ -1,24 +1,21 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-	<id value="hl7.cda.uv.core.dh"/>
-	<url value="http://ns.electronichealth.net.au/cda/ImplementationGuide/hl7.cda.uv.core.dh"/>
+	<id value="au.digitalhealth.cda.extensions"/>
+	<url value="http://ns.electronichealth.net.au/cda/ImplementationGuide/au.digitalhealth.cda.extensions"/>
 	<version value="1.0.0"/>
-	<name value="ClinicalDocumentArchitecture"/>
-	<title value="Australian Digital Health Agency Clinical Document Architecture"/>
+	<name value="ClinicalDocumentArchitectureAuSchemaExtensions"/>
+	<title value="Clinical Document Architecture with Australian Schema Extensions"/>
 	<status value="draft"/>
 	<experimental value="false"/>
 	<publisher value="Australian Digital Health Agency"/>
 	<contact>
-		<name value="Australian Digital Health Agency - Structured Documents"/>
-		<telecom>
-			<system value="url"/>
-			<value value="http://www.hl7.org/Special/committees/structure"/>
-		</telecom>
-		<telecom>
-			<system value="email"/>
-			<value value="structdog@lists.HL7.org"/>
-		</telecom>
+		<name value="Australian Digital Health Agency"/>
+        <telecom>
+            <system value="email"/>
+            <value value="mailto:help@digitalhealth.gov.au"/>
+        </telecom>
 	</contact>
-	<packageId value="hl7.cda.uv.core.dh"/>
+	<copyright value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)."/>
+    <packageId value="au.digitalhealth.cda.extensions"/>
 	<fhirVersion value="5.0.0"/>	
 	<dependsOn id="terminology">
 		<uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
@@ -989,7 +986,7 @@
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
 				<code value="copyrightyear"/>
 			</code>
-			<value value="2023+"/>
+			<value value="2024+"/>
 		</parameter>
 		<parameter>
 			<code>
@@ -1026,19 +1023,19 @@
 			</code>
 			<value value="generate"/>
 		</parameter>
-		<parameter>
+		<!-- <parameter>
 			<code>
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
 				<code value="jira-code"/>
 			</code>
 			<value value="cda-sd"/>
-		</parameter>
+		</parameter> -->
 		<parameter>
 			<code>
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
 				<code value="releaselabel"/>
 			</code>
-			<value value="ballot"/>
+			<value value="ci-build"/>
 		</parameter>
 		<!-- IG publisher output logging -->
 		<!-- progress: Overall progress messages -->
