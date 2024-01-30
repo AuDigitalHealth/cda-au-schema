@@ -215,7 +215,7 @@
     </element>
     <element id="ClinicalDocument.ext-completionCode">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="completionCode"/>
@@ -225,12 +225,12 @@
       <min value="1"/>
       <max value="1"/>      
       <type>
-        <code
-          value="http://ns.electronichealth.net.au/cda/StructureDefinition/ext-completionCode"/>
-        <profile
-          value="http://ns.electronichealth.net.au/cda/StructureDefinition/ext-completionCode"
-        />
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://ns.electronichealth.net.au/cda/ValueSet/dh-NctisAdminCodesDocumentStatus"/>
+      </binding>
     </element>
     <element id="ClinicalDocument.copyTime">
       <path value="ClinicalDocument.copyTime"/>

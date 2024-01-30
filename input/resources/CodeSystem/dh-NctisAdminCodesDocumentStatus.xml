@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="dh-NctisAdminCodesDocumentStatus"/>
-    <url value="http://hl7.org/cda/stds/core/CodeSystem/dh-NctisAdminCodesDocumentStatus"/>
+    <url value="http://ns.electronichealth.net.au/cda/CodeSystem/dh-NctisAdminCodesDocumentStatus"/>
     <name value="dh-NctisAdminCodesDocumentStatus"/>
     <title value="dh-NctisAdminCodesDocumentStatus"/>
     <status value="draft"/>
