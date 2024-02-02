@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="ext-asEntityIdentifier"/> 
+  <id value="AUasEntityIdentifier"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -17,8 +17,8 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/ext-asEntityIdentifier"/>
-  <name value="ext-asEntityIdentifier"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEntityIdentifier"/>
+  <name value="Agency extension asEntityIdentifier"/>
   <title value="Agency extension asEntityIdentifier"/>
   <status value="active"/>
   <experimental value="false"/>
@@ -26,18 +26,18 @@
   <description value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://hl7.org/cda/stds/core/StructureDefinition/ext-asEntityIdentifier"/>
+  <type value="http://hl7.org/cda/stds/core/StructureDefinition/AUasEntityIdentifier"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ANY"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="ext-asEntityIdentifier">
-      <path value="ext-asEntityIdentifier"/>
+    <element id="AUasEntityIdentifier">
+      <path value="AUasEntityIdentifier"/>
       <definition value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
       <min value="1"/>
       <max value="*"/>
     </element>
-    <element id="ext-asEntityIdentifier.classCode">
-      <path value="ext-asEntityIdentifier.classCode"/>
+    <element id="AUasEntityIdentifier.classCode">
+      <path value="AUasEntityIdentifier.classCode"/>
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
@@ -47,16 +47,22 @@
       </type>
       <fixedCode value="IDENT"/>      
     </element>
-    <element id="ext-asEntityIdentifier.id">
-      <path value="ext-asEntityIdentifier.id"/>
+    <element id="AUasEntityIdentifier.AUid">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="id"/>
+      </extension>
+      <path value="AUasEntityIdentifier.AUid"/>
       <min value="1"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
     </element>
-    <element id="ext-asEntityIdentifier.root">
-      <path value="ext-asEntityIdentifier.root"/>
+    <element id="AUasEntityIdentifier.root">
+      <path value="AUasEntityIdentifier.root"/>
       <representation value="xmlAttr"/>
       <label value="Root"/>
       <definition value="A unique identifier that guarantees the global uniqueness of the instance identifier. The root alone may be the entire instance identifier."/>
@@ -69,8 +75,8 @@
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/ruid"/>
       </type>
     </element>
-    <element id="ext-asEntityIdentifier.extension">
-      <path value="ext-asEntityIdentifier.extension"/>
+    <element id="AUasEntityIdentifier.extension">
+      <path value="AUasEntityIdentifier.extension"/>
       <representation value="xmlAttr"/>
       <label value="Extension"/>
       <definition value="A character string as a unique identifier within the scope of the identifier root."/>
@@ -81,8 +87,8 @@
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/st-simple" />
       </type>
     </element>
-    <element id="ext-asEntityIdentifier.assigningAuthorityName">
-      <path value="ext-asEntityIdentifier.assigningAuthorityName"/>
+    <element id="AUasEntityIdentifier.assigningAuthorityName">
+      <path value="AUasEntityIdentifier.assigningAuthorityName"/>
       <representation value="xmlAttr"/>
       <label value="Assigning Authority Name"/>
       <definition value="A human readable name or mnemonic for the assigning authority. The Assigning Authority Name has no computational value. The purpose of a Assigning Authority Name is to assist an unaided human interpreter of an asEntityIdentifier value to interpret the authority. Note: no automated processing must depend on the assigning authority name to be present in any form."/>
@@ -93,20 +99,32 @@
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/st-simple" />
       </type>
     </element>
-    <element id="ext-asEntityIdentifier.dh-code">
-      <path value="ext-asEntityIdentifier.dh-code"/>
-      <min value="1"/>
+    <element id="AUasEntityIdentifier.AUcode">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="code"/>
+      </extension>
+      <path value="AUasEntityIdentifier.AUcode"/>
+      <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
     </element>
-    <element id="ext-asEntityIdentifier.dh-assigningGeographicArea">
-      <path value="ext-asEntityIdentifier.dh-assigningGeographicArea"/>
-      <min value="1"/>
+    <element id="AUasEntityIdentifier.AUassigningGeographicArea">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="assigningGeographicArea"/>
+      </extension>
+      <path value="AUasEntityIdentifier.AUassigningGeographicArea"/>
+      <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/ext-assigningGeographicArea"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUassigningGeographicArea"/>
       </type>
     </element>    
   </differential>

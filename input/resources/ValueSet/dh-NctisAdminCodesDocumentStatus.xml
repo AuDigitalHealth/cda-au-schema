@@ -2,15 +2,18 @@
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="dh-NctisAdminCodesDocumentStatus"/>
     <url value="http://ns.electronichealth.net.au/cda/ValueSet/dh-NctisAdminCodesDocumentStatus"/>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.36.1.2001.1001.101.104.20103"/>
+    </identifier>
     <name value="dh-NctisAdminCodesDocumentStatus"/>
     <title value="dh-NctisAdminCodesDocumentStatus"/>
     <status value="draft"/>
     <experimental value="false"/>
-    <description value="NCTIA Admin Codes Document Status"/>
+    <description value="NCTIS Admin Codes Document Status"/>
     <compose>
         <include>
-            <system value="http://ns.electronichealth.net.au/cda/CodeSystem/dh-NctisAdminCodesDocumentStatus"/>
-            <version value="1.0.0"/>
+            <system value="http://ns.electronichealth.net.au/cda/CodeSystem/dh-NctisAdminCodesDocumentStatus"/>            
             <concept>
                 <code value="I"/>
             </concept>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- Sample document provided with original CDA specification -->
-<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:ext="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0" xmlns:voc="urn:hl7-org:v3/voc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<!-- 
 ********************************************************
   CDA Header
@@ -16,6 +16,8 @@
 	<languageCode code="en-US"/>
 	<setId extension="BB35" root="2.16.840.1.113883.19.7"/>
 	<versionNumber value="2"/>
+	<ext:completionCode code="F" codeSystem="1.2.36.1.2001.1001.101.104.20104"
+		codeSystemName="NCTIS Document Status Values" displayName="Final"/>
 	<recordTarget>
 		<patientRole>
 			<id extension="12345" root="2.16.840.1.113883.19.5"/>
@@ -27,6 +29,12 @@
 				</name>
 				<administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"/>
 				<birthTime value="19320924"/>
+				<ext:asEntityIdentifier classCode="IDENT">
+					<ext:id root="1.2.36.1.2001.1003.0.8003604444567894" assigningAuthorityName="IHI" />
+					<ext:assigningGeographicArea classCode="PLC">
+						<ext:name>National Identifier</ext:name>
+					</ext:assigningGeographicArea>
+				</ext:asEntityIdentifier>
 			</patient>
 			<providerOrganization>
 				<id root="2.16.840.1.113883.19.5"/>

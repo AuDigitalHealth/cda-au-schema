@@ -168,7 +168,7 @@ This Implementation Guide represents the Clinical Document Architecture (CDA) us
 		<td>
 			<h3>ADHA Extensions</h3>
 			<ul>
-				<li><a href="StructureDefinition-ext-asEntityIdentifier.html">ext-asEntityIdentifier</a></li>
+				<li><a href="StructureDefinition-AUasEntityIdentifier.html">AUasEntityIdentifier</a></li>
 				<li><a href="StructureDefinition-ext-completionCode.html">ext-completionCode</a></li>
 			</ul>
 		</td>

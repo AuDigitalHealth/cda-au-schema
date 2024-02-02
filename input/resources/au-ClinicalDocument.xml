@@ -180,23 +180,19 @@
     <element id="ClinicalDocument.confidentialityCode">
       <path value="ClinicalDocument.confidentialityCode"/>
       <min value="1"/>
-      <max value="1"/>
+      <max value="1"/> 
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
-    </element>
+    </element>    
     <element id="ClinicalDocument.languageCode">
-      <path value="ClinicalDocument.languageCode"/>
+      <path value="ClinicalDocument.languageCode"/>      
       <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
       </type>
-      <binding>
-        <strength value="required"/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/all-languages"/>
-      </binding>
-    </element>
+    </element>    
     <element id="ClinicalDocument.setId">
       <path value="ClinicalDocument.setId"/>
       <min value="0"/>
@@ -213,20 +209,20 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT"/>
       </type>
     </element>
-    <element id="ClinicalDocument.ext-completionCode">
+    <element id="ClinicalDocument.extcompletionCode">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="completionCode"/>
       </extension>
-      <path value="ClinicalDocument.ext-completionCode"/>
+      <path value="ClinicalDocument.extcompletionCode"/>
       <definition value="The completionCode extension attribute allows the implementer to identify the lifecycle status of a document."/>
       <min value="1"/>
       <max value="1"/>      
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
-      </type>
+      </type>     
       <binding>
         <strength value="required"/>
         <valueSet value="http://ns.electronichealth.net.au/cda/ValueSet/dh-NctisAdminCodesDocumentStatus"/>
