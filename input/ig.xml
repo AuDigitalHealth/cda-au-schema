@@ -898,14 +898,7 @@
 				<reference value="StructureDefinition/AUasEntityIdentifier"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ext-completionCode"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
-		
+		</resource>	
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/AUassigningGeographicArea"/>
@@ -927,6 +920,108 @@
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/au-Patient"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-AssignedEntity"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-InformationRecipient"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-IntendedRecipient"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-LegalAuthenticator"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-Organization"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-Person"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-AssignedAuthor"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-AssignedCustodian"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-Author"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-AuthoringDevice"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-Custodian"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-CustodianOrganization"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-EncompassingEncounter"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-HealthCareFacility"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-Participant1"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-AssociatedEntity"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-OrganizationPartOf"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>

@@ -26,7 +26,7 @@
   <description value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://hl7.org/cda/stds/core/StructureDefinition/AUasEntityIdentifier"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEntityIdentifier"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ANY"/>
   <derivation value="specialization"/>
   <differential>
@@ -61,8 +61,8 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
     </element>
-    <element id="AUasEntityIdentifier.root">
-      <path value="AUasEntityIdentifier.root"/>
+    <element id="AUasEntityIdentifier.AUid.root">
+      <path value="AUasEntityIdentifier.AUid.root"/>
       <representation value="xmlAttr"/>
       <label value="Root"/>
       <definition value="A unique identifier that guarantees the global uniqueness of the instance identifier. The root alone may be the entire instance identifier."/>
@@ -75,8 +75,8 @@
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/ruid"/>
       </type>
     </element>
-    <element id="AUasEntityIdentifier.extension">
-      <path value="AUasEntityIdentifier.extension"/>
+    <element id="AUasEntityIdentifier.AUid.extension">
+      <path value="AUasEntityIdentifier.AUid.extension"/>
       <representation value="xmlAttr"/>
       <label value="Extension"/>
       <definition value="A character string as a unique identifier within the scope of the identifier root."/>
@@ -87,8 +87,8 @@
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/st-simple" />
       </type>
     </element>
-    <element id="AUasEntityIdentifier.assigningAuthorityName">
-      <path value="AUasEntityIdentifier.assigningAuthorityName"/>
+    <element id="AUasEntityIdentifier.AUid.assigningAuthorityName">
+      <path value="AUasEntityIdentifier.AUid.assigningAuthorityName"/>
       <representation value="xmlAttr"/>
       <label value="Assigning Authority Name"/>
       <definition value="A human readable name or mnemonic for the assigning authority. The Assigning Authority Name has no computational value. The purpose of a Assigning Authority Name is to assist an unaided human interpreter of an asEntityIdentifier value to interpret the authority. Note: no automated processing must depend on the assigning authority name to be present in any form."/>

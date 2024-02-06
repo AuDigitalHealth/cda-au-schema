@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="au-LegalAuthenticator"/> 
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>Represents a participant who has legally authenticated the document.</p>
+      <p>The CDA is a standard that specifies the structure of exchanged clinical documents. In the case where a local document is transformed into a CDA document for exchange, authentication occurs on the local document, and that fact is reflected in the exchanged CDA document. A CDA document can reflect the unauthenticated, authenticated, or legally authenticated state. The unauthenticated state exists when no authentication information has been recorded (i.e., it is the absence of being either authenticated or legally authenticated).</p>
+      <p>While electronic signatures are not captured in a CDA document, both authentication and legal authentication require that a document has been signed manually or electronically by the responsible individual. A legalAuthenticator has a required legalAuthenticator.time indicating the time of authentication, and a required legalAuthenticator.signatureCode, indicating that a signature has been obtained and is on file.</p>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
+    <valueBoolean>
+      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+        <valueCode value="not-applicable"/>
+      </extension>
+    </valueBoolean>
+  </extension>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+    <valueUri value="urn:hl7-org:v3"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+    <valueString value="legalAuthenticator"/>
+  </extension> 
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-container">
+    <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
+  </extension>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-LegalAuthenticator"/>
+  <name value="LegalAuthenticator"/>
+  <title value="LegalAuthenticator (CDA Class)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <publisher value="HL7"/>
+  <description value="Represents a participant who has legally authenticated the document. The CDA is a standard that specifies the structure of exchanged clinical documents. In the case where a local document is transformed into a CDA document for exchange, authentication occurs on the local document, and that fact is reflected in the exchanged CDA document. A CDA document can reflect the unauthenticated, authenticated, or legally authenticated state. The unauthenticated state exists when no authentication information has been recorded (i.e., it is the absence of being either authenticated or legally authenticated). While electronic signatures are not captured in a CDA document, both authentication and legal authentication require that a document has been signed manually or electronically by the responsible individual. A legalAuthenticator has a required legalAuthenticator.time indicating the time of authentication, and a required legalAuthenticator.signatureCode, indicating that a signature has been obtained and is on file."/>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://hl7.org/cda/stds/core/StructureDefinition/LegalAuthenticator"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
+  <derivation value="specialization"/>
+  <differential>
+    <element id="LegalAuthenticator">
+      <path value="LegalAuthenticator"/>
+      <min value="1"/>
+      <max value="1"/>
+    </element>
+    <element id="LegalAuthenticator.typeCode">
+      <path value="LegalAuthenticator.typeCode"/>
+      <representation value="xmlAttr"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      <fixedCode value="LA"/>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ParticipationType"/>
+      </binding>
+    </element>
+    <element id="LegalAuthenticator.contextControlCode">
+      <path value="LegalAuthenticator.contextControlCode"/>
+      <representation value="xmlAttr"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      <fixedCode value="OP"/>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ContextControl"/>
+      </binding>
+    </element>
+    <element id="LegalAuthenticator.time">
+      <path value="LegalAuthenticator.time"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
+      </type>
+    </element>
+    <element id="LegalAuthenticator.signatureCode">
+      <path value="LegalAuthenticator.signatureCode"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
+      </type>
+      <constraint>
+        <key value="signature"/>
+        <severity value="warning"/>
+        <human value="CDA Release One represented either an intended ('X') or actual ('S') authenticator. CDA Release Two only represents an actual authenticator, so has deprecated the value of 'X'."/>
+        <expression value="code.exists() implies code != 'X'" />
+      </constraint>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDASignatureCode"/>
+      </binding>
+    </element>
+    <element id="LegalAuthenticator.sdtcSignatureText">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="urn:hl7-org:sdtc"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="signatureText"/>
+      </extension>
+      <path value="LegalAuthenticator.sdtcSignatureText"/>
+      <definition value="A textual or multimedia depiction of the signature by which the participant endorses his or her participation in the Act as specified in the Participation.typeCode and that he or she agrees to assume the associated accountability."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ED"/>
+      </type>
+    </element>
+    <element id="LegalAuthenticator.assignedEntity">
+      <path value="LegalAuthenticator.assignedEntity"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-AssignedEntity"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

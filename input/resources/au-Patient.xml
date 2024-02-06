@@ -263,28 +263,28 @@
         <valueSet value="https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1"/>
       </binding>
     </element>
-    <element id="Patient.ext-DeceasedInd">
+    <element id="Patient.AUDeceasedInd">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="deceasedInd"/>
       </extension>
-      <path value="Patient.ext-DeceasedInd"/>
+      <path value="Patient.AUDeceasedInd"/>
       <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/BL"/>
       </type>
     </element>
-    <element id="Patient.ext-DeceasedTime">
+    <element id="Patient.AUDeceasedTime">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="deceasedTime"/>
       </extension>
-      <path value="Patient.ext-DeceasedTime"/>
+      <path value="Patient.AUDeceasedTime"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -334,6 +334,7 @@
       </extension>
       <path value="Patient.AUasEntityIdentifier"/>
       <min value="1"/>
+      <max value="*"/>
       <type>
         <code
           value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEntityIdentifier"/>
