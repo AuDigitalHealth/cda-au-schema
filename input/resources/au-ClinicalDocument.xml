@@ -35,7 +35,7 @@
   <description value="This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-ClinicalDocument"/>
   <!-- Basing on ANY since typeId has a fixed value -->
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ANY"/>
   <derivation value="specialization"/>
@@ -136,11 +136,7 @@
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
-      </type>
-      <binding>
-        <strength value="example"/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/doc-typecodes"/>
-      </binding>
+      </type>      
     </element>
     <element id="ClinicalDocument.title">
       <path value="ClinicalDocument.title"/>
@@ -209,14 +205,14 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT"/>
       </type>
     </element>
-    <element id="ClinicalDocument.extcompletionCode">
+    <element id="ClinicalDocument.AUcompletionCode">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="completionCode"/>
       </extension>
-      <path value="ClinicalDocument.extcompletionCode"/>
+      <path value="ClinicalDocument.AUcompletionCode"/>
       <definition value="The completionCode extension attribute allows the implementer to identify the lifecycle status of a document."/>
       <min value="1"/>
       <max value="1"/>      
@@ -252,7 +248,7 @@
       <min value="1"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Author"/>
       </type>
     </element>
     <element id="ClinicalDocument.dataEnterer">
@@ -284,7 +280,7 @@
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/InformationRecipient"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-InformationRecipient"/>
       </type>
     </element>
     <element id="ClinicalDocument.legalAuthenticator">
@@ -292,7 +288,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/LegalAuthenticator"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-LegalAuthenticator"/>
       </type>
     </element>
     <element id="ClinicalDocument.authenticator">
