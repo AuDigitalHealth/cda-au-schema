@@ -7,7 +7,6 @@ This Implementation Guide represents the Clinical Document Architecture (CDA) us
 		<td>
 			<h3>CDA Classes</h3>
 			<ul style="columns:2; column-gap:5em">
-				<li><a href="StructureDefinition-ClinicalDocument.html"><strong>ClinicalDocument</strong></a></li>
 				<li><a href="StructureDefinition-Act.html">Act</a></li>
 				<li><a href="StructureDefinition-AlternateIdentification.html">AlternateIdentification</a></li>
 				<li><a href="StructureDefinition-AssignedAuthor.html">AssignedAuthor</a></li>
@@ -185,7 +184,10 @@ This Implementation Guide represents the Clinical Document Architecture (CDA) us
 		<td>
 			<h3>ADHA Extensions</h3>
 			<ul>
+				<li><a href="StructureDefinition-AUasEmployment.html">AUasEmployment</a></li>
 				<li><a href="StructureDefinition-AUasEntityIdentifier.html">AUasEntityIdentifier</a></li>
+				<li><a href="StructureDefinition-AUasQualifications.html">AUasQualifications</a></li>
+				<li><a href="StructureDefinition-AUpersonalRelationship.html">AUpersonalRelationship</a></li>
 			</ul>
 		</td>	
 		<td>

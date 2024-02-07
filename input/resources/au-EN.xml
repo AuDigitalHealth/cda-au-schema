@@ -66,25 +66,31 @@
       <type>
         <code value="http://hl7.org/fhir/StructureDefinition/Base"/>
       </type>
-      <!--<constraint>
+      <constraint>
         <key value="EN-1"/>
         <severity value="error"/>
         <human value="Can only have only one of the possible item elements in each choice"/>
         <expression value="(delimiter | family | given | prefix | suffix | xmlText).count() = 1"/>
-      </constraint>-->
+      </constraint>
+      <constraint>
+        <key value="EN-2"/>
+        <severity value="error"/>
+        <human value="Family name shall exist"/>
+        <expression value="family.exists()"/>
+      </constraint>
     </element>
-    <element id="EN.item.delimiter">
+   <!-- <element id="EN.item.delimiter">
       <path value="EN.item.delimiter"/>
       <min value="0"/>
       <max value="*"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ENXP"/>
       </type>
-    </element>
+    </element>-->
     <element id="EN.item.family">
       <path value="EN.item.family"/>
-      <min value="1"/>
-      <max value="1"/>
+      <min value="0"/>
+      <max value="*"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ENXP"/>
       </type>
@@ -113,7 +119,7 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ENXP"/>
       </type>
     </element>
-    <element id="EN.item.xmlText">
+    <!--<element id="EN.item.xmlText">
       <path value="EN.item.xmlText"/>
       <representation value="xmlText"/>
       <short value="Allows for mixed text content"/>
@@ -134,6 +140,6 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/IVL-TS"/>
       </type>
-    </element>
+    </element>-->
   </differential>
 </StructureDefinition>
