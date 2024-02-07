@@ -187,6 +187,12 @@ This Implementation Guide represents the Clinical Document Architecture (CDA) us
 			<ul>
 				<li><a href="StructureDefinition-AUasEntityIdentifier.html">AUasEntityIdentifier</a></li>
 			</ul>
+		</td>	
+		<td>
+			<h3>ADHA Common Patterns</h3>
+			<ul>
+				<li><a href="StructureDefinition-au-PN.html">AUPersonName</a></li>
+			</ul>
 		</td>		
 	</tr>
 	</tbody>

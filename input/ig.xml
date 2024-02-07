@@ -1025,6 +1025,18 @@
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-PN"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-EN"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
 		<!-- Vocabulary -->
 		<resource>
 			<reference>
