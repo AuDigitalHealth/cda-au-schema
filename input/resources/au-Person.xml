@@ -88,7 +88,7 @@
         <valueString value="asEntityIdentifier"/>
       </extension>
       <path value="Person.AUasEntityIdentifier"/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="*"/>
       <type>
         <code

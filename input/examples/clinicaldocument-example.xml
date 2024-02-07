@@ -51,6 +51,12 @@
 					<family>Dolin</family>
 					<suffix>MD</suffix>
 				</name>
+				<ext:asEntityIdentifier classCode="IDENT">
+					<ext:id root="1.2.36.1.2001.1003.0.8003615833334118" assigningAuthorityName="HPI-I" />
+					<ext:assigningGeographicArea classCode="PLC">
+						<ext:name>National Identifier</ext:name>
+					</ext:assigningGeographicArea>
+				</ext:asEntityIdentifier>
 			</assignedPerson>
 			<representedOrganization>
 				<id root="2.16.840.1.113883.19.5"/>
@@ -76,9 +82,29 @@
 					<family>Dolin</family>
 					<suffix>MD</suffix>
 				</name>
+				<ext:asEntityIdentifier classCode="IDENT">
+					<ext:id root="1.2.3.4.5" extension="66666" assigningAuthorityName="LocalAuthority" />
+					<ext:code code="EI" codeSystem="2.16.840.1.113883.12.203" codeSystemName="Identifier Type (HL7)" />
+				</ext:asEntityIdentifier>
+				<ext:asEntityIdentifier classCode="IDENT">
+					<ext:id root="1.2.36.1.2001.1003.0.8003615833334118" assigningAuthorityName="HPI-I" />
+					<ext:assigningGeographicArea classCode="PLC">
+						<ext:name>National Identifier</ext:name>
+					</ext:assigningGeographicArea>
+				</ext:asEntityIdentifier>
 			</assignedPerson>
 			<representedOrganization>
 				<id root="2.16.840.1.113883.19.5"/>
+				<name>Oz Health Clinic</name>
+				<ext:asEntityIdentifier classCode="IDENT">
+					<ext:id root="1.2.3.4.55555" assigningAuthorityName="SampleAuthority" />
+				</ext:asEntityIdentifier>
+				<ext:asEntityIdentifier classCode="IDENT">
+					<ext:id root="1.2.36.1.2001.1003.0.8003620000001144" assigningAuthorityName="HPI-O" />
+					<ext:assigningGeographicArea classCode="PLC">
+						<ext:name>National Identifier</ext:name>
+					</ext:assigningGeographicArea>
+				</ext:asEntityIdentifier>
 			</representedOrganization>
 		</assignedEntity>
 	</legalAuthenticator>
