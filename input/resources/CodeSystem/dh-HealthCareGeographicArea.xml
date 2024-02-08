@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="dh-HealthCareGeographicArea"/>
-    <url value="http://hl7.org/cda/stds/core/CodeSystem/dh-HealthCareGeographicArea"/>
+    <url value="http://ns.electronichealth.net.au/cda/CodeSystem/dh-HealthCareGeographicArea"/>
     <name value="dh-HealthCareGeographicArea"/>
     <title value="dh-HealthCareGeographicArea"/>
     <status value="draft"/>

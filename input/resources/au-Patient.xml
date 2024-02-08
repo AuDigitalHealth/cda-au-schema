@@ -128,10 +128,6 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
-      <binding>
-        <strength value="example"/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/administrative-gender"/>
-      </binding>
     </element>
     <element id="Patient.birthTime">
       <path value="Patient.birthTime"/>
@@ -258,10 +254,6 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
-      <binding>
-        <strength value="required"/>
-        <valueSet value="https://healthterminologies.gov.au/fhir/ValueSet/australian-indigenous-status-1"/>
-      </binding>
     </element>
     <element id="Patient.AUDeceasedInd">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">

@@ -899,6 +899,12 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>	
+		<!--<resource>
+			<reference>
+				<reference value="StructureDefinition/AUIHI"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>-->
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/AUassigningGeographicArea"/>
@@ -1085,6 +1091,12 @@
 				<sourceUrl value="downloads.html"/>
 				<name value="downloads.html"/>
 				<title value="Downloads"/>
+				<generation value="markdown"/>
+			</page>
+			<page>
+				<sourceUrl value="vocabularies.html"/>
+				<name value="vocabularies.html"/>
+				<title value="Vocabularies"/>
 				<generation value="markdown"/>
 			</page>
 		</page>
