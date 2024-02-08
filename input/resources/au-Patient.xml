@@ -85,7 +85,7 @@
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-PN"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/PN"/>
       </type>
     </element>
     <!--<element id="Patient.asEmployment">
@@ -106,21 +106,6 @@
         />
       </type>
     </element>-->
-    <element id="Patient.sdtcDesc">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="desc"/>
-      </extension>
-      <path value="Patient.sdtcDesc"/>
-      <definition value="The desc extension allows multimedia depictions of patients, healthcare providers, or other individuals to be included in a CDA document."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ED"/>
-      </type>
-    </element>
     <element id="Patient.administrativeGenderCode">
       <path value="Patient.administrativeGenderCode"/>
       <min value="0"/>
@@ -136,116 +121,6 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
       </type>
-    </element>
-    <element id="Patient.sdtcDeceasedInd">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="deceasedInd"/>
-      </extension>
-      <path value="Patient.sdtcDeceasedInd"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/BL"/>
-      </type>
-    </element>
-    <element id="Patient.sdtcDeceasedTime">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="deceasedTime"/>
-      </extension>
-      <path value="Patient.sdtcDeceasedTime"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
-      </type>
-    </element>
-    <element id="Patient.sdtcMultipleBirthInd">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="multipleBirthInd"/>
-      </extension>
-      <path value="Patient.sdtcMultipleBirthInd"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/BL"/>
-      </type>
-    </element>
-    <element id="Patient.sdtcMultipleBirthOrderNumber">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="multipleBirthOrderNumber"/>
-      </extension>
-      <path value="Patient.sdtcMultipleBirthOrderNumber"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT-POS"/>
-      </type>
-    </element>
-    <element id="Patient.maritalStatusCode">
-      <path value="Patient.maritalStatusCode"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
-      </type>
-      <binding>
-        <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-MaritalStatus"/>
-      </binding>
-    </element>
-    <element id="Patient.religiousAffiliationCode">
-      <path value="Patient.religiousAffiliationCode"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
-      </type>
-      <binding>
-        <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ReligiousAffiliation"/>
-      </binding>
-    </element>
-    <element id="Patient.raceCode">
-      <path value="Patient.raceCode"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
-      </type>
-      <binding>
-        <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-Race"/>
-      </binding>
-    </element>
-    <element id="Patient.sdtcRaceCode">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="raceCode"/>
-      </extension>
-      <path value="Patient.sdtcRaceCode"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
-      </type>
-      <binding>
-        <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-Race"/>
-      </binding>
     </element>
     <element id="Patient.ethnicGroupCode">
       <path value="Patient.ethnicGroupCode"/>
@@ -281,32 +156,6 @@
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
-      </type>
-    </element>
-    <element id="Patient.sdtcEthnicGroupCode">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="ethnicGroupCode"/>
-      </extension>
-      <path value="Patient.sdtcEthnicGroupCode"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
-      </type>
-      <binding>
-        <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-Ethnicity"/>
-      </binding>
-    </element>
-    <element id="Patient.guardian">
-      <path value="Patient.guardian"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Guardian"/>
       </type>
     </element>
     <element id="Patient.birthplace">
