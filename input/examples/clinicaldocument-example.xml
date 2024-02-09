@@ -26,8 +26,8 @@
 			<id extension="12345" root="2.16.840.1.113883.19.5"/>
 			<patient>
 				<name>
-					<given>Henry</given>
 					<family>Levin</family>
+					<given>Henry</given>
 					<suffix>the 7th</suffix>
 				</name>
 				<administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"/>
@@ -51,8 +51,8 @@
 			<id extension="KP00017" root="2.16.840.1.113883.19.5"/>
 			<assignedPerson>
 				<name>
-					<given>Robert</given>
 					<family>Dolin</family>
+					<given>Robert</given>
 					<suffix>MD</suffix>
 				</name>
 				<ext:asEntityIdentifier classCode="IDENT">
@@ -83,8 +83,8 @@
 			<id extension="KP00017" root="2.16.840.1.113883.19.5"/>
 			<assignedPerson>
 				<name>
-					<given>Robert</given>
 					<family>Dolin</family>
+					<given>Robert</given>
 					<suffix>MD</suffix>
 				</name>
 				<ext:asEntityIdentifier classCode="IDENT">

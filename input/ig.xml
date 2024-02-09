@@ -1033,13 +1033,7 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/au-PN"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/au-EN"/>
+				<reference value="StructureDefinition/au-PersonName"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>

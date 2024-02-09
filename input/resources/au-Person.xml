@@ -77,7 +77,7 @@
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-PN"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-PersonName"/>
       </type>
     </element>
     <element id="Person.AUasEntityIdentifier">

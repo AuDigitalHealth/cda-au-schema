@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="au-PN"/> 
+  <id value="au-PersonName"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -23,9 +23,9 @@
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-container">
     <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-PN"/>
-  <name value="au-PN"/>
-  <title value="PN: PersonName (V3 Data Type)"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-PersonName"/>
+  <name value="au-PersonName"/>
+  <title value="PersonName"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="HL7"/>
@@ -33,23 +33,60 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/PN"/>
-  <baseDefinition value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-EN"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ANY"/>
   <derivation value="specialization"/>
   <differential>
     <element id="PN">
       <path value="PN"/>
       <definition value="A name for a person. A sequence of name parts, such as given name or family name, prefix, suffix, etc. Examples for person name values are &quot;Jim Bob Walton, Jr.&quot;, &quot;Adam Everyman&quot;, etc. A person name may be as simple as a character string or may consist of several person name parts, such as, &quot;Jim&quot;, &quot;Bob&quot;, &quot;Walton&quot;, and &quot;Jr.&quot;. PN differs from EN because the qualifier type cannot include LS (Legal Status)."/>
-      <constraint>
-        <key value="pn-no-ls"/>
-        <severity value="error"/>
-        <human value="No PN name part may have a qualifier of LS."/>
-        <expression value="(item.delimiter | item.family | item.given | item.prefix | item.suffix).where(qualifier.where($this = 'LS').exists()).empty()"/>
-      </constraint>
     </element>
-    <element id="PN.item">
-      <path value="PN.item"/>
+    <element id="PN.use">
+      <path value="PN.use"/>
+      <representation value="xmlAttr"/>
+      <label value="Use Code"/>
+      <definition value="A set of codes advising a system or user which name in a set of like names to select for a given purpose. A name without specific use code might be a default name useful for any purpose, but a name with a specific use code would be preferred for that respective purpose"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAEntityNameUse"/>
+      </binding>
+    </element>
+    <element id="PN.family">
+      <path value="PN.family"/>
       <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ENXP"/>
+      </type>
+    </element>
+    <element id="PN.given">
+      <path value="PN.given"/>
+      <min value="0"/>
       <max value="*"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ENXP"/>
+      </type>
+    </element>
+    <element id="PN.prefix">
+      <path value="PN.prefix"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ENXP"/>
+      </type>
+    </element>
+    <element id="PN.suffix">
+      <path value="PN.suffix"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ENXP"/>
+      </type>
     </element>
   </differential>
 </StructureDefinition>
