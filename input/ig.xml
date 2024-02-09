@@ -899,12 +899,12 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>	
-		<!--<resource>
+		<resource>
 			<reference>
 				<reference value="StructureDefinition/AUIHI"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
-		</resource>-->
+		</resource>
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/AUassigningGeographicArea"/>

@@ -182,6 +182,9 @@
         <profile
           value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEntityIdentifier"
         />
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUIHI"
+        />
       </type>
     </element>
     <element id="Patient.languageCommunication">
