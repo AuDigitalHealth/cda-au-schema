@@ -21,7 +21,7 @@
     <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-EN"/>
-  <name value="EN"/>
+  <name value="au-EN"/>
   <title value="EN: EntityName (V3 Data Type)"/>
   <status value="active"/>
   <experimental value="false"/>

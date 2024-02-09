@@ -28,7 +28,7 @@
     <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-RecordTarget"/>
-  <name value="RecordTarget"/>
+  <name value="au-RecordTarget"/>
   <title value="RecordTarget (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

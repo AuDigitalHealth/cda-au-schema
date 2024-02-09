@@ -24,7 +24,7 @@
     <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-AssociatedEntity"/>
-  <name value="AssociatedEntity"/>
+  <name value="au-AssociatedEntity"/>
   <title value="AssociatedEntity (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

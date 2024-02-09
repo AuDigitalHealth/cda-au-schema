@@ -24,7 +24,7 @@
     <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-PN"/>
-  <name value="PN"/>
+  <name value="au-PN"/>
   <title value="PN: PersonName (V3 Data Type)"/>
   <status value="active"/>
   <experimental value="false"/>

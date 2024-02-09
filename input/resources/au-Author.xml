@@ -25,7 +25,7 @@
     <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Author"/>
-  <name value="Author"/>
+  <name value="au-Author"/>
   <title value="Author (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

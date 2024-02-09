@@ -18,7 +18,7 @@
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEntityIdentifier"/>
-  <name value="Agency extension asEntityIdentifier"/>
+  <name value="AUasEntityIdentifier"/>
   <title value="Agency extension asEntityIdentifier"/>
   <status value="active"/>
   <experimental value="false"/>

@@ -27,8 +27,8 @@
     <valueUri value="cda"/>
   </extension> 
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-ClinicalDocument"/>
-  <name value="ClinicalDocument"/>
-  <title value="ClinicalDocument (CDA Class)"/>
+  <name value="au-ClinicalDocument"/>
+  <title value="ADHA ClinicalDocument (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="HL7"/>

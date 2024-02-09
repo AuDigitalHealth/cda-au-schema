@@ -25,7 +25,7 @@
     <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Custodian"/>
-  <name value="Custodian"/>
+  <name value="au-Custodian"/>
   <title value="Custodian (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

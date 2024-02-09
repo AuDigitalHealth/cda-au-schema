@@ -25,7 +25,7 @@
     <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Patient"/>
-  <name value="Patient"/>
+  <name value="au-Patient"/>
   <title value="Patient (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>

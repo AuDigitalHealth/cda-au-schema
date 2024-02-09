@@ -21,7 +21,7 @@
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUassigningGeographicArea"/>
-  <name value="Agency extension assigningGeographicArea for asEntityIdentifier"/>
+  <name value="AUassigningGeographicArea"/>
   <title value="Agency extension assigningGeographicArea for asEntityIdentifier"/>
   <status value="active"/>
   <experimental value="false"/>
