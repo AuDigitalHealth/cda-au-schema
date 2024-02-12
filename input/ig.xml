@@ -898,12 +898,6 @@
 				<reference value="StructureDefinition/AUasEntityIdentifier"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
-		</resource>	
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/AUIHI"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
