@@ -22,7 +22,7 @@
   <title value="Agency extension asEntityIdentifier"/>
   <status value="active"/>
   <experimental value="false"/>
-  <publisher value="ADHA"/>
+  <publisher value="Australian Digital Health Agency" />
   <description value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
   <kind value="logical"/>
   <abstract value="false"/>

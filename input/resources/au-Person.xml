@@ -29,7 +29,7 @@
   <title value="Person (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
-  <publisher value="HL7"/>
+  <publisher value="Australian Digital Health Agency" />
   <description value="A human being.&#10;This class can be used to represent either a single individual, a group of individuals or a kind of individual based on the values of Entity.determinerCode and Entity.quantity."/>
   <kind value="logical"/>
   <abstract value="false"/>
@@ -98,67 +98,22 @@
         />
       </type>
     </element>
-    <element id="Person.sdtcDesc">
+    <element id="Person.AUasEmployment">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="desc"/>
+        <valueString value="asEmployment"/>
       </extension>
-      <path value="Person.sdtcDesc"/>
-      <definition value="The desc extension allows multimedia depictions of patients, healthcare providers, or other individuals to be included in a CDA document."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ED"/>
-      </type>
-    </element>
-    <element id="Person.sdtcAsPatientRelationship">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="asPatientRelationship"/>
-      </extension>
-      <path value="Person.sdtcAsPatientRelationship"/>
-      <definition value="Each participant role other than an informant/relatedEntity may have zero or more relationship roles with the patient. Each of these roles can be expressed with an asPatientRelationship element which further describes the type of role using a code element."/>
+      <path value="Person.AUasEmployment"/>
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
-      </type>
-    </element>
-    <element id="Person.sdtcAsPatientRelationship.classCode">
-      <path value="Person.sdtcAsPatientRelationship.classCode"/>
-      <representation value="xmlAttr"/>
-      <min value="1"/>
-      <max value="1"/>
-      <type>
-        <code value="code"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
-      </type>
-      <fixedCode value="PRS"/>
-    </element>
-    <element id="Person.sdtcAsPatientRelationship.determinerCode">
-      <path value="Person.sdtcAsPatientRelationship.determinerCode"/>
-      <representation value="xmlAttr"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="code"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
-      </type>
-      <fixedCode value="INSTANCE"/>
-    </element>
-    <element id="Person.sdtcAsPatientRelationship.code">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <path value="Person.sdtcAsPatientRelationship.code"/>
-      <min value="1"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <code
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEmployment"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEmployment"
+        />
       </type>
     </element>
   </differential>

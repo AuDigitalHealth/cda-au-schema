@@ -28,7 +28,7 @@
   <title value="Participant1 (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
-  <publisher value="HL7"/>
+  <publisher value="Australian Digital Health Agency" />
   <description value="Used to represent other participants not explicitly mentioned by other classes, that were somehow involved in the documented acts."/>
   <kind value="logical"/>
   <abstract value="false"/>

@@ -25,7 +25,7 @@
   <title value="Agency extension assigningGeographicArea for asEntityIdentifier"/>
   <status value="active"/>
   <experimental value="false"/>
-  <publisher value="ADHA"/>
+  <publisher value="Australian Digital Health Agency" />
   <description
     value="Element assigningGeographicArea MAY be used and, if it is used, SHALL be the range and extent that the
     identifier applies to the object with which it is associated that is populated 
@@ -68,5 +68,15 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ST"/>
       </type>      
     </element>
+    <!--<element id="AUassigningGeographicArea.AUname.xmlText">
+      <path value="AUassigningGeographicArea.AUname.xmlText"/>
+      <comment
+        value="Element ext:name MAY be used and, if it is used, SHALL be the range and extent that the identifier
+        applies to the object with which it is associated that is populated directly from the geographic area.
+        This SHOULD NOT be used for machine readability purposes."/>
+      <min value="1"/>
+      <max value="1"/>
+      <expression value="AUname.exists()) implies " />      
+    </element>-->
   </differential>
 </StructureDefinition>

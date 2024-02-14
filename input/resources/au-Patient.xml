@@ -29,7 +29,7 @@
   <title value="Patient (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
-  <publisher value="HL7"/>
+  <publisher value="Australian Digital Health Agency" />
   <description value="A LivingSubject as a recipient of health care services from a healthcare provider.&#10;The patient is the player; the provider is the scoper."/>
   <kind value="logical"/>
   <abstract value="false"/>

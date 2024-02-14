@@ -31,7 +31,7 @@
   <title value="ADHA ClinicalDocument (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
-  <publisher value="HL7"/>
+  <publisher value="Australian Digital Health Agency" />
   <description value="This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>

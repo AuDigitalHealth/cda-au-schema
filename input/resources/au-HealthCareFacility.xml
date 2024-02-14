@@ -22,7 +22,7 @@
   <title value="HealthCareFacility (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
-  <publisher value="HL7"/>
+  <publisher value="Australian Digital Health Agency" />
   <description value="HealthCareFacility (CDA Class)"/>
   <kind value="logical"/>
   <abstract value="false"/>
@@ -57,21 +57,7 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
-    </element>
-    <element id="HealthCareFacility.sdtcIdentifiedBy">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="identifiedBy"/>
-      </extension>
-      <path value="HealthCareFacility.sdtcIdentifiedBy"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/IdentifiedBy"/>
-      </type>
-    </element>
+    </element>    
     <element id="HealthCareFacility.code">
       <path value="HealthCareFacility.code"/>
       <min value="0"/>
