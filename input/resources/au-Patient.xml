@@ -88,24 +88,6 @@
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-PersonName"/>
       </type>
     </element>
-    <!--<element id="Patient.asEmployment">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="EntityIdentifier"/>
-      </extension>
-      <path value="Patient.asEmployment"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code
-          value="http://hl7.org/cda/stds/core/StructureDefinition/ext-asEmployment"/>
-        <profile
-          value="http://hl7.org/cda/stds/core/StructureDefinition/ext-asEmployment"
-        />
-      </type>
-    </element>-->
     <element id="Patient.administrativeGenderCode">
       <path value="Patient.administrativeGenderCode"/>
       <min value="0"/>
@@ -181,6 +163,24 @@
           value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEntityIdentifier"/>
         <profile
           value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEntityIdentifier"
+        />
+      </type>
+    </element>
+    <element id="Patient.AUasEmployment">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="asEmployment"/>
+      </extension>
+      <path value="Patient.AUasEmployment"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEmployment"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEmployment"
         />
       </type>
     </element>
