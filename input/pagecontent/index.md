@@ -39,6 +39,15 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 				<li><a href="StructureDefinition-AUpersonalRelationship.html">AUpersonalRelationship</a></li>
 			</ul>
 		</td>
+		<td>
+			<h3>ADHA Complex Data Types</h3>
+			<ul>
+				<li><a href="StructureDefinition-au-Address.html">au-Address</a></li>
+				<li><a href="StructureDefinition-au-PersonName.html">au-PersonName</a></li>
+				<li><a href="StructureDefinition-au-Telecom.html">au-Telecom</a></li>
+			</ul>
+		</td>
+		
 	</tr>
 	</tbody>
 </table>

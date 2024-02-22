@@ -100,22 +100,6 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/IVL-TS"/>
       </type>
-      
-    </element>
-    <element id="EncompassingEncounter.sdtcAdmissionReferralSourceCode">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="admissionReferralSourceCode"/>
-      </extension>
-      <path value="EncompassingEncounter.sdtcAdmissionReferralSourceCode"/>
-      <definition value="This element is a coded concept that represents the type of referral. Its RIM source class is PatientEncounter."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
-      </type>
     </element>
     <element id="EncompassingEncounter.dischargeDispositionCode">
       <path value="EncompassingEncounter.dischargeDispositionCode"/>

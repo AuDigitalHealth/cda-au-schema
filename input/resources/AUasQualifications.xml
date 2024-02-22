@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="AUasQualifications"/> 
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers.</p>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
+    <valueBoolean>
+      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+        <valueCode value="not-applicable"/>
+      </extension>
+    </valueBoolean>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+    <valueUri value="urn:hl7-org:v3"/>
+  </extension>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasQualifications"/>
+  <name value="AUasQualifications"/>
+  <title value="Agency extension asEmployment"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <publisher value="Australian Digital Health Agency" />
+  <description value="A person's occupation and employer."/>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasQualifications"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ANY"/>
+  <derivation value="specialization"/>
+  <differential>
+    <element id="AUasQualifications">
+      <path value="AUasQualifications"/>
+      <definition value="A person's occupation and employer."/>
+      <min value="1"/>
+      <max value="*"/>
+    </element>
+    <element id="AUasQualifications.classCode">
+      <path value="AUasQualifications.classCode"/>
+      <representation value="xmlAttr"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      <fixedCode value="QUAL"/>      
+    </element>
+    <element id="AUasQualifications.AUcode">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="code"/>
+      </extension>
+      <path value="AUasQualifications.AUcode"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="AUasQualifications.AUcode.originalText">
+      <path value="AUasQualifications.AUcode.originalText"/>
+      <definition value="Qualifications is a text field, so the text list is entered in the originalText field of the code element."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ED"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

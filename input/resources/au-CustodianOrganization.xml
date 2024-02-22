@@ -92,7 +92,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/TEL"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Telecom"/>
       </type>
     </element>
     <element id="CustodianOrganization.addr">
@@ -100,7 +100,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/AD"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Address"/>
       </type>
     </element>
     <element id="CustodianOrganization.AUasEntityIdentifier">

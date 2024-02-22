@@ -80,6 +80,38 @@
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-PersonName"/>
       </type>
     </element>
+    <element id="Person.AUadministrativeGenderCode">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="administrativeGenderCode"/>
+      </extension>
+      <path value="Person.AUadministrativeGenderCode"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code
+          value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <profile
+          value="http://hl7.org/cda/stds/core/StructureDefinition/CE"
+        />
+      </type>
+    </element>
+    <element id="Person.AUbirthTime">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="birthTime"/>
+      </extension>
+      <path value="Person.AUbirthTime"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
+      </type>
+    </element>
     <element id="Person.AUasEntityIdentifier">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
@@ -113,6 +145,42 @@
           value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEmployment"/>
         <profile
           value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEmployment"
+        />
+      </type>
+    </element>
+    <element id="Person.AUpersonalRelationship">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="personalRelationship"/>
+      </extension>
+      <path value="Person.AUpersonalRelationship"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUpersonalRelationship"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUpersonalRelationship"
+        />
+      </type>
+    </element>
+    <element id="Person.AUasQualifications">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="asQualifications"/>
+      </extension>
+      <path value="Person.AUasQualifications"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasQualifications"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasQualifications"
         />
       </type>
     </element>

@@ -1049,7 +1049,36 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
-		
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-Address"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-Telecom"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUasQualifications"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUpersonalRelationship"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUasPersonalRelationship"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
 		
 		
 		<!-- Vocabulary -->
