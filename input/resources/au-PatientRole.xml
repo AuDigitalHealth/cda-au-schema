@@ -64,20 +64,6 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
     </element>
-    <element id="PatientRole.sdtcIdentifiedBy">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="urn:hl7-org:sdtc"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="identifiedBy"/>
-      </extension>
-      <path value="PatientRole.sdtcIdentifiedBy"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/IdentifiedBy"/>
-      </type>
-    </element>
     <element id="PatientRole.addr">
       <path value="PatientRole.addr"/>
       <min value="0"/>
