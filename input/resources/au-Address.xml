@@ -25,7 +25,7 @@
   <title value="AD: PostalAddress (V3 Data Type)"/>
   <status value="active"/>
   <experimental value="false"/>
-  <publisher value="HL7"/>
+  <publisher value="Australian Digital Health Agency"/>
   <description value="Mailing and home or office addresses. A sequence of address parts, such as street or post office Box, city, postal code, country, etc."/>
   <kind value="logical"/>
   <abstract value="false"/>
@@ -90,7 +90,6 @@
         <expression value="(delimiter | country | state | county | city | postalCode | streetAddressLine | houseNumber | houseNumberNumeric | direction | streetName | streetNameBase | streetNameType | additionalLocator | unitID | unitType | careOf | censusTract | deliveryAddressLine | deliveryInstallationType | deliveryInstallationArea | deliveryInstallationQualifier | deliveryMode | deliveryModeIdentifier | buildingNumberSuffix | postBox | precinct | xmlText).count() = 1"/>
       </constraint>
     </element>
-
     <element id="AD.item.delimiter">
       <path value="AD.item.delimiter"/>
       <definition value="Delimiters are printed without framing white space. If no value component is provided, the delimiter appears as a line break."/>

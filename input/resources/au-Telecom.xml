@@ -25,7 +25,7 @@
   <title value="TEL: TelecommunicationAddress (V3 Data Type)"/>
   <status value="active"/>
   <experimental value="false"/>
-  <publisher value="HL7"/>
+  <publisher value="Australian Digital Health Agency"/>
   <description value="A telephone number (voice or fax), e-mail address, or other locator for a resource mediated by telecommunication equipment. The address is specified as a Universal Resource Locator (URL) qualified by time specification and use codes that help in deciding which address to use for a given time and purpose."/>
   <kind value="logical"/>
   <abstract value="false"/>

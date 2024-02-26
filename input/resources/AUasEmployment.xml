@@ -97,7 +97,7 @@
         <valueString value="employerOrganization"/>
       </extension>
       <path value="AUasEmployment.AUemployerOrganization"/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUemployerOrganization"/>

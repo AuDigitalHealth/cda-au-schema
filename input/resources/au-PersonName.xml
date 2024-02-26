@@ -56,36 +56,72 @@
         <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAEntityNameUse"/>
       </binding>
     </element>
-    <element id="PN.family">
-      <path value="PN.family"/>
+    <element id="PN.item">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-choice-group">
+        <valueBoolean value="true"/>
+      </extension>
+      <path value="PN.item"/>
+      <definition value="A series of items that constitute the name."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://hl7.org/fhir/StructureDefinition/Base"/>
+      </type>
+      <constraint>
+        <key value="EN-1"/>
+        <severity value="error"/>
+        <human value="Can only have only one of the possible item elements in each choice"/>
+        <expression value="(delimiter | family | given | prefix | suffix | xmlText).count() = 1"/>
+      </constraint>
+    </element>
+    <element id="PN.item.delimiter">
+      <path value="PN.item.delimiter"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ENXP"/>
+      </type>
+    </element>
+    <element id="PN.item.family">
+      <path value="PN.item.family"/>
       <min value="1"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ENXP"/>
       </type>
     </element>
-    <element id="PN.given">
-      <path value="PN.given"/>
+    <element id="PN.item.given">
+      <path value="PN.item.given"/>
       <min value="0"/>
       <max value="*"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ENXP"/>
       </type>
     </element>
-    <element id="PN.prefix">
-      <path value="PN.prefix"/>
+    <element id="PN.item.prefix">
+      <path value="PN.item.prefix"/>
       <min value="0"/>
       <max value="*"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ENXP"/>
       </type>
     </element>
-    <element id="PN.suffix">
-      <path value="PN.suffix"/>
+    <element id="PN.item.suffix">
+      <path value="PN.item.suffix"/>
       <min value="0"/>
       <max value="*"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ENXP"/>
+      </type>
+    </element>
+    <element id="PN.validTime">
+      <path value="PN.validTime"/>
+      <label value="Valid Time"/>
+      <definition value="An interval of time specifying the time during which the name is or was used for the entity. This accomodates the fact that people change names for people, places and things."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/IVL-TS"/>
       </type>
     </element>
   </differential>
