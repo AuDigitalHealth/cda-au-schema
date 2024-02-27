@@ -27,7 +27,7 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUemployerOrganization"/>
-  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ANY"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
     <element id="AUemployerOrganization">

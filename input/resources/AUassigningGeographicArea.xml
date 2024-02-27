@@ -33,7 +33,7 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/AUassigningGeographicArea"/>
-  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ANY"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
     <element id="AUassigningGeographicArea">

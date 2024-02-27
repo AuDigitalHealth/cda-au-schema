@@ -1063,6 +1063,12 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/AUlanguageCommunication"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/AUasQualifications"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
@@ -1079,7 +1085,30 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
-		
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUcoverage2"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUentitlement"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUparticipant"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUparticipantRole"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
 		
 		<!-- Vocabulary -->
 		<resource>
@@ -1094,12 +1123,22 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="CodeSystem/dh-AUSStates"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/dh-HealthCareGeographicArea"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
 				<reference value="ValueSet/dh-NctisAdminCodesDocumentStatus"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/dh-AUSStates"/>
 			</reference>
 		</resource>
 		<page>

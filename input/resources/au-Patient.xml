@@ -107,12 +107,76 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
       </type>
     </element>
+    <element id="Patient.maritalStatusCode">
+      <path value="Patient.maritalStatusCode"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-MaritalStatus"/>
+      </binding>
+    </element>
+    <element id="Patient.religiousAffiliationCode">
+      <path value="Patient.religiousAffiliationCode"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ReligiousAffiliation"/>
+      </binding>
+    </element>
+    <element id="Patient.raceCode">
+      <path value="Patient.raceCode"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-Race"/>
+      </binding>
+    </element>
     <element id="Patient.ethnicGroupCode">
       <path value="Patient.ethnicGroupCode"/>
       <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+      </type>
+    </element>
+    <element id="Patient.AUmultipleBirthInd">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="multipleBirthInd"/>
+      </extension>
+      <path value="Patient.AUmultipleBirthInd"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/BL"/>
+      </type>
+    </element>
+    <element id="Patient.AUmultipleBirthOrderNumber">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="multipleBirthOrderNumber"/>
+      </extension>
+      <path value="Patient.AUmultipleBirthOrderNumber"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT"/>
       </type>
     </element>
     <element id="Patient.AUDeceasedInd">
@@ -141,6 +205,14 @@
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
+      </type>
+    </element>
+    <element id="Patient.guardian">
+      <path value="Patient.guardian"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Guardian"/>
       </type>
     </element>
     <element id="Patient.birthplace">
@@ -184,6 +256,24 @@
           value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEmployment"/>
         <profile
           value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEmployment"
+        />
+      </type>
+    </element>
+    <element id="Patient.AUpersonalRelationship">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="personalRelationship"/>
+      </extension>
+      <path value="Patient.AUpersonalRelationship"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUpersonalRelationship"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUpersonalRelationship"
         />
       </type>
     </element>

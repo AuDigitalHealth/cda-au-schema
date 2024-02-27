@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AUasEmployment"/> 
+  <id value="AUentitlement"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -17,27 +17,27 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEmployment"/>
-  <name value="AUasEmployment"/>
-  <title value="Agency extension asEmployment"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUentitlement"/>
+  <name value="AUentitlement"/>
+  <title value="ADHA extension AUentitlement"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="A person's occupation and employer."/>
+  <description value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEmployment"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUentitlement"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="AUasEmployment">
-      <path value="AUasEmployment"/>
-      <definition value="A person's occupation and employer."/>
+    <element id="AUentitlement">
+      <path value="AUentitlement"/>
+      <definition value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
       <min value="1"/>
       <max value="*"/>
     </element>
-    <element id="AUasEmployment.classCode">
-      <path value="AUasEmployment.classCode"/>
+    <element id="AUentitlement.classCode">
+      <path value="AUentitlement.classCode"/>
       <representation value="xmlAttr"/>
       <min value="1"/>
       <max value="1"/>
@@ -45,77 +45,75 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
-      <fixedCode value="EMP"/>      
+      <fixedCode value="COV"/>      
     </element>
-    <element id="AUasEmployment.AUcode">
+    <element id="AUentitlement.moodCode">
+      <path value="AUentitlement.moodCode"/>
+      <representation value="xmlAttr"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      <fixedCode value="EVN"/>      
+    </element>
+    <element id="AUentitlement.AUid">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="id"/>
+      </extension>
+      <path value="AUentitlement.AUid"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="AUentitlement.AUcode">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="code"/>
       </extension>
-      <path value="AUasEmployment.AUcode"/>
-      <min value="0"/>
+      <path value="AUentitlement.AUcode"/>
+      <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
     </element>
-    <element id="AUasEmployment.AUeffectiveTime">
+    <element id="AUentitlement.AUeffectiveTime">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
         <valueString value="effectiveTime"/>
       </extension>
-      <path value="AUasEmployment.AUeffectiveTime"/>
+      <path value="AUentitlement.AUeffectiveTime"/>
       <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
       </type>
     </element>
-    <element id="AUasEmployment.AUjobCode">
+    <element id="AUentitlement.AUparticipant">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="jobCode"/>
+        <valueString value="participant"/>
       </extension>
-      <path value="AUasEmployment.AUjobCode"/>
+      <path value="AUentitlement.AUparticipant"/>
       <min value="0"/>
-      <max value="1"/>
+      <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUparticipant"/>
       </type>
     </element>
-    <element id="AUasEmployment.AUjobClassCode">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="jobClassCode"/>
-      </extension>
-      <path value="AUasEmployment.AUjobClassCode"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
-      </type>
-    </element>
-    <element id="AUasEmployment.AUemployerOrganization">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="employerOrganization"/>
-      </extension>
-      <path value="AUasEmployment.AUemployerOrganization"/>
-      <min value="1"/>
-      <max value="1"/>
-      <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUemployerOrganization"/>
-      </type>
-    </element> 
+    
   </differential>
 </StructureDefinition>
