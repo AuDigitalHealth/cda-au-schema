@@ -25,10 +25,10 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Participant1"/>
   <name value="au-Participant1"/>
-  <title value="Participant1 (CDA Class)"/>
+  <title value="au-Participant1 (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
-  <publisher value="Australian Digital Health Agency" />
+  <publisher value="Australian Digital Health Agency"/>
   <description value="Used to represent other participants not explicitly mentioned by other classes, that were somehow involved in the documented acts."/>
   <kind value="logical"/>
   <abstract value="false"/>
@@ -78,7 +78,6 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
-      
     </element>
     <element id="Participant1.time">
       <path value="Participant1.time"/>

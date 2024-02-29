@@ -36,8 +36,10 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 				<li><a href="StructureDefinition-AUasEmployment.html">AUasEmployment</a></li>
 				<li><a href="StructureDefinition-AUasEntityIdentifier.html">AUasEntityIdentifier</a></li>
 				<li><a href="StructureDefinition-AUasQualifications.html">AUasQualifications</a></li>
+				<li><a href="StructureDefinition-AUcode.html">AUcode</a></li>
 				<li><a href="StructureDefinition-AUcoverage2.html">AUcoverage2</a></li>
 				<li><a href="StructureDefinition-AUentitlement.html">AUentitlement</a></li>
+				<li><a href="StructureDefinition-AUid.html">AUid</a></li>
 				<li><a href="StructureDefinition-AUlanguageCommunication.html">AUlanguageCommunication</a></li>
 				<li><a href="StructureDefinition-AUpersonalRelationship.html">AUpersonalRelationship</a></li>
 			</ul>
@@ -46,7 +48,6 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 			<h3>ADHA Complex Data Types</h3>
 			<ul>
 				<li><a href="StructureDefinition-au-Address.html">au-Address</a></li>
-				<li><a href="StructureDefinition-au-PersonName.html">au-PersonName</a></li>
 				<li><a href="StructureDefinition-au-Telecom.html">au-Telecom</a></li>
 			</ul>
 		</td>

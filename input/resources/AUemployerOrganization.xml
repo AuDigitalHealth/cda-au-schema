@@ -72,15 +72,6 @@
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Organization"/>
       </type>
-    </element>   
-    <element id="AUemployerOrganization.asOrganizationPartOf.wholeOrganization.name">
-      <path value="AUemployerOrganization.asOrganizationPartOf.wholeOrganization.name"/>
-      <min value="1"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ON"/>
-      </type>
     </element>
-    
   </differential>
 </StructureDefinition>

@@ -61,44 +61,6 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
     </element>
-    <element id="AUasEntityIdentifier.AUid.root">
-      <path value="AUasEntityIdentifier.AUid.root"/>
-      <representation value="xmlAttr"/>
-      <label value="Root"/>
-      <definition value="A unique identifier that guarantees the global uniqueness of the instance identifier. The root alone may be the entire instance identifier."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="string"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/oid"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/uuid"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/ruid"/>
-      </type>
-    </element>
-    <element id="AUasEntityIdentifier.AUid.extension">
-      <path value="AUasEntityIdentifier.AUid.extension"/>
-      <representation value="xmlAttr"/>
-      <label value="Extension"/>
-      <definition value="A character string as a unique identifier within the scope of the identifier root."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="string"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/st-simple" />
-      </type>
-    </element>
-    <element id="AUasEntityIdentifier.AUid.assigningAuthorityName">
-      <path value="AUasEntityIdentifier.AUid.assigningAuthorityName"/>
-      <representation value="xmlAttr"/>
-      <label value="Assigning Authority Name"/>
-      <definition value="A human readable name or mnemonic for the assigning authority. The Assigning Authority Name has no computational value. The purpose of a Assigning Authority Name is to assist an unaided human interpreter of an asEntityIdentifier value to interpret the authority. Note: no automated processing must depend on the assigning authority name to be present in any form."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="string"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/st-simple" />
-      </type>
-    </element>
     <element id="AUasEntityIdentifier.AUcode">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
@@ -110,7 +72,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
     </element>
     <element id="AUasEntityIdentifier.AUassigningGeographicArea">
@@ -126,6 +88,17 @@
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUassigningGeographicArea"/>
       </type>
-    </element>    
+    </element> 
+    <element id="AUasEntityIdentifier.AUassigningGeographicArea.AUname">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="name"/>
+      </extension>
+      <path value="AUasEntityIdentifier.AUassigningGeographicAreaAUname"/>
+      <min value="0"/>
+      <max value="1"/>
+    </element>
   </differential>
 </StructureDefinition>

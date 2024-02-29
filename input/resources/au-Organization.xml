@@ -88,7 +88,6 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ON"/>
       </type>
     </element>
-    
     <element id="Organization.telecom">
       <path value="Organization.telecom"/>
       <min value="0"/>

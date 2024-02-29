@@ -32,7 +32,7 @@
     geographic area. This SHOULD NOT be used for machine readability purposes."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://hl7.org/cda/stds/core/StructureDefinition/AUassigningGeographicArea"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUassigningGeographicArea"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>

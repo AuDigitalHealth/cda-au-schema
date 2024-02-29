@@ -907,6 +907,18 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/AUid"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUcode"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/AUassigningGeographicArea"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
@@ -1042,12 +1054,6 @@
 				<reference value="StructureDefinition/au-OrganizationPartOf"/>
 			</reference>
 			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/au-PersonName"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
