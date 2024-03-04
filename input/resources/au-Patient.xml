@@ -159,7 +159,10 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/BL"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUmultipleBirthInd"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUmultipleBirthInd"
+        />
       </type>
     </element>
     <element id="Patient.AUmultipleBirthOrderNumber">
@@ -173,7 +176,10 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUmultipleBirthOrderNumber"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUmultipleBirthOrderNumber"
+        />
       </type>
     </element>
     <element id="Patient.AUDeceasedInd">
@@ -187,7 +193,10 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/BL"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUDeceasedInd"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUDeceasedInd"
+        />
       </type>
     </element>
     <element id="Patient.AUDeceasedTime">
@@ -201,7 +210,10 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUDeceasedTime"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUDeceasedTime"
+        />
       </type>
     </element>
     <element id="Patient.guardian">

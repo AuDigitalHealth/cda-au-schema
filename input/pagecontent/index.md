@@ -5,15 +5,21 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 	<tbody>
 	<tr>
 		<td>
-			<h3>ADHA ClinicalDocument and CDA Classes</h3>
+			<h3>ADHA ClinicalDocument</h3>
 			<ul>
 				<li><a href="StructureDefinition-au-ClinicalDocument.html">au-ClinicalDocument</a></li>
+			</ul>
+		</td>
+		<td>
+			<h3>ADHA CDA Classes</h3>
+			<ul>
 				<li><a href="StructureDefinition-au-AssignedAuthor.html">au-AssignedAuthor</a></li>
 				<li><a href="StructureDefinition-au-AssignedEntity.html">au-AssignedEntity</a></li>
 				<li><a href="StructureDefinition-au-AssignedCustodian.html">au-AssignedCustodian</a></li>
 				<li><a href="StructureDefinition-au-AssociatedEntity.html">au-AssociatedEntity</a></li>
 				<li><a href="StructureDefinition-au-Author.html">au-Author</a></li>
 				<li><a href="StructureDefinition-au-AuthoringDevice.html">au-AuthoringDevice</a></li>
+				<li><a href="StructureDefinition-au-ComponentOf.html">au-ComponentOf</a></li>
 				<li><a href="StructureDefinition-au-Custodian.html">au-Custodian</a></li>
 				<li><a href="StructureDefinition-au-CustodianOrganization.html">au-CustodianOrganization</a></li>
 				<li><a href="StructureDefinition-au-EncompassingEncounter.html">au-EncompassingEncounter</a></li>
@@ -37,10 +43,16 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 				<li><a href="StructureDefinition-AUasEntityIdentifier.html">AUasEntityIdentifier</a></li>
 				<li><a href="StructureDefinition-AUasQualifications.html">AUasQualifications</a></li>
 				<li><a href="StructureDefinition-AUcode.html">AUcode</a></li>
+				<li><a href="StructureDefinition-AUcompletionCode.html">AUcompletionCode</a></li>
 				<li><a href="StructureDefinition-AUcoverage2.html">AUcoverage2</a></li>
+				<li><a href="StructureDefinition-AUDeceasedInd.html">AUDeceasedInd</a></li>
+				<li><a href="StructureDefinition-AUDeceasedTime.html">AUDeceasedTime</a></li>
 				<li><a href="StructureDefinition-AUentitlement.html">AUentitlement</a></li>
 				<li><a href="StructureDefinition-AUid.html">AUid</a></li>
 				<li><a href="StructureDefinition-AUlanguageCommunication.html">AUlanguageCommunication</a></li>
+				<li><a href="StructureDefinition-AUmultipleBirthInd.html">AUmultipleBirthInd</a></li>				
+				<li><a href="StructureDefinition-AUmultipleBirthOrderNumber.html">AUmultipleBirthOrderNumber</a></li>
+				<li><a href="StructureDefinition-AUname.html">AUname</a></li>
 				<li><a href="StructureDefinition-AUpersonalRelationship.html">AUpersonalRelationship</a></li>
 			</ul>
 		</td>
@@ -51,7 +63,6 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 				<li><a href="StructureDefinition-au-Telecom.html">au-Telecom</a></li>
 			</ul>
 		</td>
-		
 	</tr>
 	</tbody>
 </table>

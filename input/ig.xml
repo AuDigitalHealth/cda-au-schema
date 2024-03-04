@@ -913,7 +913,43 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/AUcompletionCode"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUmultipleBirthInd"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUmultipleBirthOrderNumber"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUDeceasedInd"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUDeceasedTime"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/AUcode"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AUname"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
@@ -938,6 +974,12 @@
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/au-RecordTarget"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-ComponentOf"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>

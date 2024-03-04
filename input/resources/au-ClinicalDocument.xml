@@ -199,7 +199,7 @@
       <max value="1"/>      
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
-      </type>     
+      </type>
       <binding>
         <strength value="required"/>
         <valueSet value="http://ns.electronichealth.net.au/cda/ValueSet/dh-NctisAdminCodesDocumentStatus"/>

@@ -19,7 +19,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-HealthCareFacility"/>
   <name value="au-HealthCareFacility"/>
-  <title value="HealthCareFacility (CDA Class)"/>
+  <title value="ADHA HealthCareFacility (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />

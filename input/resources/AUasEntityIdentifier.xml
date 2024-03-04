@@ -58,7 +58,7 @@
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUid"/>
       </type>
     </element>
     <element id="AUasEntityIdentifier.AUcode">
@@ -72,7 +72,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUcode"/>
       </type>
     </element>
     <element id="AUasEntityIdentifier.AUassigningGeographicArea">
@@ -89,16 +89,5 @@
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUassigningGeographicArea"/>
       </type>
     </element> 
-    <element id="AUasEntityIdentifier.AUassigningGeographicArea.AUname">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="name"/>
-      </extension>
-      <path value="AUasEntityIdentifier.AUassigningGeographicAreaAUname"/>
-      <min value="0"/>
-      <max value="1"/>
-    </element>
   </differential>
 </StructureDefinition>
