@@ -32,7 +32,7 @@
   <differential>
     <element id="AUmultipleBirthOrderNumber">
       <path value="AUmultipleBirthOrderNumber"/>
-      <definition value="The lifecycle status of a document."/>
+      <definition value="The sequential order of each baby of a multiple birth regardless of live or still birth"/>
       <min value="1"/>
       <max value="1"/>
       <type>
