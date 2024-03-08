@@ -26,7 +26,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
-  <description value="Mailing and home or office addresses. A sequence of address parts, such as street or post office Box, city, postal code, country, etc."/>
+  <description value="Reusable address template, for use in AU Realm documents"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/AD"/>
@@ -55,6 +55,10 @@
         <code value="boolean"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/bl-simple"/>
       </type>
+    </element>
+    <element id="AD.nullFlavor">
+      <path value="AD.nullFlavor"/>
+      <short value="If addr/@nullFlavor is present, none of the address parts are required."/>
     </element>
     <element id="AD.use">
       <path value="AD.use"/>
@@ -108,18 +112,9 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
       <binding>
-        <strength value="required"/>
+        <strength value="preferred"/>
         <valueSet value="http://ns.electronichealth.net.au/cda/ValueSet/dh-AUSStates"/>
       </binding>
-    </element>
-    <element id="AD.item.county">
-      <path value="AD.item.county"/>
-      <definition value="A sub-unit of a state or province. (49 of the United States of America use the term &quot;county;&quot; Louisiana uses the term &quot;parish&quot;.)"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
-      </type>
     </element>
     <element id="AD.item.city">
       <path value="AD.item.city"/>
@@ -169,15 +164,6 @@
     <element id="AD.item.streetName">
       <path value="AD.item.streetName"/>
       <definition value="Name of a roadway or artery recognized by a municipality (including street type and direction)"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
-      </type>
-    </element>
-    <element id="AD.item.streetNameBase">
-      <path value="AD.item.streetNameBase"/>
-      <definition value="The base name of a roadway or artery recognized by a municipality (excluding street type and direction)"/>
       <min value="0"/>
       <max value="1"/>
       <type>
