@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AUasEntityIdentifier"/> 
+  <id value="asEntityIdentifier"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -17,8 +17,8 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEntityIdentifier"/>
-  <name value="AUasEntityIdentifier"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/asEntityIdentifier"/>
+  <name value="asEntityIdentifier"/>
   <title value="Agency extension asEntityIdentifier"/>
   <status value="active"/>
   <experimental value="false"/>
@@ -26,18 +26,19 @@
   <description value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEntityIdentifier"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/asEntityIdentifier"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="AUasEntityIdentifier">
-      <path value="AUasEntityIdentifier"/>
+    <element id="asEntityIdentifier">
+      <path value="asEntityIdentifier"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <definition value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
       <min value="1"/>
       <max value="*"/>
     </element>
-    <element id="AUasEntityIdentifier.classCode">
-      <path value="AUasEntityIdentifier.classCode"/>
+    <element id="asEntityIdentifier.classCode">
+      <path value="asEntityIdentifier.classCode"/>
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
@@ -47,46 +48,40 @@
       </type>
       <fixedCode value="IDENT"/>      
     </element>
-    <element id="AUasEntityIdentifier.AUid">
+    <element id="asEntityIdentifier.id">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="id"/>
-      </extension>
-      <path value="AUasEntityIdentifier.AUid"/>
+      <path value="asEntityIdentifier.id"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUid"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/id"/>
       </type>
     </element>
-    <element id="AUasEntityIdentifier.AUcode">
+    <element id="asEntityIdentifier.code">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="code"/>
-      </extension>
-      <path value="AUasEntityIdentifier.AUcode"/>
+      <path value="asEntityIdentifier.code"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUcode"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/code"/>
       </type>
     </element>
-    <element id="AUasEntityIdentifier.AUassigningGeographicArea">
+    <element id="asEntityIdentifier.assigningGeographicArea">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="assigningGeographicArea"/>
-      </extension>
-      <path value="AUasEntityIdentifier.AUassigningGeographicArea"/>
+      <path value="asEntityIdentifier.assigningGeographicArea"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUassigningGeographicArea"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/assigningGeographicArea"/>
       </type>
     </element> 
   </differential>

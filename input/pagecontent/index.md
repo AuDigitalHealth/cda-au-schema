@@ -40,15 +40,15 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 			<h3>ADHA Extensions</h3>
 			<ul>
 				<li><a href="StructureDefinition-AUasEmployment.html">AUasEmployment</a></li>
-				<li><a href="StructureDefinition-AUasEntityIdentifier.html">AUasEntityIdentifier</a></li>
+				<li><a href="StructureDefinition-asEntityIdentifier.html">asEntityIdentifier</a></li>
 				<li><a href="StructureDefinition-AUasQualifications.html">AUasQualifications</a></li>
-				<li><a href="StructureDefinition-AUcode.html">AUcode</a></li>
-				<li><a href="StructureDefinition-AUcompletionCode.html">AUcompletionCode</a></li>
+				<li><a href="StructureDefinition-code.html">code</a></li>
+				<li><a href="StructureDefinition-completionCode.html">completionCode</a></li>
 				<li><a href="StructureDefinition-AUcoverage2.html">AUcoverage2</a></li>
 				<li><a href="StructureDefinition-AUDeceasedInd.html">AUDeceasedInd</a></li>
 				<li><a href="StructureDefinition-AUDeceasedTime.html">AUDeceasedTime</a></li>
 				<li><a href="StructureDefinition-AUentitlement.html">AUentitlement</a></li>
-				<li><a href="StructureDefinition-AUid.html">AUid</a></li>
+				<li><a href="StructureDefinition-id.html">id</a></li>
 				<li><a href="StructureDefinition-AUlanguageCommunication.html">AUlanguageCommunication</a></li>
 				<li><a href="StructureDefinition-AUmultipleBirthInd.html">AUmultipleBirthInd</a></li>				
 				<li><a href="StructureDefinition-AUmultipleBirthOrderNumber.html">AUmultipleBirthOrderNumber</a></li>

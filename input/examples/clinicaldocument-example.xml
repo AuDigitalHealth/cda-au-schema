@@ -32,13 +32,13 @@
 				</name>
 				<administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"/>
 				<birthTime value="19320924"/>
-				<ext:asEntityIdentifier classCode="IDENT">
+				<!--<ext:asEntityIdentifier classCode="IDENT">
 					<ext:id root="1.2.36.1.2001.1003.0.8003604444567894"
 						assigningAuthorityName="IHI"/>
 					<ext:assigningGeographicArea classCode="PLC">
 						<ext:name>National Identifier</ext:name>
 					</ext:assigningGeographicArea>
-				</ext:asEntityIdentifier>
+				</ext:asEntityIdentifier>-->
 			</patient>
 			<providerOrganization>
 				<id root="2.16.840.1.113883.19.5"/>
@@ -55,13 +55,13 @@
 					<given>Robert</given>
 					<suffix>MD</suffix>
 				</name>
-				<ext:asEntityIdentifier classCode="IDENT">
+				<!--<ext:asEntityIdentifier classCode="IDENT">
 					<ext:id root="1.2.36.1.2001.1003.0.8003615833334118"
 						assigningAuthorityName="HPI-I"/>
 					<ext:assigningGeographicArea classCode="PLC">
 						<ext:name>National Identifier</ext:name>
 					</ext:assigningGeographicArea>
-				</ext:asEntityIdentifier>
+				</ext:asEntityIdentifier>-->
 			</assignedPerson>
 			<representedOrganization>
 				<id root="2.16.840.1.113883.19.5"/>
@@ -87,33 +87,33 @@
 					<given>Robert</given>
 					<suffix>MD</suffix>
 				</name>
-				<ext:asEntityIdentifier classCode="IDENT">
+				<!--<ext:asEntityIdentifier classCode="IDENT">
 					<ext:id root="1.2.3.4.5" extension="66666"
 						assigningAuthorityName="LocalAuthority"/>
 					<ext:code code="EI" codeSystem="2.16.840.1.113883.12.203"
 						codeSystemName="Identifier Type (HL7)"/>
-				</ext:asEntityIdentifier>
-				<ext:asEntityIdentifier classCode="IDENT">
+				</ext:asEntityIdentifier>-->
+				<!--<ext:asEntityIdentifier classCode="IDENT">
 					<ext:id root="1.2.36.1.2001.1003.0.8003615833334118"
 						assigningAuthorityName="HPI-I"/>
 					<ext:assigningGeographicArea classCode="PLC">
 						<ext:name>National Identifier</ext:name>
 					</ext:assigningGeographicArea>
-				</ext:asEntityIdentifier>
+				</ext:asEntityIdentifier>-->
 			</assignedPerson>
 			<representedOrganization>
 				<id root="2.16.840.1.113883.19.5"/>
 				<name>Oz Health Clinic</name>
-				<ext:asEntityIdentifier classCode="IDENT">
+				<!--<ext:asEntityIdentifier classCode="IDENT">
 					<ext:id root="1.2.3.4.55555" assigningAuthorityName="SampleAuthority"/>
-				</ext:asEntityIdentifier>
-				<ext:asEntityIdentifier classCode="IDENT">
+				</ext:asEntityIdentifier>-->
+				<!--<ext:asEntityIdentifier classCode="IDENT">
 					<ext:id root="1.2.36.1.2001.1003.0.8003620000001144"
 						assigningAuthorityName="HPI-O"/>
 					<ext:assigningGeographicArea classCode="PLC">
 						<ext:name>National Identifier</ext:name>
 					</ext:assigningGeographicArea>
-				</ext:asEntityIdentifier>
+				</ext:asEntityIdentifier>-->
 			</representedOrganization>
 		</assignedEntity>
 	</legalAuthenticator>
@@ -1293,6 +1293,147 @@
 					</entry>
 				</section>
 			</component>-->
+			
+			<component>
+				<section>
+					
+					<id root="231F71DA-706A-11E0-A3DC-78B94824019B"/>
+					
+					<code code="102.16080" codeSystem="1.2.36.1.2001.1001.101"
+						codeSystemName="NCTIS Data Components"
+						displayName="Administrative Observations"/>
+					
+					<title>Administrative Observations</title>
+					
+					<text>
+						<table>
+							<tbody>
+								<tr>
+									<th>Date of Birth is Calculated From Age</th>
+									<td>True</td>
+								</tr>
+								<tr>
+									<th>Date of Birth Accuracy Indicator</th>
+									<td>AAA</td>
+								</tr>
+								<tr>
+									<th>Age</th>
+									<td>54</td>
+								</tr>
+								<tr>
+									<th>Age Accuracy Indicator</th>
+									<td>True</td>
+								</tr>
+								<tr>
+									<th>Birth Plurality</th>
+									<td>3</td>
+								</tr>
+							</tbody>
+						</table>
+					</text>
+					
+					<!-- Begin - Subject of Care - Body Section -->
+					
+					<!-- Begin - Date of Birth is Calculated From Age [calc_age] -->
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							
+							<id root="DA10C13E-EFD0-11DF-91AF-B5CCDFD72085"/>
+							
+							<code code="103.16233" codeSystem="1.2.36.1.2001.1001.101"
+								codeSystemName="NCTIS Data Components"
+								displayName="Date of Birth is Calculated From Age"/>
+							
+							<value value="true" xsi:type="BL"/>
+							
+						</observation>
+					</entry>
+					<!-- End - Date of Birth is Calculated From Age [calc_age] -->
+					
+					<!-- Begin - Date of Birth Accuracy Indicator [dob_acc] -->
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							
+							<id root="D253216C-EFD0-11DF-A686-ADCCDFD72085"/>
+							
+							<code code="102.16234" codeSystem="1.2.36.1.2001.1001.101"
+								codeSystemName="NCTIS Data Components"
+								displayName="Date of Birth Accuracy Indicator"/>
+							
+							<value code="AAA" xsi:type="CS"/>
+							
+						</observation>
+					</entry>
+					<!-- End - Date of Birth Accuracy Indicator [dob_acc] -->
+					
+					<!-- Begin - Age [age] -->
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							
+							<id root="CCF0D55C-EFD0-11DF-BEA2-A6CCDFD72085"/>
+							
+							<code code="103.20109" codeSystem="1.2.36.1.2001.1001.101"
+								codeSystemName="NCTIS Data Components" displayName="Age"/>
+							
+							<value value="54" unit="a" xsi:type="PQ"/>
+							
+						</observation>
+					</entry>
+					<!-- End - Age [age] -->
+					
+					<!-- Begin - Age Accuracy Indicator [age_acc] -->
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							
+							<id root="C629C9F4-EFD0-11DF-AA9E-96CCDFD72085"/>
+							
+							<code code="103.16279" codeSystem="1.2.36.1.2001.1001.101"
+								codeSystemName="NCTIS Data Components"
+								displayName="Age Accuracy Indicator"/>
+							
+							<value value="true" xsi:type="BL"/>
+							
+						</observation>
+					</entry>
+					<!-- End - Age Accuracy Indicator [age_acc] -->
+					
+					<!-- Begin - Birth Plurality [birth_plr] -->
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							
+							<id root="C1EE2646-EFD0-11DF-8D9C-95CCDFD72085"/>
+							
+							<code code="103.16249" codeSystem="1.2.36.1.2001.1001.101"
+								codeSystemName="NCTIS Data Components" displayName="Birth Plurality"/>
+							
+							<value value="3" xsi:type="INT"/>
+							
+						</observation>
+					</entry>
+					<!-- End - Birth Plurality [birth_plr] -->
+					
+					<!-- Begin - Date of Death Accuracy Indicator [dod_acc] -->
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							
+							<id root="D253216C-EFD0-11DF-A686-ADCCDFD72085"/>
+							
+							<code code="102.16252" codeSystem="1.2.36.1.2001.1001.101"
+								codeSystemName="NCTIS Data Components"
+								displayName="Date of Death Accuracy Indicator"/>
+							
+							<value code="AAA" xsi:type="CS"/>
+							
+						</observation>
+					</entry>
+					<!-- End - Date of Death Accuracy Indicator [dod_acc] -->
+					
+					
+					
+					<!-- End - Subject of Care - Body Section -->
+					
+				</section>
+			</component>
 		</structuredBody>
 	</component>
 </ClinicalDocument>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AUcode"/> 
+  <id value="code"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -26,27 +26,28 @@
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-container">
     <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUcode"/>
-  <name value="AUcode"/>
-  <title value="AUcode: CodedWithEquivalents (V3 Data Type)"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/code"/>
+  <name value="code"/>
+  <title value="code: CodedWithEquivalents (V3 Data Type)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
   <description value="Coded data that consists of a coded value (CV) and, optionally, coded value(s) from other coding systems that identify the same concept. Used when alternative codes may exist."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUcode"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/code"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="AUcode">
-      <path value="AUcode"/>
+    <element id="code">
+      <path value="code"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <definition value="Coded data, consists of a coded value (CV) and, optionally, coded value(s) from other coding systems that identify the same concept. Used when alternative codes may exist."/>
       <min value="1"/>
       <max value="*"/>
     </element>
-    <element id="AUcode.qualifier">
-      <path value="AUcode.qualifier"/>
+    <element id="code.qualifier">
+      <path value="code.qualifier"/>
       <label value="Qualifier"/>
       <definition value="Specifies additional codes that increase the specificity of the the primary code."/>
       <min value="0"/>

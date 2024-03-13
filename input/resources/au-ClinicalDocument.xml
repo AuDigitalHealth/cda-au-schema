@@ -186,14 +186,12 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT"/>
       </type>
     </element>
-    <element id="ClinicalDocument.AUcompletionCode">
+    <element id="ClinicalDocument.completionCode">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="completionCode"/>
-      </extension>
-      <path value="ClinicalDocument.AUcompletionCode"/>
+      <path value="ClinicalDocument.completionCode"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <definition value="The completionCode extension attribute allows the implementer to identify the lifecycle status of a document."/>
       <min value="1"/>
       <max value="1"/>      

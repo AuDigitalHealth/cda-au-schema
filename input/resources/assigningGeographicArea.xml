@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AUassigningGeographicArea"/>
+  <id value="assigningGeographicArea"/>
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -20,8 +20,8 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUassigningGeographicArea"/>
-  <name value="AUassigningGeographicArea"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/assigningGeographicArea"/>
+  <name value="assigningGeographicArea"/>
   <title value="Agency extension assigningGeographicArea for asEntityIdentifier"/>
   <status value="active"/>
   <experimental value="false"/>
@@ -32,19 +32,19 @@
     geographic area. This SHOULD NOT be used for machine readability purposes."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUassigningGeographicArea"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/assigningGeographicArea"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="AUassigningGeographicArea">
-      <path value="AUassigningGeographicArea"/>
+    <element id="assigningGeographicArea">
+      <path value="assigningGeographicArea"/>
       <definition
         value="An Australian identifier that uniquely identifies a thing or object."/>
       <min value="1"/>
       <max value="*"/>
     </element>
-    <element id="AUassigningGeographicArea.classCode">
-      <path value="AUassigningGeographicArea.classCode"/>
+    <element id="assigningGeographicArea.classCode">
+      <path value="assigningGeographicArea.classCode"/>
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
@@ -54,14 +54,12 @@
       </type>
       <fixedCode value="PLC"/>
     </element>    
-    <element id="AUassigningGeographicArea.AUname">
+    <element id="assigningGeographicArea.name">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="name"/>
-      </extension>
-      <path value="AUassigningGeographicArea.AUname"/>
+      <path value="assigningGeographicArea.name"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="1"/>
       <max value="1"/>
       <type>

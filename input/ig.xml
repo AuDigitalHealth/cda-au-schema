@@ -901,19 +901,19 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AUasEntityIdentifier"/>
+				<reference value="StructureDefinition/asEntityIdentifier"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AUid"/>
+				<reference value="StructureDefinition/id"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AUcompletionCode"/>
+				<reference value="StructureDefinition/completionCode"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
@@ -943,7 +943,7 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AUcode"/>
+				<reference value="StructureDefinition/code"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
@@ -955,7 +955,7 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AUassigningGeographicArea"/>
+				<reference value="StructureDefinition/assigningGeographicArea"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>

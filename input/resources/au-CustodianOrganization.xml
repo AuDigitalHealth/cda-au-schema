@@ -103,21 +103,18 @@
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Address"/>
       </type>
     </element>
-    <element id="CustodianOrganization.AUasEntityIdentifier">
+    <element id="CustodianOrganization.asEntityIdentifier">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="asEntityIdentifier"/>
-      </extension>
-      <path value="CustodianOrganization.AUasEntityIdentifier"/>
+      <path value="CustodianOrganization.asEntityIdentifier"/>
       <min value="0"/>
       <max value="*"/>
       <type>
         <code
-          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEntityIdentifier"/>
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/asEntityIdentifier"/>
         <profile
-          value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEntityIdentifier"
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/asEntityIdentifier"
         />
       </type>
     </element>
