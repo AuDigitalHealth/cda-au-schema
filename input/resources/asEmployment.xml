@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AUasEmployment"/> 
+  <id value="asEmployment"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -17,8 +17,8 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEmployment"/>
-  <name value="AUasEmployment"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/asEmployment"/>
+  <name value="asEmployment"/>
   <title value="Agency extension asEmployment"/>
   <status value="active"/>
   <experimental value="false"/>
@@ -26,18 +26,19 @@
   <description value="A person's occupation and employer."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasEmployment"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/asEmployment"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="AUasEmployment">
-      <path value="AUasEmployment"/>
+    <element id="asEmployment">
+      <path value="asEmployment"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <definition value="A person's occupation and employer."/>
       <min value="1"/>
       <max value="*"/>
     </element>
-    <element id="AUasEmployment.classCode">
-      <path value="AUasEmployment.classCode"/>
+    <element id="asEmployment.classCode">
+      <path value="asEmployment.classCode"/>
       <representation value="xmlAttr"/>
       <min value="1"/>
       <max value="1"/>
@@ -47,74 +48,64 @@
       </type>
       <fixedCode value="EMP"/>      
     </element>
-    <element id="AUasEmployment.AUcode">
+    <element id="asEmployment.code">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="code"/>
-      </extension>
-      <path value="AUasEmployment.AUcode"/>
+      <path value="asEmployment.code"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
     </element>
-    <element id="AUasEmployment.AUeffectiveTime">
+    <element id="asEmployment.effectiveTime">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="effectiveTime"/>
-      </extension>
-      <path value="AUasEmployment.AUeffectiveTime"/>
+      <path value="asEmployment.effectiveTime"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
       </type>
     </element>
-    <element id="AUasEmployment.AUjobCode">
+    <element id="asEmployment.jobCode">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="jobCode"/>
-      </extension>
-      <path value="AUasEmployment.AUjobCode"/>
+      <path value="asEmployment.jobCode"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
     </element>
-    <element id="AUasEmployment.AUjobClassCode">
+    <element id="asEmployment.jobClassCode">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="jobClassCode"/>
-      </extension>
-      <path value="AUasEmployment.AUjobClassCode"/>
+      <path value="asEmployment.jobClassCode"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
     </element>
-    <element id="AUasEmployment.AUemployerOrganization">
+    <element id="asEmployment.employerOrganization">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="employerOrganization"/>
-      </extension>
-      <path value="AUasEmployment.AUemployerOrganization"/>
+      <path value="asEmployment.employerOrganization"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUemployerOrganization"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/employerOrganization"/>
       </type>
     </element> 
   </differential>

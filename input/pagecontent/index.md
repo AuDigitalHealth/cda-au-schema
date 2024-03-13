@@ -25,7 +25,8 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 				<li><a href="StructureDefinition-au-EncompassingEncounter.html">au-EncompassingEncounter</a></li>
 				<li><a href="StructureDefinition-au-HealthCareFacility.html">au-HealthCareFacility</a></li>
 				<li><a href="StructureDefinition-au-InformationRecipient.html">au-InformationRecipient</a></li>
-				<li><a href="StructureDefinition-au-IntendedRecipient.html">au-IntendedRecipient</a></li>
+				<li><a href="StructureDefinition-au-IntendedRecipient.html">au-IntendedRecipient</a></li>				
+				<li><a href="StructureDefinition-au-languageCommunication.html">au-languageCommunication</a></li>
 				<li><a href="StructureDefinition-au-LegalAuthenticator.html">au-LegalAuthenticator</a></li>
 				<li><a href="StructureDefinition-au-Organization.html">au-Organization</a></li>
 				<li><a href="StructureDefinition-au-OrganizationPartOf.html">au-OrganizationPartOf</a></li>
@@ -39,21 +40,21 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 		<td>
 			<h3>ADHA Extensions</h3>
 			<ul>
-				<li><a href="StructureDefinition-AUasEmployment.html">AUasEmployment</a></li>
+				<li><a href="StructureDefinition-asEmployment.html">asEmployment</a></li>
 				<li><a href="StructureDefinition-asEntityIdentifier.html">asEntityIdentifier</a></li>
-				<li><a href="StructureDefinition-AUasQualifications.html">AUasQualifications</a></li>
+				<li><a href="StructureDefinition-asQualifications.html">asQualifications</a></li>
 				<li><a href="StructureDefinition-code.html">code</a></li>
 				<li><a href="StructureDefinition-completionCode.html">completionCode</a></li>
-				<li><a href="StructureDefinition-AUcoverage2.html">AUcoverage2</a></li>
-				<li><a href="StructureDefinition-AUDeceasedInd.html">AUDeceasedInd</a></li>
-				<li><a href="StructureDefinition-AUDeceasedTime.html">AUDeceasedTime</a></li>
-				<li><a href="StructureDefinition-AUentitlement.html">AUentitlement</a></li>
+				<li><a href="StructureDefinition-coverage2.html">coverage2</a></li>
+				<li><a href="StructureDefinition-DeceasedInd.html">DeceasedInd</a></li>
+				<li><a href="StructureDefinition-DeceasedTime.html">DeceasedTime</a></li>
+				<li><a href="StructureDefinition-entitlement.html">entitlement</a></li>
 				<li><a href="StructureDefinition-id.html">id</a></li>
-				<li><a href="StructureDefinition-AUlanguageCommunication.html">AUlanguageCommunication</a></li>
-				<li><a href="StructureDefinition-AUmultipleBirthInd.html">AUmultipleBirthInd</a></li>				
-				<li><a href="StructureDefinition-AUmultipleBirthOrderNumber.html">AUmultipleBirthOrderNumber</a></li>
-				<li><a href="StructureDefinition-AUname.html">AUname</a></li>
-				<li><a href="StructureDefinition-AUpersonalRelationship.html">AUpersonalRelationship</a></li>
+				<li><a href="StructureDefinition-languageCommunication.html">languageCommunication</a></li>
+				<li><a href="StructureDefinition-multipleBirthInd.html">multipleBirthInd</a></li>				
+				<li><a href="StructureDefinition-multipleBirthOrderNumber.html">multipleBirthOrderNumber</a></li>
+				<li><a href="StructureDefinition-name.html">name</a></li>
+				<li><a href="StructureDefinition-personalRelationship.html">personalRelationship</a></li>
 			</ul>
 		</td>
 		<td>

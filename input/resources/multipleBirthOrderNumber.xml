@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AUmultipleBirthInd"/> 
+  <id value="multipleBirthOrderNumber"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -17,26 +17,27 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUmultipleBirthInd"/>
-  <name value="AUmultipleBirthInd"/>
-  <title value="Agency extension AUmultipleBirthInd"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/multipleBirthOrderNumber"/>
+  <name value="multipleBirthOrderNumber"/>
+  <title value="Agency extension multipleBirthOrderNumber"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
   <description value="The sequential order of each baby of a multiple birth regardless of live or still birth."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUmultipleBirthInd"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/multipleBirthOrderNumber"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="AUmultipleBirthInd">
-      <path value="AUmultipleBirthInd"/>
+    <element id="multipleBirthOrderNumber">
+      <path value="multipleBirthOrderNumber"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <definition value="The sequential order of each baby of a multiple birth regardless of live or still birth"/>
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/BL"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT"/>
       </type>
     </element>
   </differential>

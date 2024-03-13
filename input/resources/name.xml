@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AUname"/>
+  <id value="name"/>
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -24,9 +24,9 @@
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-container">
     <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUname"/>
-  <name value="AUname"/>
-  <title value="Agency extension AUname"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/name"/>
+  <name value="name"/>
+  <title value="Agency extension name"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
@@ -34,12 +34,13 @@
     value="A name for an organization. A sequence of name parts. Examples for organization name values are &quot;Health Level Seven, Inc.&quot;, &quot;Hospital&quot;, etc. An organization name may be as simple as a character string or may consist of several person name parts, such as, &quot;Health Level 7&quot;, &quot;Inc.&quot;. ON differs from EN because certain person related name parts are not possible."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUname"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/name"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="AUname">
-      <path value="AUname"/>
+    <element id="name">
+      <path value="name"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <definition
         value="Element ext:name MAY be used and, if it is used, SHALL be the range and extent that the identifier applies to the object with which it is associated that is populated directly from the geographic area. This SHOULD NOT be used for machine readability purposes."/>
       <min value="1"/>

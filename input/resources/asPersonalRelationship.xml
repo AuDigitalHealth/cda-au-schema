@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AUasPersonalRelationship"/> 
+  <id value="asPersonalRelationship"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -17,8 +17,8 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasPersonalRelationship"/>
-  <name value="AUasPersonalRelationship"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/asPersonalRelationship"/>
+  <name value="asPersonalRelationship"/>
   <title value="Agency extension for asPersonalRelationship"/>
   <status value="active"/>
   <experimental value="false"/>
@@ -26,17 +26,18 @@
   <description value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUasPersonalRelationship"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/asPersonalRelationship"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ANY"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="AUasPersonalRelationship">
-      <path value="AUasPersonalRelationship"/>
+    <element id="asPersonalRelationship">
+      <path value="asPersonalRelationship"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="1"/>
       <max value="1"/>
     </element>   
-    <element id="AUasPersonalRelationship.classCode">
-      <path value="AUasPersonalRelationship.classCode"/>
+    <element id="asPersonalRelationship.classCode">
+      <path value="asPersonalRelationship.classCode"/>
       <representation value="xmlAttr"/>
       <min value="1"/>
       <max value="1"/>
@@ -46,8 +47,8 @@
       </type>
       <fixedCode value="PSN"/>   
     </element>
-    <element id="AUasPersonalRelationship.determinerCode">
-      <path value="AUasPersonalRelationship.determinerCode"/>
+    <element id="asPersonalRelationship.determinerCode">
+      <path value="asPersonalRelationship.determinerCode"/>
       <representation value="xmlAttr"/>
       <min value="1"/>
       <max value="1"/>
@@ -57,24 +58,24 @@
       </type>
       <fixedCode value="INSTANCE"/>   
     </element>
-    <element id="AUasPersonalRelationship.id">
-      <path value="AUasPersonalRelationship.id"/>
+    <element id="asPersonalRelationship.id">
+      <path value="asPersonalRelationship.id"/>
       <min value="1"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
     </element>
-    <element id="AUasPersonalRelationship.administrativeGenderCode">
-      <path value="AUasPersonalRelationship.administrativeGenderCode"/>
+    <element id="asPersonalRelationship.administrativeGenderCode">
+      <path value="asPersonalRelationship.administrativeGenderCode"/>
       <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
     </element>
-    <element id="AUasPersonalRelationship.administrativeGenderCode.nullFlavor">
-      <path value="AUasPersonalRelationship.administrativeGenderCode.nullFlavor"/>
+    <element id="asPersonalRelationship.administrativeGenderCode.nullFlavor">
+      <path value="asPersonalRelationship.administrativeGenderCode.nullFlavor"/>
       <representation value="xmlAttr"/>
       <min value="1"/>
       <max value="1"/>            

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AUmultipleBirthOrderNumber"/> 
+  <id value="participant"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -17,26 +17,34 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUmultipleBirthOrderNumber"/>
-  <name value="AUmultipleBirthOrderNumber"/>
-  <title value="Agency extension AUmultipleBirthOrderNumber"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/participant"/>
+  <name value="participant"/>
+  <title value="ADHA extension participant"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="The sequential order of each baby of a multiple birth regardless of live or still birth."/>
+  <description value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUmultipleBirthOrderNumber"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/participant"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="AUmultipleBirthOrderNumber">
-      <path value="AUmultipleBirthOrderNumber"/>
-      <definition value="The sequential order of each baby of a multiple birth regardless of live or still birth"/>
+    <element id="participant">
+      <path value="participant"/>
+      <min value="1"/>
+      <max value="*"/>
+    </element>
+    <element id="participant.participantRole">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <path value="participant.participantRole"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/participantRole"/>
       </type>
     </element>
   </differential>

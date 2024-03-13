@@ -893,12 +893,7 @@
 			</reference>
 			<groupingId value="datatypes-xml"/>
 		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/au-ClinicalDocument"/>
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
+		<!--ADHA extensions-->
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/asEntityIdentifier"/>
@@ -919,25 +914,25 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AUmultipleBirthInd"/>
+				<reference value="StructureDefinition/multipleBirthInd"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AUmultipleBirthOrderNumber"/>
+				<reference value="StructureDefinition/multipleBirthOrderNumber"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AUDeceasedInd"/>
+				<reference value="StructureDefinition/DeceasedInd"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AUDeceasedTime"/>
+				<reference value="StructureDefinition/DeceasedTime"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
@@ -949,7 +944,7 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AUname"/>
+				<reference value="StructureDefinition/name"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
@@ -961,15 +956,70 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AUasEmployment"/>
+				<reference value="StructureDefinition/asEmployment"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AUemployerOrganization"/>
+				<reference value="StructureDefinition/employerOrganization"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/asQualifications"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/personalRelationship"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/asPersonalRelationship"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/coverage2"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/entitlement"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/participant"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-ParticipantRole"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<!--Agency CDA Classes-->
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-ClinicalDocument"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-languageCommunication"/>
+			</reference>
+			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
@@ -1106,54 +1156,6 @@
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/au-Telecom"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/AUlanguageCommunication"/>
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/AUasQualifications"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/AUpersonalRelationship"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/AUasPersonalRelationship"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/AUcoverage2"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/AUentitlement"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/AUparticipant"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/AUparticipantRole"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>

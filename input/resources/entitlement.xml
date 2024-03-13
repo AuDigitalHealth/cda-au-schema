@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AUentitlement"/> 
+  <id value="entitlement"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -17,27 +17,28 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUentitlement"/>
-  <name value="AUentitlement"/>
-  <title value="ADHA extension AUentitlement"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/entitlement"/>
+  <name value="entitlement"/>
+  <title value="ADHA extension entitlement"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
   <description value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUentitlement"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/entitlement"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="AUentitlement">
-      <path value="AUentitlement"/>
+    <element id="entitlement">
+      <path value="entitlement"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <definition value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
       <min value="1"/>
       <max value="*"/>
     </element>
-    <element id="AUentitlement.classCode">
-      <path value="AUentitlement.classCode"/>
+    <element id="entitlement.classCode">
+      <path value="entitlement.classCode"/>
       <representation value="xmlAttr"/>
       <min value="1"/>
       <max value="1"/>
@@ -47,8 +48,8 @@
       </type>
       <fixedCode value="COV"/>      
     </element>
-    <element id="AUentitlement.moodCode">
-      <path value="AUentitlement.moodCode"/>
+    <element id="entitlement.moodCode">
+      <path value="entitlement.moodCode"/>
       <representation value="xmlAttr"/>
       <min value="1"/>
       <max value="1"/>
@@ -58,60 +59,52 @@
       </type>
       <fixedCode value="EVN"/>      
     </element>
-    <element id="AUentitlement.AUid">
+    <element id="entitlement.id">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="id"/>
-      </extension>
-      <path value="AUentitlement.AUid"/>
+      <path value="entitlement.id"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="1"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
     </element>
-    <element id="AUentitlement.AUcode">
+    <element id="entitlement.code">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="code"/>
-      </extension>
-      <path value="AUentitlement.AUcode"/>
+      <path value="entitlement.code"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="1"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
     </element>
-    <element id="AUentitlement.AUeffectiveTime">
+    <element id="entitlement.effectiveTime">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="effectiveTime"/>
-      </extension>
-      <path value="AUentitlement.AUeffectiveTime"/>
+      <path value="entitlement.effectiveTime"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
       </type>
     </element>
-    <element id="AUentitlement.AUparticipant">
+    <element id="entitlement.participant">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-        <valueString value="participant"/>
-      </extension>
-      <path value="AUentitlement.AUparticipant"/>
+      <path value="entitlement.participant"/>
+      <short value="Australian Digital Health Agency CDA extension"/>
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/AUparticipant"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/participant"/>
       </type>
     </element>
     
