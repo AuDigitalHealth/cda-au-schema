@@ -31,6 +31,7 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 				<li><a href="StructureDefinition-au-Organization.html">au-Organization</a></li>
 				<li><a href="StructureDefinition-au-OrganizationPartOf.html">au-OrganizationPartOf</a></li>
 				<li><a href="StructureDefinition-au-Participant1.html">au-Participant1</a></li>
+				<li><a href="StructureDefinition-au-ParticipantRole.html">au-ParticipantRole</a></li>
 				<li><a href="StructureDefinition-au-PatientRole.html">au-PatientRole</a></li>
 				<li><a href="StructureDefinition-au-Patient.html">au-Patient</a></li>
 				<li><a href="StructureDefinition-au-Person.html">au-Person</a></li>
@@ -50,10 +51,11 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 				<li><a href="StructureDefinition-DeceasedTime.html">DeceasedTime</a></li>
 				<li><a href="StructureDefinition-entitlement.html">entitlement</a></li>
 				<li><a href="StructureDefinition-id.html">id</a></li>
-				<li><a href="StructureDefinition-languageCommunication.html">languageCommunication</a></li>
+				<li><a href="StructureDefinition-interpreterRequiredInd.html">interpreterRequiredInd</a></li>
 				<li><a href="StructureDefinition-multipleBirthInd.html">multipleBirthInd</a></li>				
 				<li><a href="StructureDefinition-multipleBirthOrderNumber.html">multipleBirthOrderNumber</a></li>
 				<li><a href="StructureDefinition-name.html">name</a></li>
+				<li><a href="StructureDefinition-participant.html">participant</a></li>
 				<li><a href="StructureDefinition-personalRelationship.html">personalRelationship</a></li>
 			</ul>
 		</td>

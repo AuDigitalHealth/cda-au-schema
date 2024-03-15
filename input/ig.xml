@@ -1004,7 +1004,7 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/au-ParticipantRole"/>
+				<reference value="StructureDefinition/interpreterRequiredInd"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
@@ -1014,6 +1014,12 @@
 				<reference value="StructureDefinition/au-ClinicalDocument"/>
 			</reference>
 			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-ParticipantRole"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
