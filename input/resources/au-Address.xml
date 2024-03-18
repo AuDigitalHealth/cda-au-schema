@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="au-Address"/> 
+  <id value="au-Address"/>
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>Mailing and home or office addresses. A sequence of address parts, such as street or post office Box, city, postal code, country, etc.</p>
+      <p>Mailing and home or office addresses. A sequence of address parts, such as street or post
+        office Box, city, postal code, country, etc.</p>
     </div>
   </text>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
@@ -30,12 +31,15 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/AD"/>
-  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
-  <derivation value="specialization"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/AD"/>
+  <derivation value="constraint"/>
   <differential>
     <element id="AD">
       <path value="AD"/>
-      <definition value="Mailing and home or office addresses. A sequence of address parts, such as street or post office Box, city, postal code, country, etc."/>
+      <definition
+        value="Mailing and home or office addresses. A sequence of address parts, such as street or post office Box, city, postal code, country, etc."/>
+      <comment
+        value="In an event where the  Address of the Subject of Care is 'Unknown' or  'Masked / Not to be disclosed for privacy reason', the following conditions SHOULD be applied. The nullFlavor = 'UNK' SHOULD be permitted if the value of address is not known and the value of 'No Fixed Address Indicator' is false. The nullFlavor = 'MSK' SHOULD be permitted if the value of address is masked and the value of 'No Fixed Address Indicator' is false. The nullFlavor = 'NA' SHOULD be permitted if value of 'No Fixed Address Indicator' is true. (This is the same as the current CDA IG constraint). The value of the data group SHALL be populated in all other circumstances."/>
       <min value="1"/>
       <max value="*"/>
       <base>
@@ -44,37 +48,14 @@
         <max value="*"/>
       </base>
     </element>
-    <element id="AD.isNotOrdered">
-      <path value="AD.isNotOrdered"/>
-      <representation value="xmlAttr"/>
-      <label value="Is Not Ordered"/>
-      <definition value="A boolean value specifying whether the order of the address parts is known or not. While the address parts are always a Sequence, the order in which they are presented may or may not be known. Where this matters, the isNotOrdered property can be used to convey this information."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="boolean"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/bl-simple"/>
-      </type>
-    </element>
     <element id="AD.nullFlavor">
       <path value="AD.nullFlavor"/>
       <short value="If addr/@nullFlavor is present, none of the address parts are required."/>
     </element>
     <element id="AD.use">
       <path value="AD.use"/>
-      <representation value="xmlAttr"/>
-      <label value="Use Code"/>
-      <definition value="A set of codes advising a system or user which address in a set of like addresses to select for a given purpose."/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="code"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
-      </type>
-      <binding>
-        <strength value="required"/>
-        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAPostalAddressUse"/>
-      </binding>
+      <short value="Identifies which address to use for a given purpose."/>
+      <comment value="Historically this was bound to ValueSet PostalAddressUse urn:oid:2.16.840.1.113883.1.11.10637 STATIC 2005-05-01, but this contained 'CONF' which is not allowed by CDA. So the binding has been removed in the current version of C-CDA."/>
     </element>
     <element id="AD.item">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-choice-group">
@@ -87,12 +68,6 @@
       <type>
         <code value="http://hl7.org/fhir/StructureDefinition/Base"/>
       </type>
-      <constraint>
-        <key value="AD-1"/>
-        <severity value="error"/>
-        <human value="Can only have only one of the possible item elements in each choice"/>
-        <expression value="(delimiter | country | state | county | city | postalCode | streetAddressLine | houseNumber | houseNumberNumeric | direction | streetName | streetNameBase | streetNameType | additionalLocator | unitID | unitType | careOf | censusTract | deliveryAddressLine | deliveryInstallationType | deliveryInstallationArea | deliveryInstallationQualifier | deliveryMode | deliveryModeIdentifier | buildingNumberSuffix | postBox | precinct | xmlText).count() = 1"/>
-      </constraint>
     </element>
     <element id="AD.item.country">
       <path value="AD.item.country"/>
@@ -105,7 +80,8 @@
     </element>
     <element id="AD.item.state">
       <path value="AD.item.state"/>
-      <definition value="A sub-unit of a country with limited sovereignty in a federally organized country."/>
+      <definition
+        value="A sub-unit of a country with limited sovereignty in a federally organized country."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -145,7 +121,8 @@
     </element>
     <element id="AD.item.houseNumber">
       <path value="AD.item.houseNumber"/>
-      <definition value="The number of a building, house or lot alongside the street. Also known as &quot;primary street number&quot;. This does not number the street but rather the building."/>
+      <definition
+        value="The number of a building, house or lot alongside the street. Also known as &quot;primary street number&quot;. This does not number the street but rather the building."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -163,7 +140,8 @@
     </element>
     <element id="AD.item.streetName">
       <path value="AD.item.streetName"/>
-      <definition value="Name of a roadway or artery recognized by a municipality (including street type and direction)"/>
+      <definition
+        value="Name of a roadway or artery recognized by a municipality (including street type and direction)"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -181,7 +159,8 @@
     </element>
     <element id="AD.item.additionalLocator">
       <path value="AD.item.additionalLocator"/>
-      <definition value="This can be a unit designator, such as apartment number, suite number, or floor. There may be several unit designators in an address (e.g., &quot;3rd floor, Appt. 342&quot;). This can also be a designator pointing away from the location, rather than specifying a smaller location within some larger one (e.g., Dutch &quot;t.o.&quot; means &quot;opposite to&quot; for house boats located across the street facing houses)."/>
+      <definition
+        value="This can be a unit designator, such as apartment number, suite number, or floor. There may be several unit designators in an address (e.g., &quot;3rd floor, Appt. 342&quot;). This can also be a designator pointing away from the location, rather than specifying a smaller location within some larger one (e.g., Dutch &quot;t.o.&quot; means &quot;opposite to&quot; for house boats located across the street facing houses)."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -190,7 +169,8 @@
     </element>
     <element id="AD.item.unitID">
       <path value="AD.item.unitID"/>
-      <definition value="The number or name of a specific unit contained within a building or complex, as assigned by that building or complex."/>
+      <definition
+        value="The number or name of a specific unit contained within a building or complex, as assigned by that building or complex."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -199,7 +179,8 @@
     </element>
     <element id="AD.item.unitType">
       <path value="AD.item.unitType"/>
-      <definition value="Indicates the type of specific unit contained within a building or complex. E.g. Appartment, Floor"/>
+      <definition
+        value="Indicates the type of specific unit contained within a building or complex. E.g. Appartment, Floor"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -208,7 +189,8 @@
     </element>
     <element id="AD.item.deliveryAddressLine">
       <path value="AD.item.deliveryAddressLine"/>
-      <definition value="A delivery address line is frequently used instead of breaking out delivery mode, delivery installation, etc. An address generally has only a delivery address line or a street address line, but not both."/>
+      <definition
+        value="A delivery address line is frequently used instead of breaking out delivery mode, delivery installation, etc. An address generally has only a delivery address line or a street address line, but not both."/>
       <min value="0"/>
       <max value="1"/>
       <type>

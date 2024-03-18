@@ -30,23 +30,18 @@
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/TEL"/>
-  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/ANY"/>
-  <derivation value="specialization"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/TEL"/>
+  <derivation value="constraint"/>
   <differential>
     <element id="TEL">
       <path value="TEL"/>
       <min value="1"/>
       <max value="*"/>
-      <constraint>
-        <key value="value-null"/>
-        <severity value="error"/>
-        <human value="value and nullFlavor are mutually exclusive (one must be present)"/>
-        <expression value="(value | nullFlavor).count() = 1"/>
-      </constraint>
     </element>
     <element id="TEL.value">
       <path value="TEL.value"/>
       <representation value="xmlAttr"/>
+      <comment value="Makes up part of the value attribute as ‘tel:phone number’, ‘mailto:email address’, ‘http:URL’, etc."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -80,6 +75,7 @@
     <element id="TEL.use">
       <path value="TEL.use"/>
       <representation value="xmlAttr"/>
+      <comment value="Space separated list of codes. The section AS 5017-2006: Health Care Client Electronic Communication Usage Code explains how to map AS 5017-2006 to HL7 Telecommunication-AddressUse (HL7 TAU) code"/>
       <label value="Use Code"/>
       <definition value="One or more codes advising a system or user which telecommunication address in a set of like addresses to select for a given telecommunication need."/>
       <min value="1"/>

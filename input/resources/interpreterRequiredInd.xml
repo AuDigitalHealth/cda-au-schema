@@ -17,7 +17,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/multipleBirthInd"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/interpreterRequiredInd"/>
   <name value="interpreterRequiredInd"/>
   <title value="Agency extension Interpreter Required Indicator"/>
   <status value="active"/>
