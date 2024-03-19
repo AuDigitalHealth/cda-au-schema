@@ -172,11 +172,11 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT"/>
       </type>
     </element>
-    <element id="Patient.DeceasedInd">
+    <element id="Patient.deceasedInd">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <path value="Patient.DeceasedInd"/>
+      <path value="Patient.deceasedInd"/>
       <short value="Australian Digital Health Agency CDA extension"/>
       <min value="0"/>
       <max value="1"/>
@@ -184,11 +184,11 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/BL"/>
       </type>
     </element>
-    <element id="Patient.DeceasedTime">
+    <element id="Patient.deceasedTime">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <path value="Patient.DeceasedTime"/>
+      <path value="Patient.deceasedTime"/>
       <short value="Australian Digital Health Agency CDA extension"/>
       <min value="0"/>
       <max value="1"/>
