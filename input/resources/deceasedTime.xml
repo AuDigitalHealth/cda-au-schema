@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="DeceasedInd"/> 
+  <id value="deceasedTime"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -17,26 +17,26 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/DeceasedInd"/>
-  <name value="DeceasedInd"/>
-  <title value="Agency extension DeceasedInd"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/deceasedTime"/>
+  <name value="deceasedTime"/>
+  <title value="Agency extension deceasedTime"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
   <description value="The date or date and time at which a person was estimated or certified to have died."/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/DeceasedInd"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/deceasedTime"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="DeceasedInd">
-      <path value="DeceasedInd"/>
+    <element id="deceasedTime">
+      <path value="deceasedTime"/>
       <definition value="The date or date and time at which a person was estimated or certified to have died."/>
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/BL"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/TS"/>
       </type>
     </element>
   </differential>

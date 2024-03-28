@@ -47,8 +47,8 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 				<li><a href="StructureDefinition-code.html">code</a></li>
 				<li><a href="StructureDefinition-completionCode.html">completionCode</a></li>
 				<li><a href="StructureDefinition-coverage2.html">coverage2</a></li>
-				<li><a href="StructureDefinition-DeceasedInd.html">DeceasedInd</a></li>
-				<li><a href="StructureDefinition-DeceasedTime.html">DeceasedTime</a></li>
+				<li><a href="StructureDefinition-deceasedInd.html">deceasedInd</a></li>
+				<li><a href="StructureDefinition-deceasedTime.html">deceasedTime</a></li>
 				<li><a href="StructureDefinition-entitlement.html">entitlement</a></li>
 				<li><a href="StructureDefinition-id.html">id</a></li>
 				<li><a href="StructureDefinition-interpreterRequiredInd.html">interpreterRequiredInd</a></li>

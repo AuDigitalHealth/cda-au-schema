@@ -926,13 +926,13 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/DeceasedInd"/>
+				<reference value="StructureDefinition/deceasedInd"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/DeceasedTime"/>
+				<reference value="StructureDefinition/deceasedTime"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
