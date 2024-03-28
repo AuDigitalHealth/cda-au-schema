@@ -48,6 +48,16 @@
         <max value="*"/>
       </base>
     </element>
+    <element id="AD.nullFlavor">
+      <path value="AD.nullFlavor"/>
+      <representation value="xmlAttr"/>
+      <definition
+        value="A flag to indicate whether or not the participant has no fixed address."/>
+      <comment
+        value="If true, nullFlavor=NA. If false omit nullFlavor and fill in address."/>
+      <min value="0"/>
+      <max value="1"/>
+    </element>
     <element id="AD.isNotOrdered">
       <path value="AD.isNotOrdered"/>
       <representation value="xmlAttr"/>
@@ -202,6 +212,7 @@
     <element id="AD.item.postalCode">
       <path value="AD.item.postalCode"/>
       <definition value="A postal code designating a region defined by the postal service."/>
+      <comment value="Values in this data element SHOULD comply with descriptions in the Australia Post Postcode File."/>
       <min value="0"/>
       <max value="1"/>
       <type>
