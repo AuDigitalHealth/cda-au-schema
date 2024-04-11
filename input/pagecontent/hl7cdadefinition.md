@@ -1,6 +1,5 @@
-### CDA Definition
+The following table outlines the CDA classes and extensions that are unmodified from the [HL7 International CDA Logical Model Specification](https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/).
 
-This Implementation Guide represents the Clinical Document Architecture (CDA) using the FHIR Structure Definition Framework.
 <table class="cda-table">
 	<tbody>
 	<tr>
