@@ -1,6 +1,17 @@
-### CDA Definition
+### Overview
 
-This AHDA Implementation Guide represents the Clinical Document Architecture (CDA) using the FHIR Structure Definition Framework in the context of Australian CDA.
+This Australian Digital Health Agency FHIR Implementation Guide is a representation of the [Clinical Document Architecture (CDA) R2.0 specification](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=7) using HL7<sup>&reg;</sup> FHIR<sup>&reg;&copy;</sup> Logical Models expressed as HL7<sup>&reg;</sup> FHIR<sup>&reg;&copy;</sup> StructureDefinition instances.
+
+It is an adaptation of the [HL7 International CDA Logical Model Specification](https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/) with specific modifications and inclusions to represent Australian CDA schema extensions using the FHIR StructureDefinition framework. 
+
+### Australian CDA schema extensions
+
+Australian CDA schema extensions are published here [Australian Digital Health Agency CDA Schema Extension 3.0 - CDA Schema v20201203](https://developer.digitalhealth.gov.au/resources/australian-digital-health-agency-cda-schema-extension-3-0-cda-schema-v20201203).
+
+The following table outlines the specific CDA classes and extensions that are Australian specific. All unmodified CDA classes are listed on the following page: [HL7 CDA Definitions](hl7cdadefinition.html).
+
+The entry point for this specification is the [ADHA ClinicalDocument](StructureDefinition-au-ClinicalDocument.html) class.
+
 <table class="cda-table">
 	<tbody>
 	<tr>
