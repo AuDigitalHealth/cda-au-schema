@@ -39,6 +39,7 @@
   <differential>
     <element id="Organization">
       <path value="Organization"/>
+      <short value="Australian adaptation of the HL7 International CDA Organization class"/>
       <min value="1"/>
       <max value="1"/>
     </element>

@@ -32,6 +32,7 @@
   <differential>
     <element id="HealthCareFacility">
       <path value="HealthCareFacility"/>
+      <short value="Australian adaptation of the HL7 International CDA HealthCareFacility class"/>
       <min value="1"/>
       <max value="1"/>
     </element>

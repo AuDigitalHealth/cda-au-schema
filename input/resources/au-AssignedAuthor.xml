@@ -38,6 +38,7 @@
   <differential>
     <element id="AssignedAuthor">
       <path value="AssignedAuthor"/>
+      <short value="Australian adaptation of the HL7 International CDA AssignedAuthor class"/>
       <min value="1"/>
       <max value="1"/>
       <constraint>

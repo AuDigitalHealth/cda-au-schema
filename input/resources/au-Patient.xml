@@ -39,6 +39,7 @@
   <differential>
     <element id="Patient">
       <path value="Patient"/>
+      <short value="Australian adaptation of the HL7 International CDA Patient class"/>
       <min value="1"/>
       <max value="1"/>
     </element>

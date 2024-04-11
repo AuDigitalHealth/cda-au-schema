@@ -38,6 +38,7 @@
   <differential>
     <element id="AssignedCustodian">
       <path value="AssignedCustodian"/>
+      <short value="Australian adaptation of the HL7 International CDA AssignedCustodian class"/>
       <min value="1"/>
       <max value="1"/>
     </element>

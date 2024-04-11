@@ -35,6 +35,7 @@
   <differential>
     <element id="TEL">
       <path value="TEL"/>
+      <short value="Australian adaptation of the HL7 International CDA TelecommunicationAddress datatype"/>
       <min value="1"/>
       <max value="*"/>
       <constraint>

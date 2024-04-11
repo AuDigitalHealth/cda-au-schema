@@ -40,6 +40,7 @@
   <differential>
     <element id="EncompassingEncounter">
       <path value="EncompassingEncounter"/>
+      <short value="Australian adaptation of the HL7 International CDA EncompassingEncounter class"/>
       <min value="1"/>
       <max value="1"/>
     </element>

@@ -32,6 +32,7 @@
   <differential>
     <element id="AuthoringDevice">
       <path value="AuthoringDevice"/>
+      <short value="Australian adaptation of the HL7 International CDA AuthoringDevice class"/>
       <min value="1"/>
       <max value="1"/>
     </element>

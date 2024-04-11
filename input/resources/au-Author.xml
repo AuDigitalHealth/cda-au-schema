@@ -39,6 +39,7 @@
   <differential>
     <element id="Author">
       <path value="Author"/>
+      <short value="Australian adaptation of the HL7 International CDA Author class"/>
       <min value="1"/>
       <max value="1"/>
     </element>

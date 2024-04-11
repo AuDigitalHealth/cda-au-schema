@@ -32,6 +32,7 @@
   <differential>
     <element id="ParticipantRole">
       <path value="ParticipantRole"/>
+      <short value="Australian adaptation of the HL7 International CDA ParticipantRole class"/>
       <min value="1"/>
       <max value="1"/>
       <constraint>

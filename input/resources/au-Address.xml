@@ -36,6 +36,7 @@
   <differential>
     <element id="AD">
       <path value="AD"/>
+      <short value="Australian adaptation of the HL7 International CDA PostalAddress datatype"/>
       <definition
         value="Mailing and home or office addresses. A sequence of address parts, such as street or post office Box, city, postal code, country, etc."/>
       <comment

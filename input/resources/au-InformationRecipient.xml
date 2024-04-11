@@ -40,6 +40,7 @@
   <differential>
     <element id="InformationRecipient">
       <path value="InformationRecipient"/>
+      <short value="Australian adaptation of the HL7 International CDA InformationRecipient class"/>
       <min value="1"/>
       <max value="1"/>
     </element>

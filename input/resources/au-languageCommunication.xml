@@ -40,6 +40,7 @@
   <differential>
     <element id="LanguageCommunication">
       <path value="LanguageCommunication"/>
+      <short value="Australian adaptation of the HL7 International CDA LanguageCommunication class"/>
       <min value="1"/>
       <max value="1"/>
     </element>

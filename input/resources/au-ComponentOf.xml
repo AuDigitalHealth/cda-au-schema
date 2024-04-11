@@ -36,6 +36,10 @@
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
+    <element id="ComponentOf">
+      <path value="ComponentOf"/>
+      <short value="Australian adaptation of the HL7 International CDA ClinicalDocument class"/>
+    </element>
     <element id="ComponentOf.typeCode">
       <path value="ComponentOf.typeCode"/>
       <representation value="xmlAttr"/>
