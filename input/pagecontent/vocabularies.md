@@ -1,24 +1,14 @@
-### CDA Vocabulary used in the ADHA CDA Specification
 
 This page lists all ValueSets and CodeSystems defined as part of this CDA specification. 
 
-<table class="cda-table">
-	<tbody>
-	<tr>
-		<td>
-			<h3>Code Systems</h3>
-			<ul>
-				<li><a href="CodeSystem-dh-HealthCareGeographicArea.html">dh-HealthCareGeographicArea</a></li>
-				<li><a href="CodeSystem-dh-NctisAdminCodesDocumentStatus.html">dh-NctisAdminCodesDocumentStatus</a></li>
-		    </ul>
-		</td>
-		<td>
-			<h3>Value Sets</h3>
-			<ul>
-				<li><a href="ValueSet-dh-HealthCareGeographicArea.html">dh-HealthCareGeographicArea</a></li>
-				<li><a href="ValueSet-dh-NctisAdminCodesDocumentStatus.html">dh-NctisAdminCodesDocumentStatus</a></li>
-			</ul>
-		</td>
-	</tr>
-	</tbody>
-</table>
+### Code Systems
+
+The following code systems are unique to this guide and not listed in the [HL7 International CDA Logical Model Specification](https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/).
+
+{% include res-list-generator.md type="CodeSystem" %}
+
+### Value Sets
+
+The following value sets are unique to this guide and not listed in the [HL7 International CDA Logical Model Specification](https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/).
+
+{% include res-list-generator.md type="ValueSet" %}
