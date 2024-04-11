@@ -31,7 +31,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-au-EncompassingEncounter.html">au-EncompassingEncounter</a></li>
 				<li><a href="StructureDefinition-au-HealthCareFacility.html">au-HealthCareFacility</a></li>
 				<li><a href="StructureDefinition-au-InformationRecipient.html">au-InformationRecipient</a></li>
-				<li><a href="StructureDefinition-au-IntendedRecipient.html">au-IntendedRecipient</a></li>				
+				<li><a href="StructureDefinition-au-IntendedRecipient.html">au-IntendedRecipient</a></li>                
 				<li><a href="StructureDefinition-au-languageCommunication.html">au-languageCommunication</a></li>
 				<li><a href="StructureDefinition-au-LegalAuthenticator.html">au-LegalAuthenticator</a></li>
 				<li><a href="StructureDefinition-au-Organization.html">au-Organization</a></li>
@@ -58,7 +58,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-entitlement.html">entitlement</a></li>
 				<li><a href="StructureDefinition-id.html">id</a></li>
 				<li><a href="StructureDefinition-interpreterRequiredInd.html">interpreterRequiredInd</a></li>
-				<li><a href="StructureDefinition-multipleBirthInd.html">multipleBirthInd</a></li>				
+				<li><a href="StructureDefinition-multipleBirthInd.html">multipleBirthInd</a></li>                
 				<li><a href="StructureDefinition-multipleBirthOrderNumber.html">multipleBirthOrderNumber</a></li>
 				<li><a href="StructureDefinition-name.html">name</a></li>
 				<li><a href="StructureDefinition-participant.html">participant</a></li>
@@ -87,3 +87,21 @@ This section lists all ValueSets and CodeSystems defined as part of this specifi
 #### Value sets
 
 {% include res-list-generator.md type="ValueSet" %}
+
+### Other information
+
+#### Intellectual property considerations
+
+This implementation guide and the underlying FHIR specification are licensed as public domain under the [FHIR license](http://hl7.org/fhir/R4/license.html).
+
+{% include ip-statements.xhtml %}
+
+#### Relationships with other work
+
+This implementation guide builds on other specifications, helping ensure a consistent approach to data sharing that should ease adoption. The specific guides used, and the portions relevant from each of them are as follows:
+
+{% include dependency-table.xhtml %}
+
+#### Global profiles
+
+{% include globals-table.xhtml %}
