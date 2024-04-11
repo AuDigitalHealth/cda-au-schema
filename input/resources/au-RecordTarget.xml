@@ -79,6 +79,7 @@
     </element>
     <element id="RecordTarget.patientRole">
       <path value="RecordTarget.patientRole"/>
+      <short value="Australian-adapted PatientRole class"/>
       <min value="1"/>
       <max value="1"/>
       <type>

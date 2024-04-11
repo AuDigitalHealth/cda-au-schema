@@ -67,6 +67,7 @@
     </element>
     <element id="PatientRole.addr">
       <path value="PatientRole.addr"/>
+      <short value="Australian-adapted PostalAddress datatype"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -75,6 +76,7 @@
     </element>
     <element id="PatientRole.telecom">
       <path value="PatientRole.telecom"/>
+      <short value="Australian-adapted TelecommunicationAddress datatype"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -83,6 +85,7 @@
     </element>
     <element id="PatientRole.patient">
       <path value="PatientRole.patient"/>
+      <short value="Australian-adapted Patient class"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -92,6 +95,7 @@
     </element>
     <element id="PatientRole.providerOrganization">
       <path value="PatientRole.providerOrganization"/>
+      <short value="Australian-adapted ProviderOrganization class"/>
       <min value="0"/>
       <max value="1"/>
       <type>

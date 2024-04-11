@@ -78,6 +78,7 @@
     </element>
     <element id="AssociatedEntity.addr">
       <path value="AssociatedEntity.addr"/>
+      <short value="Australian-adapted PostalAddress datatype"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -86,6 +87,7 @@
     </element>
     <element id="AssociatedEntity.telecom">
       <path value="AssociatedEntity.telecom"/>
+      <short value="Australian-adapted TelecommunicationAddress datatype"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -94,6 +96,7 @@
     </element>
     <element id="AssociatedEntity.associatedPerson">
       <path value="AssociatedEntity.associatedPerson"/>
+      <short value="Australian-adapted Person class"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -102,6 +105,7 @@
     </element>
     <element id="AssociatedEntity.scopingOrganization">
       <path value="AssociatedEntity.scopingOrganization"/>
+      <short value="Australian-adapted Organization class"/>
       <min value="0"/>
       <max value="1"/>
       <type>

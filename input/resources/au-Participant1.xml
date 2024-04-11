@@ -91,6 +91,7 @@
     </element>
     <element id="Participant1.associatedEntity">
       <path value="Participant1.associatedEntity"/>
+      <short value="Australian-adapted AssociatedEntity class"/>
       <min value="1"/>
       <max value="1"/>
       <type>

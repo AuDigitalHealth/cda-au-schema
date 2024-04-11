@@ -81,6 +81,7 @@
     </element>
     <element id="HealthCareFacility.serviceProviderOrganization">
       <path value="HealthCareFacility.serviceProviderOrganization"/>
+      <short value="Australian-adapted Organization class"/>
       <min value="0"/>
       <max value="1"/>
       <type>

@@ -154,7 +154,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Patient.multipleBirthInd"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for multiple birth indicator"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -166,7 +166,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Patient.multipleBirthOrderNumber"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for multiple birth order number"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -178,7 +178,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Patient.deceasedInd"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for deceased indicator"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -190,7 +190,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Patient.deceasedTime"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for deceased time"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -218,7 +218,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Patient.asEntityIdentifier"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for entity identifiers"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -234,7 +234,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Patient.asEmployment"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for employment class"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -250,7 +250,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Patient.personalRelationship"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for personal relationships"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -263,6 +263,7 @@
     </element>
     <element id="Patient.languageCommunication">
       <path value="Patient.languageCommunication"/>
+      <short value="Australian-adapted LanguageCommunication class"/>
       <min value="0"/>
       <max value="*"/>
       <type>

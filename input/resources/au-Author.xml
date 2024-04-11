@@ -93,6 +93,7 @@
     </element>
     <element id="Author.assignedAuthor">
       <path value="Author.assignedAuthor"/>
+      <short value="Australian-adapted AssignedAuthor class"/>
       <min value="1"/>
       <max value="1"/>
       <type>

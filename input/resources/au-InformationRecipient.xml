@@ -61,6 +61,7 @@
     </element>
     <element id="InformationRecipient.intendedRecipient">
       <path value="InformationRecipient.intendedRecipient"/>
+      <short value="Australian-adapted IntendedRecipient class"/>
       <min value="1"/>
       <max value="1"/>
       <type>

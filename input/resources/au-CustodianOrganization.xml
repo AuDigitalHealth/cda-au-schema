@@ -90,6 +90,7 @@
     </element>
     <element id="CustodianOrganization.telecom">
       <path value="CustodianOrganization.telecom"/>
+      <short value="Australian-adapted TelecommunicationAddress datatype"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -98,6 +99,7 @@
     </element>
     <element id="CustodianOrganization.addr">
       <path value="CustodianOrganization.addr"/>
+      <short value="Australian-adapted PostalAddress datatype"/>
       <min value="0"/>
       <max value="1"/>
       <type>

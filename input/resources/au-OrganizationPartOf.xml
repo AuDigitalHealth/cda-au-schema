@@ -89,6 +89,7 @@
     </element>
     <element id="OrganizationPartOf.wholeOrganization">
       <path value="OrganizationPartOf.wholeOrganization"/>
+      <short value="Australian-adapted Organization class"/>
       <min value="0"/>
       <max value="1"/>
       <type>

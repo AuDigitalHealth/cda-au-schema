@@ -59,6 +59,7 @@
     </element>
     <element id="AssignedCustodian.representedCustodianOrganization">
       <path value="AssignedCustodian.representedCustodianOrganization"/>
+      <short value="Australian-adapted CustodianOrganization class"/>
       <min value="1"/>
       <max value="1"/>
       <type>

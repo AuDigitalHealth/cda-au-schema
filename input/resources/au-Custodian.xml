@@ -60,6 +60,7 @@
     </element>
     <element id="Custodian.assignedCustodian">
       <path value="Custodian.assignedCustodian"/>
+      <short value="Australian-adapted AssignedCustodian class"/>
       <min value="1"/>
       <max value="1"/>
       <type>

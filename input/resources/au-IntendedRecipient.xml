@@ -57,6 +57,7 @@
     </element>
     <element id="IntendedRecipient.addr">
       <path value="IntendedRecipient.addr"/>
+      <short value="Australian-adapted PostalAddress datatype"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -65,6 +66,7 @@
     </element>
     <element id="IntendedRecipient.telecom">
       <path value="IntendedRecipient.telecom"/>
+      <short value="Australian-adapted TelecommunicationAddress datatype"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -73,6 +75,7 @@
     </element>
     <element id="IntendedRecipient.informationRecipient">
       <path value="IntendedRecipient.informationRecipient"/>
+      <short value="Australian-adapted Person class"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -81,6 +84,7 @@
     </element>
     <element id="IntendedRecipient.receivedOrganization">
       <path value="IntendedRecipient.receivedOrganization"/>
+      <short value="Australian-adapted Organization class"/>
       <min value="0"/>
       <max value="1"/>
       <type>

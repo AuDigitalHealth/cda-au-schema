@@ -42,6 +42,7 @@
   <differential>
     <element id="ClinicalDocument">
       <path value="ClinicalDocument"/>
+      <short value="Australian adaptation of the HL7 International CDA ClinicalDocument class"/>
       <min value="1"/>
       <max value="1"/>
     </element>
@@ -191,7 +192,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="ClinicalDocument.completionCode"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for document lifecycle codes"/>
       <definition value="The completionCode extension attribute allows the implementer to identify the lifecycle status of a document."/>
       <min value="1"/>
       <max value="1"/>      
@@ -213,6 +214,7 @@
     </element>
     <element id="ClinicalDocument.recordTarget">
       <path value="ClinicalDocument.recordTarget"/>
+      <short value="Australian-adapted RecordTarget class"/>
       <min value="1"/>
       <max value="*"/>
       <type>
@@ -224,6 +226,7 @@
     </element>
     <element id="ClinicalDocument.author">
       <path value="ClinicalDocument.author"/>
+      <short value="Australian-adapted Author class"/>
       <min value="1"/>
       <max value="*"/>
       <type>
@@ -251,6 +254,7 @@
     </element>
     <element id="ClinicalDocument.custodian">
       <path value="ClinicalDocument.custodian"/>
+      <short value="Australian-adapted Custodian class"/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -260,6 +264,7 @@
     </element>
     <element id="ClinicalDocument.informationRecipient">
       <path value="ClinicalDocument.informationRecipient"/>
+      <short value="Australian-adapted InformationRecipient class"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -269,6 +274,7 @@
     </element>
     <element id="ClinicalDocument.legalAuthenticator">
       <path value="ClinicalDocument.legalAuthenticator"/>
+      <short value="Australian-adapted LegalAuthenticator class"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -286,6 +292,7 @@
     </element>
     <element id="ClinicalDocument.participant">
       <path value="ClinicalDocument.participant"/>
+      <short value="Australian-adapted Participant class"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -327,6 +334,7 @@
     </element>
     <element id="ClinicalDocument.componentOf">
       <path value="ClinicalDocument.componentOf"/>
+      <short value="Australian-adapted ComponentOf class"/>
       <min value="0"/>
       <max value="1"/>
       <type>

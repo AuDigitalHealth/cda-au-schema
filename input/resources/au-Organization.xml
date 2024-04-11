@@ -91,6 +91,7 @@
     </element>
     <element id="Organization.telecom">
       <path value="Organization.telecom"/>
+      <short value="Australian-adapted TelecommunicationAddress datatype"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -99,6 +100,7 @@
     </element>
     <element id="Organization.addr">
       <path value="Organization.addr"/>
+      <short value="Australian-adapted PostalAddress datatype"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -119,6 +121,7 @@
     </element>
     <element id="Organization.asOrganizationPartOf">
       <path value="Organization.asOrganizationPartOf"/>
+      <short value="Australian-adapted OrganizationPartOf	class"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -130,7 +133,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Organization.asEntityIdentifier"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for entity identifiers"/>
       <min value="0"/>
       <max value="*"/>
       <type>
