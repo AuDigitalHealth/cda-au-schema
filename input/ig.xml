@@ -1238,6 +1238,12 @@
 				<title value="HL7 CDA Definitions"/>
 				<generation value="markdown"/>
 			</page>
+			<page>
+				<sourceUrl value="disclaimers.html"/>
+				<name value="disclaimers.html"/>
+				<title value="Disclaimers"/>
+				<generation value="markdown"/>
+			</page>
 		</page>
 		<parameter>
 			<code>
