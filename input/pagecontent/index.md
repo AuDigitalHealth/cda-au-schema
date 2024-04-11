@@ -16,14 +16,9 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 	<tbody>
 	<tr>
 		<td>
-			<h3>ADHA ClinicalDocument</h3>
-			<ul>
-				<li><a href="StructureDefinition-au-ClinicalDocument.html">au-ClinicalDocument</a></li>
-			</ul>
-		</td>
-		<td>
 			<h3>ADHA CDA Classes</h3>
 			<ul>
+				<li><a href="StructureDefinition-au-ClinicalDocument.html"><b>ADHA ClinicalDocument</b></a></li>
 				<li><a href="StructureDefinition-au-AssignedAuthor.html">au-AssignedAuthor</a></li>
 				<li><a href="StructureDefinition-au-AssignedEntity.html">au-AssignedEntity</a></li>
 				<li><a href="StructureDefinition-au-AssignedCustodian.html">au-AssignedCustodian</a></li>
