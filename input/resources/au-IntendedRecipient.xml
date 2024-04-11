@@ -23,7 +23,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="IntendedRecipient (CDA Class)"/>
+  <description value="**Australian adaptation of the HL7 International CDA IntendedRecipient class**.  &#xa;&#xa;IntendedRecipient (CDA Class)"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/IntendedRecipient"/>
