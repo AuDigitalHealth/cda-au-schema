@@ -69,3 +69,15 @@ This AHDA Implementation Guide represents the Clinical Document Architecture (CD
 	</tr>
 	</tbody>
 </table>
+
+### Vocabularies
+
+This section lists all ValueSets and CodeSystems defined as part of this specification. 
+
+#### Code systems
+
+{% include res-list-generator.md type="CodeSystem" %}
+
+#### Value sets
+
+{% include res-list-generator.md type="ValueSet" %}
