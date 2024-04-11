@@ -64,6 +64,7 @@
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CustodianOrganization"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CustodianOrganization"/>
       </type>
     </element>
   </differential>

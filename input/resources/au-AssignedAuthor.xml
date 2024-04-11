@@ -108,6 +108,7 @@
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Person"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Person"/>
       </type>
     </element>
     <element id="AssignedAuthor.assignedAuthoringDevice">
@@ -117,6 +118,7 @@
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-AuthoringDevice"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-AuthoringDevice"/>
       </type>
     </element>
     <element id="AssignedAuthor.representedOrganization">
@@ -126,6 +128,7 @@
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Organization"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Organization"/>
       </type>
     </element>
   </differential>

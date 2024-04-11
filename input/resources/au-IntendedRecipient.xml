@@ -80,6 +80,7 @@
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Person"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Person"/>
       </type>
     </element>
     <element id="IntendedRecipient.receivedOrganization">
@@ -89,6 +90,7 @@
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Organization"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Organization"/>
       </type>
     </element>
   </differential>

@@ -126,6 +126,7 @@
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-OrganizationPartOf"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-OrganizationPartOf"/>
       </type>
     </element>
     <element id="Organization.asEntityIdentifier">

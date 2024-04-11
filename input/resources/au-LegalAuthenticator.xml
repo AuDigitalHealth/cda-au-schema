@@ -107,6 +107,7 @@
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-AssignedEntity"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-AssignedEntity"/>
       </type>
     </element>
   </differential>

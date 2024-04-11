@@ -62,6 +62,7 @@
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-EncompassingEncounter"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-EncompassingEncounter"/>
       </type>
     </element>
   </differential>
