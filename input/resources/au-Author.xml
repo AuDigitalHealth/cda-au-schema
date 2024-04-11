@@ -26,7 +26,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Author"/>
   <name value="au-Author"/>
-  <title value="Author (CDA Class)"/>
+  <title value="ADHA Author (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />

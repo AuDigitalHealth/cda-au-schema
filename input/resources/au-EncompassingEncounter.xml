@@ -27,7 +27,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-EncompassingEncounter"/>
   <name value="au-EncompassingEncounter"/>
-  <title value="EncompassingEncounter (CDA Class)"/>
+  <title value="ADHA EncompassingEncounter (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />

@@ -25,7 +25,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Participant1"/>
   <name value="au-Participant1"/>
-  <title value="au-Participant1 (CDA Class)"/>
+  <title value="ADHA Participant1 (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>

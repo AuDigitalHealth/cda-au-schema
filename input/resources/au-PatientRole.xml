@@ -25,7 +25,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-PatientRole"/>
   <name value="au-PatientRole"/>
-  <title value="PatientRole (CDA Class)"/>
+  <title value="ADHA PatientRole (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />

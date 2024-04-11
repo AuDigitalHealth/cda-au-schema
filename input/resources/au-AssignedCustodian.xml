@@ -25,7 +25,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-AssignedCustodian"/>
   <name value="au-AssignedCustodian"/>
-  <title value="AssignedCustodian (CDA Class)"/>
+  <title value="ADHA AssignedCustodian (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />

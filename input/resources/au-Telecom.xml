@@ -22,7 +22,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Telecom"/>
   <name value="TEL"/>
-  <title value="TEL: TelecommunicationAddress (V3 Data Type)"/>
+  <title value="ADHA TEL: TelecommunicationAddress (V3 Data Type)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>

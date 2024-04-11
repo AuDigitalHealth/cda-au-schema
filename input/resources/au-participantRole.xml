@@ -19,7 +19,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-ParticipantRole"/>
   <name value="au-ParticipantRole"/>
-  <title value="au-ParticipantRole ADHA (CDA Class)"/>
+  <title value="ADHA ParticipantRole ADHA (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="HL7"/>

@@ -27,7 +27,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-LegalAuthenticator"/>
   <name value="au-LegalAuthenticator"/>
-  <title value="LegalAuthenticator (CDA Class)"/>
+  <title value="ADHA LegalAuthenticator (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />

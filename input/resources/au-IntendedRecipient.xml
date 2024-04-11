@@ -19,7 +19,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-IntendedRecipient"/>
   <name value="au-IntendedRecipient"/>
-  <title value="IntendedRecipient (CDA Class)"/>
+  <title value="ADHA IntendedRecipient (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />

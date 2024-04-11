@@ -19,7 +19,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-AuthoringDevice"/>
   <name value="au-AuthoringDevice"/>
-  <title value="AuthoringDevice (CDA Class)"/>
+  <title value="ADHA AuthoringDevice (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />

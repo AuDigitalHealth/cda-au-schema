@@ -28,7 +28,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/code"/>
   <name value="code"/>
-  <title value="code: CodedWithEquivalents (V3 Data Type)"/>
+  <title value="ADHA code: CodedWithEquivalents (V3 Data Type)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
