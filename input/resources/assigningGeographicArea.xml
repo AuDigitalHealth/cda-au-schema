@@ -64,7 +64,17 @@
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ST"/>
-      </type>      
+      </type>
+    </element>
+    <element id="assigningGeographicArea.name.xmlText">
+      <path value="assigningGeographicArea.name.xmlText"/>
+      <min value="1"/>
+      <max value="1"/>
+      <binding>
+        <strength value="required"/>
+        <valueSet
+          value="http://ns.electronichealth.net.au/cda/ValueSet/dh-HealthCareGeographicArea"/>
+      </binding>      
     </element>
   </differential>
 </StructureDefinition>

@@ -9,21 +9,42 @@
     <description value="Health Care Client Identifier Geographic Area"/>
     <caseSensitive value="true"/>
     <content value="complete"/>
+    <property>
+        <code value="original-code"/>
+        <description value="The codes used in the original Code System which are replaced by the displayName values for validation purposes."/>
+        <type value="code"/>
+    </property> 
     <count value="4"/>
     <concept>
-        <code value="L"/>
+        <code value="Local Client (Unit Record) Identifier"/>
         <display value="Local Client (Unit Record) Identifier"/>
+        <property>
+            <code value="original-code"/>
+            <valueCode value="L"/>
+        </property>
     </concept>
     <concept>
-        <code value="A"/>
+        <code value="Area/Region/District Identifier"/>
         <display value="Area/Region/District Identifier"/>
+        <property>
+            <code value="original-code"/>
+            <valueCode value="A"/>
+        </property>
     </concept>
     <concept>
-        <code value="S"/>
+        <code value="State or Territory Identifier"/>
         <display value="State or Territory Identifier"/>
+        <property>
+            <code value="original-code"/>
+            <valueCode value="S"/>
+        </property>
     </concept>
     <concept>
-        <code value="N"/>
+        <code value="National Identifier"/>
         <display value="National Identifier"/>
+        <property>
+            <code value="original-code"/>
+            <valueCode value="N"/>
+        </property>
     </concept>
 </CodeSystem>

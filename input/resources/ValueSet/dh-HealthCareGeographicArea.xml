@@ -12,16 +12,20 @@
             <system value="http://ns.electronichealth.net.au/cda/CodeSystem/dh-HealthCareGeographicArea"/>
             <version value="1.0.0"/>
             <concept>
-                <code value="L"/>
+                <code value="Local Client (Unit Record) Identifier"/>
+                <display value="Local Client (Unit Record) Identifier"/>
             </concept>
             <concept>
-                <code value="A"/>
+                <code value="Area/Region/District Identifier"/>
+                <display value="Area/Region/District Identifier"/>
             </concept>
             <concept>
-                <code value="S"/>
+                <code value="State or Territory Identifier"/>
+                <display value="State or Territory Identifier"/>
             </concept>
             <concept>
-                <code value="N"/>
+                <code value="National Identifier"/>
+                <display value="National Identifier"/>
             </concept>
         </include>
     </compose>
