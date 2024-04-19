@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="interpreterRequiredInd"/> 
-  <text>
-    <status value="generated"/>
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers.</p>
-    </div>
-  </text>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
@@ -19,7 +13,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/interpreterRequiredInd"/>
   <name value="interpreterRequiredInd"/>
-  <title value="Agency extension Interpreter Required Indicator"/>
+  <title value="ADHA extension Interpreter Required Indicator"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />

@@ -61,7 +61,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-deceasedTime.html">deceasedTime</a></li>
 				<li><a href="StructureDefinition-dischargeDispositionCode.html">dischargeDispositionCode</a></li>
 				<li><a href="StructureDefinition-entitlement.html">entitlement</a></li>
-				<li><a href="StructureDefinition-expirationTime.html">entitlement</a></li>
+				<li><a href="StructureDefinition-expirationTime.html">expirationTime</a></li>
 				<li><a href="StructureDefinition-formCode.html">formCode</a></li>
 				<li><a href="StructureDefinition-id.html">id</a></li>
 				<li><a href="StructureDefinition-interpreterRequiredInd.html">interpreterRequiredInd</a></li>

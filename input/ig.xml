@@ -1169,6 +1169,11 @@
 		<!-- Vocabulary -->
 		<resource>
 			<reference>
+				<reference value="CodeSystem/BinaryDataEncoding" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="CodeSystem/dh-HealthCareGeographicArea"/>
 			</reference>
 		</resource>
@@ -1182,6 +1187,41 @@
 				<reference value="CodeSystem/dh-AUSStates"/>
 			</reference>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/BinaryDataEncoding" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDACompressionAlgorithm" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAEntityNameUse" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAInformationRecipientRole" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAPostalAddressUse" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDASignatureCode" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDANullFlavor" />
+			</reference>
+		</resource>		
 		<resource>
 			<reference>
 				<reference value="ValueSet/dh-HealthCareGeographicArea"/>
@@ -1342,6 +1382,13 @@
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
 			</code>			
 			<value value="http://hl7.org/cda/stds/core"/>
-		</parameter>		
+		</parameter>	
+		<parameter>
+			<code>
+				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+				<code value="html-exempt"/>
+			</code>
+			<value value="transformed-example.html"/>
+		</parameter>
 	</definition>
 </ImplementationGuide>

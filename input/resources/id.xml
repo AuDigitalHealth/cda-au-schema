@@ -19,7 +19,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/id"/>
   <name value="id"/>
-  <title value="Agency extension id"/>
+  <title value="ADHA Extension id"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
