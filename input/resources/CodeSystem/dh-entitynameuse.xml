@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="dh-entitynameuse"/>
+    <url value="http://ns.electronichealth.net.au/cda/CodeSystem/dh-entitynameuse"/>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.36.1.2001.1004.200.10012"/>
+    </identifier>
+    <name value="entitynameuse"/>
+    <title value="dh-EntityNameUse"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <description value="Extended Entity Name Use Code System with Organisation Name Use Value from AS 4846-2006 Organisation Name Usage"/>
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <count value="14"/>
+    <concept>
+        <code value="T"/>
+    </concept>
+    <concept>
+        <code value="DN"/>
+    </concept>
+    <concept>
+        <code value="M"/>
+    </concept>
+    <concept>
+        <code value="NB"/>
+    </concept>
+    <concept>
+        <code value="UI"/>
+    </concept>
+    <concept>
+        <code value="SP"/>
+    </concept>
+    <concept>
+        <code value="ORGU"/>
+    </concept>
+    <concept>
+        <code value="ORGS"/>
+    </concept>
+    <concept>
+        <code value="ORGB"/>
+    </concept>
+    <concept>
+        <code value="ORGL"/>
+    </concept>
+    <concept>
+        <code value="ORGA"/>
+    </concept>
+    <concept>
+        <code value="ORGE"/>
+    </concept>
+    <concept>
+        <code value="ORGX"/>
+    </concept>
+    <concept>
+        <code value="ORGY"/>
+    </concept>
+</CodeSystem>

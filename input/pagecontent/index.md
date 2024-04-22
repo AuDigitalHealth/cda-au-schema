@@ -50,34 +50,28 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-administrativeGenderCode.html">administrativeGenderCode</a></li>
 				<li><a href="StructureDefinition-asEmployment.html">asEmployment</a></li>
 				<li><a href="StructureDefinition-asEntityIdentifier.html">asEntityIdentifier</a></li>
-				<li><a href="StructureDefinition-asIngredient.html">asIngredient</a></li>
 				<li><a href="StructureDefinition-asQualifications.html">asQualifications</a></li>
-				<li><a href="StructureDefinition-asSpecimenInContainer.html">asSpecimenInContainer</a></li>
 				<li><a href="StructureDefinition-code.html">code</a></li>
 				<li><a href="StructureDefinition-completionCode.html">completionCode</a></li>
 				<li><a href="StructureDefinition-coverage2.html">coverage2</a></li>
-				<li><a href="StructureDefinition-desc.html">desc</a></li>
 				<li><a href="StructureDefinition-deceasedInd.html">deceasedInd</a></li>
 				<li><a href="StructureDefinition-deceasedTime.html">deceasedTime</a></li>
-				<li><a href="StructureDefinition-dischargeDispositionCode.html">dischargeDispositionCode</a></li>
 				<li><a href="StructureDefinition-entitlement.html">entitlement</a></li>
-				<li><a href="StructureDefinition-expirationTime.html">expirationTime</a></li>
-				<li><a href="StructureDefinition-formCode.html">formCode</a></li>
 				<li><a href="StructureDefinition-id.html">id</a></li>
 				<li><a href="StructureDefinition-interpreterRequiredInd.html">interpreterRequiredInd</a></li>
-				<li><a href="StructureDefinition-methodCode.html">methodCode</a></li>
 				<li><a href="StructureDefinition-multipleBirthInd.html">multipleBirthInd</a></li>                
 				<li><a href="StructureDefinition-multipleBirthOrderNumber.html">multipleBirthOrderNumber</a></li>
 				<li><a href="StructureDefinition-name.html">name</a></li>
 				<li><a href="StructureDefinition-participant.html">participant</a></li>
 				<li><a href="StructureDefinition-personalRelationship.html">personalRelationship</a></li>
-				<li><a href="StructureDefinition-subjectOf2.html">subjectOf2</a></li>
 			</ul>
 		</td>
 		<td>
 			<h3>ADHA Complex Data Types</h3>
 			<ul>
 				<li><a href="StructureDefinition-au-Address.html">au-Address</a></li>
+				<li><a href="StructureDefinition-au-EntityName.html">au-EntityName</a></li>
+				<li><a href="StructureDefinition-au-OrganizationName.html">au-OrganizationName</a></li>
 				<li><a href="StructureDefinition-au-Telecom.html">au-Telecom</a></li>
 			</ul>
 		</td>
