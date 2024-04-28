@@ -140,10 +140,14 @@
     </element>
     <element id="EncompassingEncounter.responsibleParty.assignedEntity">
       <path value="EncompassingEncounter.responsibleParty.assignedEntity"/>
+      <short value="Australian-adapted AssignedEntity class"/>
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-AssignedEntity"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-AssignedEntity"
+        />
       </type>
     </element>
     <element id="EncompassingEncounter.encounterParticipant">

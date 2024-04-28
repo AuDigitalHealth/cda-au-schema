@@ -246,10 +246,14 @@
     </element>
     <element id="ClinicalDocument.informant">
       <path value="ClinicalDocument.informant"/>
+      <short value="Australian-adapted Informant class"/>
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Informant"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Informant"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Informant"
+        />
       </type>
     </element>
     <element id="ClinicalDocument.custodian">
@@ -302,10 +306,12 @@
     </element>
     <element id="ClinicalDocument.inFulfillmentOf">
       <path value="ClinicalDocument.inFulfillmentOf"/>
+      <short value="Australian-adapted InFulfillmentOf class"/>
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/InFulfillmentOf"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-InFulfillmentOf"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-InFulfillmentOf"/>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf">
@@ -318,10 +324,12 @@
     </element>
     <element id="ClinicalDocument.relatedDocument">
       <path value="ClinicalDocument.relatedDocument"/>
+      <short value="Australian-adapted RelatedDocument class"/>
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/RelatedDocument"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-RelatedDocument"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-RelatedDocument"/>        
       </type>
     </element>
     <element id="ClinicalDocument.authorization">

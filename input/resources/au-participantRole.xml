@@ -96,18 +96,20 @@
     </element>
     <element id="ParticipantRole.playingDevice">
       <path value="ParticipantRole.playingDevice"/>
+      <short value="Australian-adapted Device class"/>
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Device"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Device"/>
       </type>
     </element>
     <element id="ParticipantRole.playingEntity">
       <path value="ParticipantRole.playingEntity"/>
+      <short value="Australian-adapted PlayingEntity class"/>
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/PlayingEntity"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-PlayingEntity"/>
       </type>
     </element>
     <element id="ParticipantRole.scopingEntity">

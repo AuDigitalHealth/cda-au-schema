@@ -74,7 +74,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/RTO_PQ_PQ"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/RTO-PQ-PQ"/>
       </type>
     </element>
   </differential>

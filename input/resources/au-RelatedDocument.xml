@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="au-RelatedDocument"/> 
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>Represents the participant who has transformed a dictated note into text.</p>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
+    <valueBoolean>
+      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+        <valueCode value="not-applicable"/>
+      </extension>
+    </valueBoolean>
+  </extension>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+    <valueUri value="urn:hl7-org:v3"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+    <valueString value="relatedDocument"/>
+  </extension> 
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-container">
+    <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
+  </extension>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-RelatedDocument"/>
+  <name value="au-RelatedDocument"/>
+  <title value="ADHA RelatedDocument (CDA Class)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <publisher value="Australian Digital Health Agency"/>
+  <description value="Represents the participant who has transformed a dictated note into text."/>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://hl7.org/cda/stds/core/StructureDefinition/RelatedDocument"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
+  <derivation value="specialization"/>
+  <differential>
+    <element id="RelatedDocument">
+      <path value="RelatedDocument"/>
+      <min value="1"/>
+      <max value="1"/>
+    </element>
+    <element id="RelatedDocument.typeCode">
+      <path value="RelatedDocument.typeCode"/>
+      <representation value="xmlAttr"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-xActRelationshipDocument"/>
+      </binding>
+    </element>
+    <element id="RelatedDocument.parentDocument">
+      <path value="RelatedDocument.parentDocument"/>
+      <short value="Australian-adapted ParentDocument class"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-ParentDocument"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

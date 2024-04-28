@@ -19,6 +19,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 			<h3>ADHA CDA Classes</h3>
 			<ul>
 				<li><a href="StructureDefinition-au-ClinicalDocument.html"><b>ADHA ClinicalDocument</b></a></li>
+				<li><a href="StructureDefinition-au-Act.html">au-Act</a></li>
 				<li><a href="StructureDefinition-au-AssignedAuthor.html">au-AssignedAuthor</a></li>
 				<li><a href="StructureDefinition-au-AssignedEntity.html">au-AssignedEntity</a></li>
 				<li><a href="StructureDefinition-au-AssignedCustodian.html">au-AssignedCustodian</a></li>
@@ -29,19 +30,44 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-au-Custodian.html">au-Custodian</a></li>
 				<li><a href="StructureDefinition-au-CustodianOrganization.html">au-CustodianOrganization</a></li>
 				<li><a href="StructureDefinition-au-EncompassingEncounter.html">au-EncompassingEncounter</a></li>
+				<li><a href="StructureDefinition-au-Encounter.html">au-Encounter</a></li>
+				<li><a href="StructureDefinition-au-Entry.html">au-Entry</a></li>
+				<li><a href="StructureDefinition-au-EntryRelationship.html">au-EntryRelationship</a></li>
+				<li><a href="StructureDefinition-au-ExternalDocument.html">au-ExternalDocument</a></li>
 				<li><a href="StructureDefinition-au-HealthCareFacility.html">au-HealthCareFacility</a></li>
+				<li><a href="StructureDefinition-au-Informant.html">au-Informant</a></li>
 				<li><a href="StructureDefinition-au-InformationRecipient.html">au-InformationRecipient</a></li>
 				<li><a href="StructureDefinition-au-IntendedRecipient.html">au-IntendedRecipient</a></li>                
 				<li><a href="StructureDefinition-au-languageCommunication.html">au-languageCommunication</a></li>
 				<li><a href="StructureDefinition-au-LegalAuthenticator.html">au-LegalAuthenticator</a></li>
+				<li><a href="StructureDefinition-au-ManufacturedProduct.html">au-ManufacturedProduct</a></li>
+				<li><a href="StructureDefinition-au-Material.html">au-Material</a></li>
+				<li><a href="StructureDefinition-au-Observation.html">au-Observation</a></li>
+				<li><a href="StructureDefinition-au-ObservationMedia.html">au-ObservationMedia</a></li>
+				<li><a href="StructureDefinition-au-ObservationRange.html">au-ObservationRange</a></li>
+				<li><a href="StructureDefinition-au-Order.html">au-Order</a></li>
 				<li><a href="StructureDefinition-au-Organization.html">au-Organization</a></li>
 				<li><a href="StructureDefinition-au-OrganizationPartOf.html">au-OrganizationPartOf</a></li>
+				<li><a href="StructureDefinition-au-Organizer.html">au-Organizer</a></li>
+				<li><a href="StructureDefinition-au-ParentDocument.html">au-ParentDocument</a></li>
 				<li><a href="StructureDefinition-au-Participant1.html">au-Participant1</a></li>
 				<li><a href="StructureDefinition-au-ParticipantRole.html">au-ParticipantRole</a></li>
 				<li><a href="StructureDefinition-au-PatientRole.html">au-PatientRole</a></li>
 				<li><a href="StructureDefinition-au-Patient.html">au-Patient</a></li>
 				<li><a href="StructureDefinition-au-Person.html">au-Person</a></li>
+				<li><a href="StructureDefinition-au-Performer2.html">au-Performer2</a></li>
+				<li><a href="StructureDefinition-au-Place.html">au-Place</a></li>
+				<li><a href="StructureDefinition-au-Precondition.html">au-Precondition</a></li>
+				<li><a href="StructureDefinition-au-Procedure.html">au-Procedure</a></li>
 				<li><a href="StructureDefinition-au-RecordTarget.html">au-RecordTarget</a></li>
+				<li><a href="StructureDefinition-au-Reference.html">au-Reference</a></li>
+				<li><a href="StructureDefinition-au-RegionOfInterest.html">au-RegionOfInterest</a></li>
+				<li><a href="StructureDefinition-au-RelatedDocument.html">au-RelatedDocument</a></li>
+				<li><a href="StructureDefinition-au-Section.html">au-Section</a></li>
+				<li><a href="StructureDefinition-au-Specimen.html">au-Specimen</a></li>
+				<li><a href="StructureDefinition-au-SpecimenRole.html">au-SpecimenRole</a></li>
+				<li><a href="StructureDefinition-au-SubstanceAdministration.html">au-SubstanceAdministration</a></li>
+				<li><a href="StructureDefinition-au-Supply.html">au-Supply</a></li>
 			</ul>
 		</td>
 		<td>

@@ -83,6 +83,7 @@
     </element>
     <element id="Organization.name">
       <path value="Organization.name"/>
+      <short value="Australian-adapted Organization Name class"/>
       <min value="0"/>
       <max value="*"/>
       <type>

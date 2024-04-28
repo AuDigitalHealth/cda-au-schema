@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="au-HealthCareFacility"/> 
+  <id value="au-ManufacturedProduct"/> 
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
@@ -12,32 +12,37 @@
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
-    <valueString value="healthCareFacility"/>
+    <valueString value="manufacturedProduct"/>
   </extension> 
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-container">
     <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-HealthCareFacility"/>
-  <name value="au-HealthCareFacility"/>
-  <title value="ADHA HealthCareFacility (CDA Class)"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-ManufacturedProduct"/>
+  <name value="au-ManufacturedProduct"/>
+  <title value="ADHA ManufacturedProduct (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
-  <publisher value="Australian Digital Health Agency" />
-  <description value="**Australian adaptation of the HL7 International CDA HealthCareFacility class**.  &#xa;&#xa;HealthCareFacility (CDA Class)"/>
+  <publisher value="Australian Digital Health Agency"/>
+  <description value="ADHA ManufacturedProduct (CDA Class)"/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://hl7.org/cda/stds/core/StructureDefinition/HealthCareFacility"/>
+  <type value="http://hl7.org/cda/stds/core/StructureDefinition/ManufacturedProduct"/>
   <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="HealthCareFacility">
-      <path value="HealthCareFacility"/>
-      <short value="Australian adaptation of the HL7 International CDA HealthCareFacility class"/>
+    <element id="ManufacturedProduct">
+      <path value="ManufacturedProduct"/>
       <min value="1"/>
       <max value="1"/>
+      <constraint>
+        <key value="product-choice"/>
+        <severity value="error"/>
+        <human value="manufacturedLabeledDrug and manufacturedMaterial are mutually exclusive (one must be present)"/>
+        <expression value="(manufacturedLabeledDrug | manufacturedMaterial).count() = 1"/>
+      </constraint>
     </element>
-    <element id="HealthCareFacility.classCode">
-      <path value="HealthCareFacility.classCode"/>
+    <element id="ManufacturedProduct.classCode">
+      <path value="ManufacturedProduct.classCode"/>
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
@@ -45,49 +50,44 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
-      <defaultValueCode value="SDLOC"/>
+      <fixedCode value="MANU"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-RoleClassServiceDeliveryLocation"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-RoleClassManufacturedProduct"/>
       </binding>
     </element>
-    <element id="HealthCareFacility.id">
-      <path value="HealthCareFacility.id"/>
+    <element id="ManufacturedProduct.id">
+      <path value="ManufacturedProduct.id"/>
       <min value="0"/>
       <max value="*"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
     </element>    
-    <element id="HealthCareFacility.code">
-      <path value="HealthCareFacility.code"/>
+    <element id="ManufacturedProduct.manufacturedLabeledDrug">
+      <path value="ManufacturedProduct.manufacturedLabeledDrug"/>
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/LabeledDrug"/>
       </type>
-      <binding>
-        <strength value="example"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType"/>
-      </binding>
     </element>
-    <element id="HealthCareFacility.location">
-      <path value="HealthCareFacility.location"/>
-      <short value="Australian-adapted Location class"/>
+    <element id="ManufacturedProduct.manufacturedMaterial">
+      <path value="ManufacturedProduct.manufacturedMaterial"/>
+      <short value="Australian-adapted Material class"/>
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/au-Place"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Material"/>
       </type>
     </element>
-    <element id="HealthCareFacility.serviceProviderOrganization">
-      <path value="HealthCareFacility.serviceProviderOrganization"/>
+    <element id="ManufacturedProduct.manufacturerOrganization">
+      <path value="ManufacturedProduct.manufacturerOrganization"/>
       <short value="Australian-adapted Organization class"/>
       <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Organization"/>
-        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Organization"/>
       </type>
     </element>
   </differential>

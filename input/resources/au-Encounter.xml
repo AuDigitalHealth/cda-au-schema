@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="au-Encounter"/> 
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>A derivative of the RIM PatientEncounter class, used to represent related encounters, such as follow-up visits or referenced past encounters.</p>
+      <p>NOTE: The EncompassingEncounter class in the CDA Header (see Header Relationships (§ 4.2.3 )) represents the setting of the clinical encounter during which the documented act occurred. The Encounter class in the CDA Body is used to represent other related encounters.</p>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
+    <valueBoolean>
+      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+        <valueCode value="not-applicable"/>
+      </extension>
+    </valueBoolean>
+  </extension>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+    <valueUri value="urn:hl7-org:v3"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+    <valueString value="encounter"/>
+  </extension> 
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-container">
+    <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
+  </extension>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Encounter"/>
+  <name value="au-Encounter"/>
+  <title value="ADHA Encounter (CDA Class)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <publisher value="Australian Digital Health Agency"/>
+  <description value="A derivative of the RIM PatientEncounter class, used to represent related encounters, such as follow-up visits or referenced past encounters.&#xA;&#xA;NOTE: The EncompassingEncounter class in the CDA Header (see Header Relationships (§ 4.2.3 )) represents the setting of the clinical encounter during which the documented act occurred. The Encounter class in the CDA Body is used to represent other related encounters."/>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://hl7.org/cda/stds/core/StructureDefinition/Encounter"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
+  <derivation value="specialization"/>
+  <differential>
+    <element id="Encounter">
+      <path value="Encounter"/>
+      <min value="1"/>
+      <max value="1"/>
+    </element>
+    <element id="Encounter.classCode">
+      <path value="Encounter.classCode"/>
+      <representation value="xmlAttr"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      <fixedCode value="ENC"/>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActClass|2.0.0"/>
+      </binding>
+    </element>
+    <element id="Encounter.moodCode">
+      <path value="Encounter.moodCode"/>
+      <representation value="xmlAttr"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-xDocumentEncounterMood|2.0.0"/>
+      </binding>
+    </element>
+    <element id="Encounter.id">
+      <path value="Encounter.id"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="Encounter.code">
+      <path value="Encounter.code"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActEncounterCode"/>
+      </binding>
+    </element>
+    <element id="Encounter.text">
+      <path value="Encounter.text"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ED"/>
+      </type>
+    </element>
+    <element id="Encounter.statusCode">
+      <path value="Encounter.statusCode"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActStatus"/>
+      </binding>
+    </element>
+    <element id="Encounter.effectiveTime">
+      <path value="Encounter.effectiveTime"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/IVL-TS"/>
+      </type>
+    </element>
+    <element id="Encounter.priorityCode">
+      <path value="Encounter.priorityCode"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+      </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActPriority"/>
+      </binding>
+    </element>
+    <element id="Encounter.subject">
+      <path value="Encounter.subject"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Subject"/>
+      </type>
+    </element>
+    <element id="Encounter.specimen">
+      <path value="Encounter.specimen"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Specimen"/>
+      </type>
+    </element>
+    <element id="Encounter.performer">
+      <path value="Encounter.performer"/>
+      <short value="Australian-adapted Performer class"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Performer2"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Performer2"
+        />
+      </type>
+    </element>
+    <element id="Encounter.author">
+      <path value="Encounter.author"/>
+      <short value="Australian-adapted Author class"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Author"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Author"
+        />
+      </type>
+    </element>
+    <element id="Encounter.informant">
+      <path value="Encounter.informant"/>
+      <short value="Australian-adapted Informant class"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Informant"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Informant"
+        />
+      </type>
+    </element>
+    <element id="Encounter.participant">
+      <path value="Encounter.participant"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Participant2"/>
+      </type>
+    </element>
+    <element id="Encounter.entryRelationship">
+      <path value="Encounter.entryRelationship"/>
+      <short value="Australian-adapted EntryRelationship class"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-EntryRelationship"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-EntryRelationship"
+        />
+      </type>
+    </element>
+    <element id="Encounter.reference">
+      <path value="Encounter.reference"/>
+      <short value="Australian-adapted Reference class"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Reference"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Reference"
+        />
+      </type>
+    </element>
+    <element id="Encounter.precondition">
+      <path value="Encounter.precondition"/>
+      <short value="Australian-adapted Precondition class"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Precondition"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Precondition"
+        />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
