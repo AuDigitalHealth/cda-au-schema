@@ -185,10 +185,11 @@
     </element>
     <element id="Encounter.participant">
       <path value="Encounter.participant"/>
+      <short value="Australian-adapted Participant2 class"/>
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Participant2"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Participant2"/>
       </type>
     </element>
     <element id="Encounter.entryRelationship">

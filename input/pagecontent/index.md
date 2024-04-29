@@ -31,6 +31,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-au-CustodianOrganization.html">au-CustodianOrganization</a></li>
 				<li><a href="StructureDefinition-au-EncompassingEncounter.html">au-EncompassingEncounter</a></li>
 				<li><a href="StructureDefinition-au-Encounter.html">au-Encounter</a></li>
+				<li><a href="StructureDefinition-au-Entity.html">au-Entity</a></li>
 				<li><a href="StructureDefinition-au-Entry.html">au-Entry</a></li>
 				<li><a href="StructureDefinition-au-EntryRelationship.html">au-EntryRelationship</a></li>
 				<li><a href="StructureDefinition-au-ExternalDocument.html">au-ExternalDocument</a></li>
@@ -51,6 +52,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-au-Organizer.html">au-Organizer</a></li>
 				<li><a href="StructureDefinition-au-ParentDocument.html">au-ParentDocument</a></li>
 				<li><a href="StructureDefinition-au-Participant1.html">au-Participant1</a></li>
+				<li><a href="StructureDefinition-au-Participant2.html">au-Participant2</a></li>
 				<li><a href="StructureDefinition-au-ParticipantRole.html">au-ParticipantRole</a></li>
 				<li><a href="StructureDefinition-au-PatientRole.html">au-PatientRole</a></li>
 				<li><a href="StructureDefinition-au-Patient.html">au-Patient</a></li>
