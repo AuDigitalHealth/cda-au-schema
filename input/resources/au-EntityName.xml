@@ -26,7 +26,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
-  <description value="An Australian adaptation of the HL7 International  name for a person, organization, place or thing. A sequence of name parts, such as given name or family name, prefix, suffix, etc. Examples for entity name values are &quot;Jim Bob Walton, Jr.&quot;, &quot;Health Level Seven, Inc.&quot;, &quot;Lake Tahoe&quot;, etc. An entity name may be as simple as a character string or may consist of several entity name parts, such as, &quot;Jim&quot;, &quot;Bob&quot;, &quot;Walton&quot;, and &quot;Jr.&quot;, &quot;Health Level Seven&quot; and &quot;Inc.&quot;, &quot;Lake&quot; and &quot;Tahoe&quot;."/>
+  <description value="**Australian adaptation of the [HL7 International CDA Entity Name dataType](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-EN.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/EN"/>
@@ -35,6 +37,7 @@
   <differential>
     <element id="EN">
       <path value="EN"/>
+      <short value="Australian adaptation of the HL7 International EntityName (EN) dataType"/>
       <definition value="A name for a person, organization, place or thing. A sequence of name parts, such as given name or family name, prefix, suffix, etc. Examples for entity name values are &#34;Jim Bob Walton, Jr.&#34;, &#34;Health Level Seven, Inc.&#34;, &#34;Lake Tahoe&#34;, etc. An entity name may be as simple as a character string or may consist of several entity name parts, such as, &#34;Jim&#34;, &#34;Bob&#34;, &#34;Walton&#34;, and &#34;Jr.&#34;, &#34;Health Level Seven&#34; and &#34;Inc.&#34;, &#34;Lake&#34; and &#34;Tahoe&#34;."/>
       <min value="1"/>
       <max value="*"/>

@@ -30,7 +30,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
-  <description value="A derivative of the RIM Observation class, used for representing coded and other observations.&#xA;&#xA;Observation.negationInd, when set to &quot;true&quot;, is a positive assertion that the Observation as a whole is negated. Some properties such as Observation.id, Observation.moodCode, and the participations are not negated. These properties always have the same meaning: i.e., the author remains the author of the negative Observation. An observation statement with negationInd is still a statement about the specific fact described by the Observation. For instance, a negated &quot;finding of wheezing on July 1&quot; means that the author positively denies that there was wheezing on July 1, and that he takes the same responsibility for such statement and the same requirement to have evidence for such statement than if he had not used negation."/>
+  <description value="**Australian adaptation of the [HL7 International CDA Observation class](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-Observation.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Observation"/>
@@ -39,6 +41,7 @@
   <differential>
     <element id="Observation">
       <path value="Observation"/>
+      <short value="Australian adaptation of the HL7 International CDA Observation class"/>
       <min value="1"/>
       <max value="1"/>
     </element>

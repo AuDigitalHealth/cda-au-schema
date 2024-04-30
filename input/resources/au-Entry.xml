@@ -31,7 +31,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
-  <description value="CDA entries represent the structured computer-processable components within a document section. Each section can contain zero to many entries."/>
+  <description value="**Australian adaptation of the [HL7 International CDA Entry class](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-Entry.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Entry"/>
@@ -40,6 +42,7 @@
   <differential>
     <element id="Entry">
       <path value="Entry"/>
+      <short value="Australian adaptation of the HL7 International CDA Entry class"/>
       <min value="1"/>
       <max value="*"/>
       <constraint>

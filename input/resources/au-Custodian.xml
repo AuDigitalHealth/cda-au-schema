@@ -30,7 +30,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="**Australian adaptation of the HL7 International CDA Custodian class**. &#xa;&#xa;Represents the organization that is in charge of maintaining the document. The custodian is the steward that is entrusted with the care of the document. Every CDA document has exactly one custodian.The custodian participation satisfies the CDA definition of Stewardship (see What is the CDA (§ 1.1 )). Because CDA is an exchange standard and may not represent the original form of the authenticated document, the custodian represents the steward of the original source document."/>
+  <description value="**Australian adaptation of the [HL7 International CDA Custodian class](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-Custodian.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Custodian"/>

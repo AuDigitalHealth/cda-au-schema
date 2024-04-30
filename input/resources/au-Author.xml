@@ -30,7 +30,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="**Australian adaptation of the HL7 International CDA Author class**. &#xa;&#xa;Represents the humans and/or machines that authored the document. In some cases, the role or function of the author is inherent in the ClinicalDocument.code, such as where ClinicalDocument.code is &quot;Medical Student Progress Note&quot;. The role of the author can also be recorded in the Author.functionCode or AssignedAuthor.code attribute. If either of these attributes is included, they should be equivalent to or further specialize the role inherent in the ClinicalDocument.code (such as where the ClinicalDocument.code is simply &quot;Physician Progress Note&quot; and the value of Author.functionCode is &quot;rounding physician&quot;), and shall not conflict with the role inherent in the ClinicalDocument.code, as such a conflict would constitute an ambiguous situation."/>
+  <description value="**Australian adaptation of the [HL7 International CDA Author class](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-Author.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>

@@ -26,7 +26,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
-  <description value="An Australian adaptation of the HL7 International name for an organization. A sequence of name parts. Examples for organization name values are &quot;Health Level Seven, Inc.&quot;, &quot;Hospital&quot;, etc. An organization name may be as simple as a character string or may consist of several person name parts, such as, &quot;Health Level 7&quot;, &quot;Inc.&quot;. ON differs from EN because certain person related name parts are not possible."/>
+  <description value="**Australian adaptation of the [HL7 International CDA Organization Name dataType](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-ON.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/ON"/>
@@ -35,6 +37,7 @@
   <differential>
     <element id="ON">
       <path value="ON"/>
+      <short value="Australian adaptation of the HL7 International CDA Organization Name (ON) dataType"/>
       <definition value="A name for an organization. A sequence of name parts. Examples for organization name values are &quot;Health Level Seven, Inc.&quot;, &quot;Hospital&quot;, etc. An organization name may be as simple as a character string or may consist of several person name parts, such as, &quot;Health Level 7&quot;, &quot;Inc.&quot;. ON differs from EN because certain person related name parts are not possible."/>
       <min value="1"/>
       <max value="*"/>

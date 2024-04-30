@@ -29,7 +29,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
-  <description value="This class represents those orders that are fulfilled by this document. For instance, a provider orders an X-Ray. The X-Ray is performed. A radiologist reads the X-Ray and generates a report. The X-Ray order identifier is transmitted in the Order class, the performed X-Ray procedure is transmitted in the ServiceEvent class, and the ClinicalDocument.code would be valued with &quot;Diagnostic Imaging Report&quot;."/>
+  <description value="**Australian adaptation of the [HL7 International CDA Order class](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-Order.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Order"/>
@@ -38,6 +40,7 @@
   <differential>
     <element id="Order">
       <path value="Order"/>
+      <short value="Australian adaptation of the HL7 International CDA Order class"/>
       <min value="1"/>
       <max value="1"/>
     </element>

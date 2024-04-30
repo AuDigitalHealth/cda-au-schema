@@ -29,7 +29,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
-  <description value="**Australian adaptation of the HL7 International CDA ComponentOf class**. &#xa;&#xa;ComponentOf (CDA Class)"/>
+  <description value="**Australian adaptation of the [HL7 International CDA ComponentOf class](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-ComponentOf.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/ComponentOf"/>
@@ -38,7 +40,7 @@
   <differential>
     <element id="ComponentOf">
       <path value="ComponentOf"/>
-      <short value="Australian adaptation of the HL7 International CDA ClinicalDocument class"/>
+      <short value="Australian adaptation of the HL7 International CDA ComponentOf class"/>
     </element>
     <element id="ComponentOf.typeCode">
       <path value="ComponentOf.typeCode"/>

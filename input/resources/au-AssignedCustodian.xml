@@ -29,7 +29,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="**Australian adaptation of the HL7 International CDA AssignedCustodian class**. &#xa;&#xa;A custodian is a scoping organization in the role of an assigned custodian (AssignedCustodian class)."/>
+  <description value="**Australian adaptation of the [HL7 International CDA AssignedCustodian class](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-AssignedCustodian.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/AssignedCustodian"/>

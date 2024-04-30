@@ -29,7 +29,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
-  <description value="Can be used to represent any other participant that cannot be represented with one of the more specific participants. The participant can be ascribed to a CDA entry, and propagates to nested CDA entries, unless overridden."/>
+  <description value="**Australian adaptation of the [HL7 International CDA Participant2 class](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-Participant2.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Participant2"/>
@@ -38,6 +40,7 @@
   <differential>
     <element id="Participant2">
       <path value="Participant2"/>
+      <short value="Australian adaptation of the HL7 International CDA Participant2 class"/>
       <min value="1"/>
       <max value="1"/>
     </element>

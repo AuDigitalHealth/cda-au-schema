@@ -33,7 +33,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="**Australian adaptation of the HL7 International CDA RecordTarget class**. &#xa;&#xa;The recordTarget represents the medical record that this document belongs to. A clinical document typically has exactly one recordTarget participant. In the uncommon case where a clinical document (such as a group encounter note) is placed into more than one patient chart, more than one recordTarget participants can be stated. The recordTarget(s) of a document are stated in the header and propagate to nested content, where they cannot be overridden (see See CDA Context (§ 4.4 ))."/>
+  <description value="**Australian adaptation of the [HL7 International CDA RecordTarget class](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-RecordTarget.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/RecordTarget"/>

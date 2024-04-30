@@ -29,7 +29,9 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="HL7"/>
-  <description value="The precondition class, derived from the ActRelationship class, is used along with the Precondition class to express a condition that must hold true before some over activity occurs."/>
+  <description value="**Australian adaptation of the [HL7 International CDA Precondition class](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-Precondition.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/Precondition"/>
@@ -38,6 +40,7 @@
   <differential>
     <element id="Precondition">
       <path value="Precondition"/>
+      <short value="Australian adaptation of the HL7 International CDA Precondition class"/>
       <min value="1"/>
       <max value="1"/>
     </element>
