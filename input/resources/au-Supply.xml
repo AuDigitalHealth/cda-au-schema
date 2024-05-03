@@ -262,6 +262,7 @@
     </element>
     <element id="Supply.participant">
       <path value="Supply.participant"/>
+      <short value="Australian-adapted Participant2 class"/>
       <min value="0"/>
       <max value="*"/>
       <type>
