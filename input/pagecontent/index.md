@@ -75,7 +75,8 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 		<td>
 			<h3>ADHA Extensions</h3>
 			<ul>
-				<li><a href="StructureDefinition-administrativeGenderCode.html">administrativeGenderCode</a></li>
+				<li><a href="StructureDefinition-administrativeGenderCode.html">administrativeGenderCode</a></li>				
+				<li><a href="StructureDefinition-admissionReferralSourceCode.html">admissionReferralSourceCode</a></li>
 				<li><a href="StructureDefinition-asEmployment.html">asEmployment</a></li>
 				<li><a href="StructureDefinition-asEntityIdentifier.html">asEntityIdentifier</a></li>
 				<li><a href="StructureDefinition-asIngredient.html">asIngredient</a></li>
@@ -87,6 +88,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-desc.html">desc</a></li>
 				<li><a href="StructureDefinition-deceasedInd.html">deceasedInd</a></li>
 				<li><a href="StructureDefinition-deceasedTime.html">deceasedTime</a></li>
+				<li><a href="StructureDefinition-dischargeDispositionCode.html">dischargeDispositionCode</a></li>
 				<li><a href="StructureDefinition-entitlement.html">entitlement</a></li>
 				<li><a href="StructureDefinition-expirationTime.html">expirationTime</a></li>
 				<li><a href="StructureDefinition-formCode.html">formCode</a></li>

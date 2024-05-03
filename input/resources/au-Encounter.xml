@@ -122,6 +122,30 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/IVL-TS"/>
       </type>
     </element>
+    <element id="Encounter.admissionReferralSourceCode">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <path value="Encounter.admissionReferralSourceCode"/>
+      <short value="ADHA CDA extension for admissionReferralSourceCode"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+      </type>
+    </element>
+    <element id="Encounter.dischargeDispositionCode">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <path value="Encounter.dischargeDispositionCode"/>
+      <short value="ADHA CDA extension for dischargeDispositionCode"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+      </type>
+    </element>
     <element id="Encounter.priorityCode">
       <path value="Encounter.priorityCode"/>
       <min value="0"/>
@@ -228,6 +252,22 @@
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Precondition"/>
         <profile
           value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Precondition"
+        />
+      </type>
+    </element>
+    <element id="Encounter.InFulfillmentOf">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <path value="Encounter.InFulfillmentOf"/>
+      <short value="ADHA CDA extension for InFulfillmentOf"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-InFulfillmentOf"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-InFulfillmentOf"
         />
       </type>
     </element>

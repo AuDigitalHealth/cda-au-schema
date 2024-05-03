@@ -1420,6 +1420,18 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/dischargeDispositionCode"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/admissionReferralSourceCode"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
 		
 		<!-- Vocabulary -->
 		<resource>
