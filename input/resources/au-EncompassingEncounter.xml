@@ -56,7 +56,7 @@
       <fixedCode value="ENC"/>      
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActClass"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActClass"/>
       </binding>
     </element>
     <element id="EncompassingEncounter.moodCode">
@@ -71,7 +71,7 @@
       <fixedCode value="EVN"/>      
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActMood"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActMood"/>
       </binding>
     </element>
     <element id="EncompassingEncounter.id">
@@ -135,7 +135,7 @@
       <fixedCode value="RESP"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ParticipationType"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAParticipationType"/>
       </binding>
     </element>
     <element id="EncompassingEncounter.responsibleParty.assignedEntity">

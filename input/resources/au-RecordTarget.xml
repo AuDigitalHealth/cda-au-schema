@@ -55,11 +55,10 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
-      <fixedCode value="RCT"/>
-      
+      <fixedCode value="RCT"/>      
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ParticipationType"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAParticipationType"/>
       </binding>
     </element>
     <element id="RecordTarget.contextControlCode">
@@ -74,7 +73,7 @@
       <fixedCode value="OP"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ContextControl"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAContextControl"/>
       </binding>
     </element>
     <element id="RecordTarget.patientRole">
