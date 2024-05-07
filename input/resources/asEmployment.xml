@@ -26,8 +26,8 @@
   <differential>
     <element id="asEmployment">
       <path value="asEmployment"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
-      <definition value="A person's occupation and employer."/>
+      <short value="ADHA CDA extension for an Employment of a person"/>
+      <definition value="A person's occupation and employer."/> 
       <min value="1"/>
       <max value="*"/>
     </element>
@@ -47,7 +47,8 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asEmployment.code"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for a descriptor of the job/job role"/>
+	  <definition value="A descriptor of the job or the job role based on the management hierarchy of the organisation."/> 
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -59,7 +60,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asEmployment.effectiveTime"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for effective time of employment"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -71,7 +72,8 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asEmployment.jobCode"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for the class of job"/>
+      <definition value="A descriptor of the class of job based on similarities in the tasks undertaken."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -83,7 +85,8 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asEmployment.jobClassCode"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for the basis of employment "/>
+      <definition value="The basis on which the person is employed by the employer organisation."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -95,7 +98,8 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asEmployment.employerOrganization"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for the individuals nominated participation"/>
+      <definition value="The organisation that the individual is working for in respect to the role they are playing in the nominated participation."/>
       <min value="1"/>
       <max value="1"/>
       <type>

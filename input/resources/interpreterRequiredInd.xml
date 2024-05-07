@@ -13,7 +13,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/interpreterRequiredInd"/>
   <name value="interpreterRequiredInd"/>
-  <title value="ADHA extension Interpreter Required Indicator"/>
+  <title value="Australian Digital Health Agency CDA extension Interpreter Required Indicator"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
@@ -26,7 +26,7 @@
   <differential>
     <element id="interpreterRequiredInd">
       <path value="interpreterRequiredInd"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension whether an interpreter is required"/>
       <definition value="Indicates whether an interpreter is required."/>
       <min value="1"/>
       <max value="1"/>

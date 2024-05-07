@@ -17,7 +17,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="The completionCode extension attribute allows the implementer to identify the lifecycle status of a document."/>
+  <description value="The completionCode extension allows the implementer to identify the lifecycle status of a document."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/completionCode"/>
@@ -26,7 +26,8 @@
   <differential>
     <element id="completionCode">
       <path value="completionCode"/>
-      <definition value="The lifecycle status of a document."/>
+      <short value="The lifecycle status of a document."/>
+      <definition value="The completionCode extension allows the implementer to identify the lifecycle status of a document."/>
       <min value="1"/>
       <max value="1"/>
       <type>

@@ -23,7 +23,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
+  <description value="Australian Digital Health Agency CDA extension for an Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/id"/>
@@ -32,8 +32,8 @@
   <differential>
     <element id="id">
       <path value="id"/>      
-      <short value="Australian Digital Health Agency CDA extension"/>
-      <definition value="An identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
+      <short value="ADHA CDA extension for the identifier"/>
+      <definition value="Australian Digital Health Agency CDA extension for identifier."/>
       <min value="1"/>
       <max value="*"/>
     </element>

@@ -17,7 +17,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
+  <description value="A number or code issued for the purpose of identifying a participant within a healthcare context."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/asEntityIdentifier"/>
@@ -26,8 +26,8 @@
   <differential>
     <element id="asEntityIdentifier">
       <path value="asEntityIdentifier"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
-      <definition value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
+      <short value="ADHA CDA extension for identifying a participant"/>
+      <definition value="A number or code issued for the purpose of identifying a participant within a healthcare context."/>
       <min value="1"/>
       <max value="*"/>
     </element>
@@ -47,7 +47,12 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asEntityIdentifier.id"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for id"/>
+      <comment value="Attribute @root SHALL be used, SHALL be an OID and SHALL NOT be a UUID. Attribute @root SHALL be a globally unique objectidentifier(i.e.OID) that identifies the combination of geographic area, issuer and type. If no such OID exists, it SHALL be defined before any identifiers
+        can be created. 
+        &#xa;&#xa;Attribute @extension MAY be used and, if it is used, SHALL be a unique identifier within the scope of the root that is populated directly from the designation.        
+        &#xa;&#xa;Attribute @assigningAuthorityName SHOULD be used and, if it is used, SHALL be a human-readable name for the namespace represented in the root that is populated with the issuer, or identifier type, or a concatenation of both as appropriate. This SHOULD NOT be used for machine readability
+        purposes."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -59,7 +64,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asEntityIdentifier.code"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for code"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -71,7 +76,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asEntityIdentifier.assigningGeographicArea"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for Assigning Geographic Area"/>
       <min value="0"/>
       <max value="1"/>
       <type>

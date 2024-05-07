@@ -17,7 +17,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="formCode"/>
+  <description value="Australian Digital Health Agency extension for formCode"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/formCode"/>
@@ -26,7 +26,8 @@
   <differential>
     <element id="formCode">
       <path value="formCode"/>
-      <definition value="Form Code"/>
+      <short value="ADHA CDA extension for form code"/>
+      <definition value="Australian Digital Health Agency extension for formCode"/>
       <min value="1"/>
       <max value="1"/>
       <type>

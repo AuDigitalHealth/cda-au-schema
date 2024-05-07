@@ -17,7 +17,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="Substitution Permission"/>
+  <description value="Australian Digital Health Agency Substitution Permission"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/substitutionPermission"/>
@@ -26,7 +26,8 @@
   <differential>
     <element id="substitutionPermission">
       <path value="substitutionPermission"/>
-      <definition value="Substitution Permission"/>
+      <short value="ADHA CDA extension for Substitution Permission"/>
+      <definition value="Australian Digital Health Agency Substitution Permission"/>
       <min value="1"/>
       <max value="1"/>
     </element>
@@ -57,7 +58,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="substitutionPermission.code"/>      
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for Substitution Permission's code"/>
       <min value="1"/>
       <max value="1"/>
       <type>

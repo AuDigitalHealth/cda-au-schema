@@ -40,7 +40,7 @@
   <differential>
     <element id="name">
       <path value="name"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for name"/>
       <definition
         value="Element ext:name MAY be used and, if it is used, SHALL be the range and extent that the identifier applies to the object with which it is associated that is populated directly from the geographic area. This SHOULD NOT be used for machine readability purposes."/>
       <min value="1"/>

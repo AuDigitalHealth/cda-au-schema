@@ -17,7 +17,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="A person's occupation and employer."/>
+  <description value="The asQualifications extension describes a list of professional certifications, and certificates recognising having passed a course."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/asQualifications"/>
@@ -26,8 +26,8 @@
   <differential>
     <element id="asQualifications">
       <path value="asQualifications"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
-      <definition value="A person's occupation and employer."/>
+      <short value="ADHA CDA extension for person's occupation and employer"/>
+      <definition value="The asQualifications extension describes a list of professional certifications, and certificates recognising having passed a course."/>
       <min value="1"/>
       <max value="*"/>
     </element>
@@ -47,7 +47,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asQualifications.code"/>      
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for qualifications code"/>
       <min value="1"/>
       <max value="1"/>
       <type>

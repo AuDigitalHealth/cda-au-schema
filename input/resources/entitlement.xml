@@ -17,7 +17,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
+  <description value="The entitlement or right of a participant to act in a given capacity (as defined by Entitlement Type) within a healthcare context."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/entitlement"/>
@@ -26,8 +26,8 @@
   <differential>
     <element id="entitlement">
       <path value="entitlement"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
-      <definition value="An Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
+      <short value="ADHA CDA extension for entitlement"/>
+      <definition value="The entitlement or right of a participant to act in a given capacity (as defined by Entitlement Type) within a healthcare context."/>
       <min value="1"/>
       <max value="*"/>
     </element>
@@ -58,7 +58,8 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="entitlement.id"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for entitlement id"/>
+      <definition value="A number or code issued for the purpose of identifying the entitlement or right of a participant to act in a given capacity (as defined by Entitlement Type) within a healthcare context."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -70,7 +71,8 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="entitlement.code"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for entitlement scope"/>
+      <definition value="he description of the scope of an entitlement."/>
       <min value="1"/>
       <max value="1"/>
       <type>
@@ -82,7 +84,8 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="entitlement.effectiveTime"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for entitlement time"/>
+      <definition value="The time interval for which an entitlement is valid."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -94,7 +97,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="entitlement.participant"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for the participant"/>
       <min value="0"/>
       <max value="*"/>
       <type>

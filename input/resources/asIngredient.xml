@@ -26,7 +26,7 @@
   <differential>
     <element id="asIngredient">
       <path value="asIngredient"/>
-      <definition value="The description of the antigen, or one of the antigens, contained in the administered vaccine."/>
+      <definition value="ADHA CDA extension for the description of the antigen, or one of the antigens, contained in the administered vaccine."/>
       <min value="1"/>
       <max value="1"/>
     </element>
@@ -46,7 +46,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asIngredient.id"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for Id"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -58,7 +58,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asIngredient.ingredientManufacturedMaterial"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for Ingredient Manufactured Material"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -70,7 +70,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asIngredient.quantity"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for quantity"/>
       <min value="0"/>
       <max value="1"/>
       <type>

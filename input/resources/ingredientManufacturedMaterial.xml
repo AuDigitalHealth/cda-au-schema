@@ -26,7 +26,7 @@
   <differential>
     <element id="ManufacturedMaterial">
       <path value="ManufacturedMaterial"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension"/>
       <definition value="Manufactured Material"/>
       <min value="1"/>
       <max value="*"/>
@@ -58,7 +58,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="ManufacturedMaterial.id"/>
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for manufactured material's id"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -70,7 +70,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="ManufacturedMaterial.code"/>      
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for manufactured material's code"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -82,7 +82,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="ManufacturedMaterial.desc"/>      
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for manufactured material's description"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -94,7 +94,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="ManufacturedMaterial.expirationTime"/>      
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for manufactured material's time of expiry"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -106,7 +106,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="ManufacturedMaterial.quantity"/>      
-      <short value="Australian Digital Health Agency CDA extension"/>
+      <short value="ADHA CDA extension for manufactured material's quantity"/>
       <min value="0"/>
       <max value="1"/>
       <type>

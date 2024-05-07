@@ -156,7 +156,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Patient.multipleBirthInd"/>
-      <short value="ADHA CDA extension for multiple birth indicator"/>
+      <short value="ADHA CDA extension for patient's multiple birth indicator"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -168,7 +168,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Patient.multipleBirthOrderNumber"/>
-      <short value="ADHA CDA extension for multiple birth order number"/>
+      <short value="ADHA CDA extension for patient's multiple birth order number"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -180,7 +180,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Patient.deceasedInd"/>
-      <short value="ADHA CDA extension for deceased indicator"/>
+      <short value="ADHA CDA extension for patient's deceased indicator"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -192,7 +192,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Patient.deceasedTime"/>
-      <short value="ADHA CDA extension for deceased time"/>
+      <short value="ADHA CDA extension for patient's deceased time"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -220,7 +220,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Patient.asEntityIdentifier"/>
-      <short value="ADHA CDA extension for entity identifiers"/>
+      <short value="ADHA CDA extension for a patient's identifier"/>
       <min value="0"/>
       <max value="*"/>
       <type>
