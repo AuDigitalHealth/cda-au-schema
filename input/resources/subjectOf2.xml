@@ -46,6 +46,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="SubjectOf2.substitutionPermission"/>
+	  <short value="ADHA CDA extension to represent substitution permission"/>
       <definition value="Substitution Permission"/>
       <min value="1"/>
       <max value="1"/>
