@@ -1358,6 +1358,12 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-PersonName"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
 		
 		<!--ADHA Extensions-->
 		<resource>

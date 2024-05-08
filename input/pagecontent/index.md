@@ -54,8 +54,8 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-au-Participant1.html">au-Participant1</a></li>
 				<li><a href="StructureDefinition-au-Participant2.html">au-Participant2</a></li>
 				<li><a href="StructureDefinition-au-ParticipantRole.html">au-ParticipantRole</a></li>
-				<li><a href="StructureDefinition-au-PatientRole.html">au-PatientRole</a></li>
 				<li><a href="StructureDefinition-au-Patient.html">au-Patient</a></li>
+				<li><a href="StructureDefinition-au-PatientRole.html">au-PatientRole</a></li>
 				<li><a href="StructureDefinition-au-Person.html">au-Person</a></li>
 				<li><a href="StructureDefinition-au-Performer2.html">au-Performer2</a></li>
 				<li><a href="StructureDefinition-au-Place.html">au-Place</a></li>
@@ -109,6 +109,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-au-Address.html">au-Address</a></li>
 				<li><a href="StructureDefinition-au-EntityName.html">au-EntityName</a></li>
 				<li><a href="StructureDefinition-au-OrganizationName.html">au-OrganizationName</a></li>
+				<li><a href="StructureDefinition-au-PersonName.html">au-PersonName</a></li>
 				<li><a href="StructureDefinition-au-Telecom.html">au-Telecom</a></li>
 			</ul>
 		</td>

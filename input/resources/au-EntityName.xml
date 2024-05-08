@@ -22,7 +22,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-EntityName"/>
   <name value="au-EntityName"/>
-  <title value="au-EntityName: EntityName (V3 Data Type)"/>
+  <title value="ADHA EN: EntityName (V3 Data Type)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
