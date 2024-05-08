@@ -46,7 +46,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asIngredient.id"/>
-      <short value="ADHA CDA extension for Id"/>
+      <short value="ADHA CDA extension to represent id"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -58,7 +58,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asIngredient.ingredientManufacturedMaterial"/>
-      <short value="ADHA CDA extension for Ingredient Manufactured Material"/>
+      <short value="ADHA CDA extension to represent ingredient manufactured material"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -70,7 +70,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asIngredient.quantity"/>
-      <short value="ADHA CDA extension for quantity"/>
+      <short value="ADHA CDA extension to represent quantity"/>
       <min value="0"/>
       <max value="1"/>
       <type>

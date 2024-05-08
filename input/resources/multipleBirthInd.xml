@@ -26,7 +26,7 @@
   <differential>
     <element id="multipleBirthInd">
       <path value="multipleBirthInd"/>
-      <short value="ADHA CDA extension for patient's multiple birth indicator"/>
+      <short value="ADHA CDA extension to represent a patient's multiple birth indicator"/>
       <definition value="The sequential order of each baby of a multiple birth regardless of live or still birth"/>
       <min value="1"/>
       <max value="1"/>

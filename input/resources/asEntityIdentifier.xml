@@ -26,7 +26,7 @@
   <differential>
     <element id="asEntityIdentifier">
       <path value="asEntityIdentifier"/>
-      <short value="ADHA CDA extension for identifying a participant"/>
+      <short value="ADHA CDA extension to represent identifying a participant"/>
       <definition value="A number or code issued for the purpose of identifying a participant within a healthcare context."/>
       <min value="1"/>
       <max value="*"/>
@@ -47,7 +47,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asEntityIdentifier.id"/>
-      <short value="ADHA CDA extension for id"/>
+      <short value="ADHA CDA extension to represent id"/>
       <comment value="Attribute @root SHALL be used, SHALL be an OID and SHALL NOT be a UUID. Attribute @root SHALL be a globally unique objectidentifier(i.e.OID) that identifies the combination of geographic area, issuer and type. If no such OID exists, it SHALL be defined before any identifiers
         can be created. 
         &#xa;&#xa;Attribute @extension MAY be used and, if it is used, SHALL be a unique identifier within the scope of the root that is populated directly from the designation.        
@@ -64,7 +64,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asEntityIdentifier.code"/>
-      <short value="ADHA CDA extension for code"/>
+      <short value="ADHA CDA extension to represent code"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -76,7 +76,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asEntityIdentifier.assigningGeographicArea"/>
-      <short value="ADHA CDA extension for Assigning Geographic Area"/>
+      <short value="ADHA CDA extension to represent the assigning geographic area"/>
       <min value="0"/>
       <max value="1"/>
       <type>

@@ -211,7 +211,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="ClinicalDocument.completionCode"/>
-      <short value="ADHA CDA extension for document lifecycle codes"/>
+      <short value="ADHA CDA extension to represent document lifecycle codes"/>
       <definition
         value="The completionCode extension attribute allows the implementer to identify the lifecycle status of a document."/>
       <min value="1"/>

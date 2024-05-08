@@ -26,7 +26,7 @@
   <differential>
     <element id="personalRelationship">
       <path value="personalRelationship"/>
-      <short value="ADHA CDA extension for relationship with patient"/>
+      <short value="ADHA CDA extension to represent relationship with patient"/>
       <definition value="The relationship of a participant to a subject of care (patient)."/>
       <min value="1"/>
       <max value="*"/>
@@ -47,7 +47,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="personalRelationship.id"/>
-      <short value="ADHA CDA extension for identification details"/>
+      <short value="ADHA CDA extension to represent identification details"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -59,7 +59,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="personalRelationship.code"/>
-      <short value="ADHA CDA extension for Code"/>
+      <short value="ADHA CDA extension to represent code"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -71,7 +71,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="personalRelationship.addr"/>
-      <short value="ADHA CDA extension for address details"/>
+      <short value="ADHA CDA extension to represent address details"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -83,7 +83,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="personalRelationship.telecom"/>
-      <short value="ADHA CDA extension for telecommunication details"/>
+      <short value="ADHA CDA extension to represent telecommunication details"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -95,7 +95,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="personalRelationship.statusCode"/>
-      <short value="ADHA CDA extension for the status of the relationship"/>
+      <short value="ADHA CDA extension to represent the status of the relationship"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -107,7 +107,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="personalRelationship.effectiveTime"/>
-      <short value="ADHA CDA extension for effective time of the relationship"/>
+      <short value="ADHA CDA extension to represent effective time of the relationship"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -119,7 +119,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="personalRelationship.asPersonalRelationship"/>
-      <short value="ADHA CDA extension for further personal relationship details"/>
+      <short value="ADHA CDA extension to represent further personal relationship details"/>
       <min value="1"/>
       <max value="1"/>
       <type>

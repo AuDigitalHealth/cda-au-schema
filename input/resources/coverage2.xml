@@ -46,7 +46,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="coverage2.entitlement"/>
-      <short value="ADHA CDA extension for the entitlement"/>
+      <short value="ADHA CDA extension to represent entitlement"/>
       <min value="1"/>
       <max value="1"/>
       <type>

@@ -32,7 +32,7 @@
   <differential>
     <element id="participant">
       <path value="participant"/>
-      <short value="ADHA CDA extension for participant"/>
+      <short value="ADHA CDA extension to represent participant"/>
       <definition value="Australian Digital Health Agency extension for participant."/>
       <min value="1"/>
       <max value="*"/>
