@@ -95,7 +95,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="LanguageCommunication.interpreterRequiredInd"/>
-      <short value="ADHA CDA extension to know whether a interpreter is required"/>
+      <short value="ADHA CDA extension to represent if an interpreter is required"/>
       <min value="0"/>
       <max value="1"/>
       <type>

@@ -26,7 +26,7 @@
   <differential>
     <element id="dischargeDispositionCode">
       <path value="dischargeDispositionCode"/>
-      <short value="ADHA CDA extension for an discharge disposition code"/>
+      <short value="ADHA CDA extension to represent discharge disposition code"/>
       <definition value="The dischargeDispositionCode extension attribute informs the status separation of the subject of care and place o which the person is released."/>
       <min value="1"/>
       <max value="1"/>

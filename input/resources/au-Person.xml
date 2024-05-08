@@ -88,7 +88,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Person.administrativeGenderCode"/>
-      <short value="ADHA CDA extension for a person's administrative gender code "/>
+      <short value="ADHA CDA extension to represent a person's administrative gender code "/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -104,7 +104,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Person.birthTime"/>
-      <short value="ADHA CDA extension for a person's time of birth"/>
+      <short value="ADHA CDA extension to represent a person's time of birth"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -116,7 +116,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Person.asEntityIdentifier"/>
-      <short value="ADHA CDA extension for person's identifier"/>
+      <short value="ADHA CDA extension to represent a person's identifier"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -132,7 +132,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Person.asEmployment"/>
-      <short value="ADHA CDA extension for person's employment"/>
+      <short value="ADHA CDA extension to represent a person's employment"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -148,7 +148,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Person.asQualifications"/>
-      <short value="ADHA CDA extension for person's qualifications"/>
+      <short value="ADHA CDA extension to represent a person's qualification"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -164,7 +164,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="Person.personalRelationship"/>
-      <short value="ADHA CDA extension for person's personal retionship with patient"/>
+      <short value="ADHA CDA extension to represent a person's personal relationship with a patient"/>
       <min value="0"/>
       <max value="1"/>
       <type>

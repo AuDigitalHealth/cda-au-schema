@@ -117,7 +117,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="AuthoringDevice.asEntityIdentifier"/>
-      <short value="ADHA CDA extension for authoring device's identifier"/>
+      <short value="ADHA CDA extension to represent an authoring device's identifier"/>
       <definition value="A number or code issued for the purpose of identifying a participant within a healthcare context."/>
       <min value="0"/>
       <max value="*"/>

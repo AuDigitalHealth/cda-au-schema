@@ -26,7 +26,7 @@
   <differential>
     <element id="entitlement">
       <path value="entitlement"/>
-      <short value="ADHA CDA extension for entitlement"/>
+      <short value="ADHA CDA extension to represent entitlement"/>
       <definition value="The entitlement or right of a participant to act in a given capacity (as defined by Entitlement Type) within a healthcare context."/>
       <min value="1"/>
       <max value="*"/>
@@ -58,7 +58,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="entitlement.id"/>
-      <short value="ADHA CDA extension for entitlement id"/>
+      <short value="ADHA CDA extension to represent entitlement id"/>
       <definition value="A number or code issued for the purpose of identifying the entitlement or right of a participant to act in a given capacity (as defined by Entitlement Type) within a healthcare context."/>
       <min value="1"/>
       <max value="1"/>
@@ -71,7 +71,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="entitlement.code"/>
-      <short value="ADHA CDA extension for entitlement scope"/>
+      <short value="ADHA CDA extension to represent entitlement scope"/>
       <definition value="he description of the scope of an entitlement."/>
       <min value="1"/>
       <max value="1"/>
@@ -84,7 +84,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="entitlement.effectiveTime"/>
-      <short value="ADHA CDA extension for entitlement time"/>
+      <short value="ADHA CDA extension to represent entitlement time"/>
       <definition value="The time interval for which an entitlement is valid."/>
       <min value="0"/>
       <max value="1"/>
@@ -97,7 +97,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="entitlement.participant"/>
-      <short value="ADHA CDA extension for the participant"/>
+      <short value="ADHA CDA extension to represent the participant"/>
       <min value="0"/>
       <max value="*"/>
       <type>

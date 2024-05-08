@@ -38,7 +38,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="container.id"/>
-      <short value="ADHA CDA extension for the id of the container"/>
+      <short value="ADHA CDA extension to represent the id of the container"/>
       <min value="0"/>
       <max value="1"/>
       <type>

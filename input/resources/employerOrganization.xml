@@ -29,7 +29,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="employerOrganization"/>
-      <short value="ADHA CDA extension for employer's organisation"/>
+      <short value="ADHA CDA extension to represent an employer's organisation"/>
       <min value="1"/>
       <max value="*"/>
     </element> 
