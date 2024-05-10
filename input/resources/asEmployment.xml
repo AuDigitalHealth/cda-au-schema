@@ -85,7 +85,7 @@
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
       <path value="asEmployment.jobClassCode"/>
-      <short value="ADHA CDA extension to represent the basis of employment "/>
+      <short value="ADHA CDA extension to represent the basis of employment"/>
       <definition value="The basis on which the person is employed by the employer organisation."/>
       <min value="0"/>
       <max value="1"/>

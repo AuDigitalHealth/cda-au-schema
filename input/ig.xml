@@ -1438,7 +1438,12 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
-		
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/controlAct"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>		
 		<!-- Vocabulary -->
 		<resource>
 			<reference>

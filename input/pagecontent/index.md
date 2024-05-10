@@ -84,6 +84,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-asSpecimenInContainer.html">asSpecimenInContainer</a></li>
 				<li><a href="StructureDefinition-code.html">code</a></li>
 				<li><a href="StructureDefinition-completionCode.html">completionCode</a></li>
+				<li><a href="StructureDefinition-controlAct.html">controlAct</a></li>
 				<li><a href="StructureDefinition-coverage2.html">coverage2</a></li>
 				<li><a href="StructureDefinition-desc.html">desc</a></li>
 				<li><a href="StructureDefinition-deceasedInd.html">deceasedInd</a></li>
