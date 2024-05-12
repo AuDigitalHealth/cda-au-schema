@@ -26,7 +26,7 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/name"/>
   <name value="name"/>
-  <title value="Agency extension name"/>
+  <title value="Agency extension organisation name"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
@@ -40,13 +40,13 @@
   <differential>
     <element id="name">
       <path value="name"/>
-      <short value="ADHA CDA extension to represent name"/>
+      <short value="ADHA CDA extension to represent organisation name"/>
       <definition
         value="Element ext:name MAY be used and, if it is used, SHALL be the range and extent that the identifier applies to the object with which it is associated that is populated directly from the geographic area. This SHOULD NOT be used for machine readability purposes."/>
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ST"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ON"/>
       </type>
     </element>
   </differential>

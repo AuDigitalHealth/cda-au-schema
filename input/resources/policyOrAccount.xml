@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="PolicyOrAccount"/> 
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
+    <valueBoolean>
+      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+        <valueCode value="not-applicable"/>
+      </extension>
+    </valueBoolean>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+    <valueUri value="urn:hl7-org:v3"/>
+  </extension>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/PolicyOrAccount"/>
+  <name value="Policy or Account"/>
+  <title value="Agency extension PolicyOrAccount"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <publisher value="Australian Digital Health Agency" />
+  <description value="PolicyOrAccount"/>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/PolicyOrAccount"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
+  <derivation value="specialization"/>
+  <differential>
+    <element id="PolicyOrAccount">
+      <path value="PolicyOrAccount"/>
+      <definition value="PolicyOrAccount"/>
+      <min value="1"/>
+      <max value="1"/>
+    </element>
+    <element id="PolicyOrAccount.classCode">
+      <path value="PolicyOrAccount.classCode"/>
+      <representation value="xmlAttr"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      <fixedCode value="COV"/>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActClass"/>
+      </binding>
+    </element>
+    <element id="PolicyOrAccount.moodCode">
+      <path value="PolicyOrAccount.moodCode"/>
+      <representation value="xmlAttr"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      <fixedCode value="PERM"/>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActMood"/>
+      </binding>
+    </element>
+    <element id="PolicyOrAccount.code">
+      <path value="PolicyOrAccount.code"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

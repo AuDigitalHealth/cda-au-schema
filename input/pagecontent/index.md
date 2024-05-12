@@ -75,16 +75,19 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 		<td>
 			<h3>ADHA Extensions</h3>
 			<ul>
+				<li><a href="StructureDefinition-addr.html">address</a></li>	
 				<li><a href="StructureDefinition-administrativeGenderCode.html">administrativeGenderCode</a></li>				
 				<li><a href="StructureDefinition-admissionReferralSourceCode.html">admissionReferralSourceCode</a></li>
 				<li><a href="StructureDefinition-asEmployment.html">asEmployment</a></li>
 				<li><a href="StructureDefinition-asEntityIdentifier.html">asEntityIdentifier</a></li>
 				<li><a href="StructureDefinition-asIngredient.html">asIngredient</a></li>
-				<li><a href="StructureDefinition-asQualifications.html">asQualifications</a></li>
+				<li><a href="StructureDefinition-asQualifications.html">asQualifications</a></li>				
+				<li><a href="StructureDefinition-asQualifiedEntity.html">asQualifiedEntity</a></li>
 				<li><a href="StructureDefinition-asSpecimenInContainer.html">asSpecimenInContainer</a></li>
 				<li><a href="StructureDefinition-code.html">code</a></li>
 				<li><a href="StructureDefinition-completionCode.html">completionCode</a></li>
 				<li><a href="StructureDefinition-controlAct.html">controlAct</a></li>
+				<li><a href="StructureDefinition-coverage.html">coverage</a></li>
 				<li><a href="StructureDefinition-coverage2.html">coverage2</a></li>
 				<li><a href="StructureDefinition-desc.html">desc</a></li>
 				<li><a href="StructureDefinition-deceasedInd.html">deceasedInd</a></li>
@@ -101,7 +104,11 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-name.html">name</a></li>
 				<li><a href="StructureDefinition-participant.html">participant</a></li>
 				<li><a href="StructureDefinition-personalRelationship.html">personalRelationship</a></li>
+				<li><a href="StructureDefinition-policy.html">policy</a></li>
+				<li><a href="StructureDefinition-PolicyOrAccount.html">policyOrAccount</a></li>
+				<li><a href="StructureDefinition-subjectOf1.html">subjectOf1</a></li>
 				<li><a href="StructureDefinition-subjectOf2.html">subjectOf2</a></li>
+				<li><a href="StructureDefinition-telecom.html">telecom</a></li>
 			</ul>
 		</td>
 		<td>

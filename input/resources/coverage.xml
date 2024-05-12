@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="coverage"/> 
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
+    <valueBoolean>
+      <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
+        <valueCode value="not-applicable"/>
+      </extension>
+    </valueBoolean>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
+    <valueUri value="urn:hl7-org:v3"/>
+  </extension>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/coverage"/>
+  <name value="coverage"/>
+  <title value="Agency extension coverage"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <publisher value="Australian Digital Health Agency" />
+  <description value="coverage"/>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/coverage"/>
+  <baseDefinition value="http://hl7.org/cda/stds/core/StructureDefinition/InfrastructureRoot"/>
+  <derivation value="specialization"/>
+  <differential>
+    <element id="coverage">
+      <path value="coverage"/>
+      <definition value="coverage"/>
+      <min value="1"/>
+      <max value="1"/>
+    </element>
+    <element id="coverage.typeCode">
+      <path value="coverage.typeCode"/>
+      <representation value="xmlAttr"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      <fixedCode value="COVBY"/>      
+    </element>
+    <element id="coverage.policyOrAccount">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <path value="coverage.policyOrAccount"/>
+      <short value="ADHA CDA extension to represent policy or account"/>
+      <definition value="policy"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/PolicyOrAccount"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
