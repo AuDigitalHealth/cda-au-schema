@@ -54,10 +54,8 @@
     <element id="AD.nullFlavor">
       <path value="AD.nullFlavor"/>
       <representation value="xmlAttr"/>
-      <definition
-        value="A flag to indicate whether or not the participant has no fixed address."/>
-      <comment
-        value="If true, nullFlavor=NA. If false omit nullFlavor and fill in address."/>
+      <definition value="A flag to indicate whether or not the participant has no fixed address."/>
+      <comment value="If true, nullFlavor=NA. If false omit nullFlavor and fill in address."/>
       <min value="0"/>
       <max value="1"/>
     </element>
@@ -65,7 +63,8 @@
       <path value="AD.isNotOrdered"/>
       <representation value="xmlAttr"/>
       <label value="Is Not Ordered"/>
-      <definition value="A boolean value specifying whether the order of the address parts is known or not. While the address parts are always a Sequence, the order in which they are presented may or may not be known. Where this matters, the isNotOrdered property can be used to convey this information."/>
+      <definition
+        value="A boolean value specifying whether the order of the address parts is known or not. While the address parts are always a Sequence, the order in which they are presented may or may not be known. Where this matters, the isNotOrdered property can be used to convey this information."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -77,7 +76,8 @@
       <path value="AD.use"/>
       <representation value="xmlAttr"/>
       <label value="Use Code"/>
-      <definition value="A set of codes advising a system or user which address in a set of like addresses to select for a given purpose."/>
+      <definition
+        value="The purpose for which the address is being used by the entity."/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -104,12 +104,15 @@
         <key value="AD-1"/>
         <severity value="error"/>
         <human value="Can only have only one of the possible item elements in each choice"/>
-        <expression value="(delimiter | country | state | county | city | postalCode | streetAddressLine | houseNumber | houseNumberNumeric | direction | streetName | streetNameBase | streetNameType | additionalLocator | unitID | unitType | careOf | censusTract | deliveryAddressLine | deliveryInstallationType | deliveryInstallationArea | deliveryInstallationQualifier | deliveryMode | deliveryModeIdentifier | buildingNumberSuffix | postBox | precinct | xmlText).count() = 1"/>
+        <expression
+          value="(delimiter | country | state | county | city | postalCode | streetAddressLine | houseNumber | houseNumberNumeric | direction | streetName | streetNameBase | streetNameType | additionalLocator | unitID | unitType | careOf | censusTract | deliveryAddressLine | deliveryInstallationType | deliveryInstallationArea | deliveryInstallationQualifier | deliveryMode | deliveryModeIdentifier | buildingNumberSuffix | postBox | precinct | xmlText).count() = 1"
+        />
       </constraint>
     </element>
     <element id="AD.item.delimiter">
       <path value="AD.item.delimiter"/>
-      <definition value="Delimiters are printed without framing white space. If no value component is provided, the delimiter appears as a line break."/>
+      <definition
+        value="Delimiters are printed without framing white space. If no value component is provided, the delimiter appears as a line break."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -129,7 +132,7 @@
     </element>
     <element id="AD.item.country">
       <path value="AD.item.country"/>
-      <definition value="Country"/>
+      <definition value="The country component of the address."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -150,7 +153,7 @@
     <element id="AD.item.state">
       <path value="AD.item.state"/>
       <definition
-        value="A sub-unit of a country with limited sovereignty in a federally organized country."/>
+        value="The designation applied to an internal, political or geographic division of a country other than Australia that is officially recognised by that country."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -174,7 +177,8 @@
     </element>
     <element id="AD.item.county">
       <path value="AD.item.county"/>
-      <definition value="A sub-unit of a state or province. (49 of the United States of America use the term &quot;county;&quot; Louisiana uses the term &quot;parish&quot;.)"/>
+      <definition
+        value="A sub-unit of a state or province. (49 of the United States of America use the term &quot;county;&quot; Louisiana uses the term &quot;parish&quot;.)"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -194,7 +198,7 @@
     </element>
     <element id="AD.item.city">
       <path value="AD.item.city"/>
-      <definition value="The name of the city, town, village, or other community or delivery center"/>
+      <definition value="The full name of the general locality contained within the specific address."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -214,8 +218,10 @@
     </element>
     <element id="AD.item.postalCode">
       <path value="AD.item.postalCode"/>
-      <definition value="A postal code designating a region defined by the postal service."/>
-      <comment value="Values in this data element SHOULD comply with descriptions in the Australia Post Postcode File."/>
+      <definition
+        value="The alphanumeric descriptor for a postal delivery area (as by the postal service of a country other than Australia) aligned with locality, suburb or place for an address."/>
+      <comment
+        value="Values in this data element SHOULD comply with descriptions in the Australia Post Postcode File."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -235,7 +241,10 @@
     </element>
     <element id="AD.item.streetAddressLine">
       <path value="AD.item.streetAddressLine"/>
-      <definition value="Street address line"/>
+      <definition
+        value="A composite of address details comprising a low level geographical/physical description of a location that, used in conjunction with the other high level address components, i.e. international state/province, international postcode and country, forms a complete geographic/physical
+        address.        
+        &#xa;&#xa;A composite of one or more low level standard address components describing a geographical/physical location that, used in conjunction with the other high level address components, e.g. Australian suburb/town/locality name, Australian postcode and Australian State/Territory, forms a complete geographical/physical address."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -255,7 +264,8 @@
     </element>
     <element id="AD.item.houseNumber">
       <path value="AD.item.houseNumber"/>
-      <definition value="The number of a building, house or lot alongside the street. Also known as &quot;primary street number&quot;. This does not number the street but rather the building."/>
+      <definition
+        value="The number of a building, house or lot alongside the street. Also known as &quot;primary street number&quot;. This does not number the street but rather the building."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -315,7 +325,8 @@
     </element>
     <element id="AD.item.streetName">
       <path value="AD.item.streetName"/>
-      <definition value="Name of a roadway or artery recognized by a municipality (including street type and direction)"/>
+      <definition
+        value="The name that identifies a public thoroughfare and differentiates it from others in the same suburb/town/locality."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -335,7 +346,8 @@
     </element>
     <element id="AD.item.streetNameBase">
       <path value="AD.item.streetNameBase"/>
-      <definition value="The base name of a roadway or artery recognized by a municipality (excluding street type and direction)"/>
+      <definition
+        value="The base name of a roadway or artery recognized by a municipality (excluding street type and direction)"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -355,7 +367,7 @@
     </element>
     <element id="AD.item.streetNameType">
       <path value="AD.item.streetNameType"/>
-      <definition value="The designation given to the street. (e.g. Street, Avenue, Crescent, etc.)"/>
+      <definition value=" A code that identifies the type of public thoroughfare."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -375,10 +387,16 @@
     </element>
     <element id="AD.item.additionalLocator">
       <path value="AD.item.additionalLocator"/>
-      <definition value="This can be a unit designator, such as apartment number, suite number, or floor. There may be several unit designators in an address (e.g., &quot;3rd floor, Appt. 342&quot;). This can also be a designator pointing away from the location, rather than specifying a smaller location within some larger one (e.g., Dutch &quot;t.o.&quot; means &quot;opposite to&quot; for house boats located across the street facing houses)."/>
+      <definition
+        value="The Australian Lot reference allocated to an addressin the absence of street numbering.
+        &#xa;&#xa;The full name used to identify the physical building or property as part of its location.
+        &#xa;&#xa;Descriptor used to classify the type of floor or level of a multistorey building/complex.
+        &#xa;&#xa;Descriptor used to identify the floor or level of a multistorey building/complex.
+        &#xa;&#xa;A unique number assigned to a postal delivery point as recorded on the Australia Post Postal Address File.
+        "/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -388,7 +406,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -397,10 +415,11 @@
     </element>
     <element id="AD.item.unitID">
       <path value="AD.item.unitID"/>
-      <definition value="The number or name of a specific unit contained within a building or complex, as assigned by that building or complex."/>
+      <definition
+        value="The number or name of a specific unit contained within a building or complex, as assigned by that building or complex."/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -410,7 +429,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -419,10 +438,11 @@
     </element>
     <element id="AD.item.unitType">
       <path value="AD.item.unitType"/>
-      <definition value="Indicates the type of specific unit contained within a building or complex. E.g. Appartment, Floor"/>
+      <definition
+        value="Indicates the type of specific unit contained within a building or complex. E.g. Appartment, Floor"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -432,7 +452,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -441,10 +461,11 @@
     </element>
     <element id="AD.item.careOf">
       <path value="AD.item.careOf"/>
-      <definition value="The name of the party who will take receipt at the specified address, and will take on responsibility for ensuring delivery to the target recipient"/>
+      <definition
+        value="The name of the party who will take receipt at the specified address, and will take on responsibility for ensuring delivery to the target recipient"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -454,7 +475,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -466,7 +487,7 @@
       <definition value="A geographic sub-unit delineated for demographic purposes."/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -476,7 +497,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -485,10 +506,12 @@
     </element>
     <element id="AD.item.deliveryAddressLine">
       <path value="AD.item.deliveryAddressLine"/>
-      <definition value="A delivery address line is frequently used instead of breaking out delivery mode, delivery installation, etc. An address generally has only a delivery address line or a street address line, but not both."/>
+      <definition
+        value="Identification for the channel of postal delivery.
+        &#xa;&#xa;Identification number for the channel of postal delivery."/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -498,7 +521,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -507,10 +530,11 @@
     </element>
     <element id="AD.item.deliveryInstallationType">
       <path value="AD.item.deliveryInstallationType"/>
-      <definition value="Indicates the type of delivery installation (the facility to which the mail will be delivered prior to final shipping via the delivery mode.) Example: post office, letter carrier depot, community mail center, station, etc."/>
+      <definition
+        value="Indicates the type of delivery installation (the facility to which the mail will be delivered prior to final shipping via the delivery mode.) Example: post office, letter carrier depot, community mail center, station, etc."/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -520,7 +544,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -529,10 +553,11 @@
     </element>
     <element id="AD.item.deliveryInstallationArea">
       <path value="AD.item.deliveryInstallationArea"/>
-      <definition value="The location of the delivery installation, usually a town or city, and is only required if the area is different from the municipality. Area to which mail delivery service is provided from any postal facility or service such as an individual letter carrier, rural route, or postal route."/>
+      <definition
+        value="The location of the delivery installation, usually a town or city, and is only required if the area is different from the municipality. Area to which mail delivery service is provided from any postal facility or service such as an individual letter carrier, rural route, or postal route."/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -542,7 +567,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -551,10 +576,11 @@
     </element>
     <element id="AD.item.deliveryInstallationQualifier">
       <path value="AD.item.deliveryInstallationQualifier"/>
-      <definition value="A number, letter or name identifying a delivery installation. E.g., for Station A, the delivery installation qualifier would be 'A'."/>
+      <definition
+        value="A number, letter or name identifying a delivery installation. E.g., for Station A, the delivery installation qualifier would be 'A'."/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -564,7 +590,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -573,10 +599,11 @@
     </element>
     <element id="AD.item.deliveryMode">
       <path value="AD.item.deliveryMode"/>
-      <definition value="Indicates the type of service offered, method of delivery. For example: post office box, rural route, general delivery, etc."/>
+      <definition
+        value="Indicates the type of service offered, method of delivery. For example: post office box, rural route, general delivery, etc."/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -586,7 +613,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -595,10 +622,11 @@
     </element>
     <element id="AD.item.deliveryModeIdentifier">
       <path value="AD.item.deliveryModeIdentifier"/>
-      <definition value="Represents the routing information such as a letter carrier route number. It is the identifying number of the designator (the box number or rural route number)."/>
+      <definition
+        value="Represents the routing information such as a letter carrier route number. It is the identifying number of the designator (the box number or rural route number)."/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -608,7 +636,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -617,10 +645,11 @@
     </element>
     <element id="AD.item.buildingNumberSuffix">
       <path value="AD.item.buildingNumberSuffix"/>
-      <definition value="Any alphabetic character, fraction or other text that may appear after the numeric portion of a building number"/>
+      <definition
+        value="Any alphabetic character, fraction or other text that may appear after the numeric portion of a building number"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -630,7 +659,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -642,7 +671,7 @@
       <definition value="A numbered box located in a post station."/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -652,7 +681,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -664,7 +693,7 @@
       <definition value="A subsection of a municipality"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
@@ -674,7 +703,7 @@
       <representation value="xmlAttr"/>
       <min value="0"/>
       <max value="1"/>
-      
+
       <type>
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
@@ -685,12 +714,13 @@
       <path value="AD.item.xmlText"/>
       <representation value="xmlText"/>
       <short value="Allows for mixed text content"/>
-      <comment value="This element is represented in XML as textual content. The actual name &quot;xmlText&quot; will not appear in a CDA instance."/>
+      <comment
+        value="This element is represented in XML as textual content. The actual name &quot;xmlText&quot; will not appear in a CDA instance."/>
       <min value="0"/>
       <max value="1"/>
       <type>
         <code value="string"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/st-simple" />
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/st-simple"/>
       </type>
     </element>
     <element id="AD.useablePeriod">
@@ -700,7 +730,8 @@
       <path value="AD.useablePeriod"/>
       <representation value="typeAttr"/>
       <label value="Useable Period"/>
-      <definition value="A General Timing Specification (GTS) specifying the periods of time during which the address can be used. This is used to specify different addresses for different times of the week or year."/>
+      <definition
+        value="A General Timing Specification (GTS) specifying the periods of time during which the address can be used. This is used to specify different addresses for different times of the week or year."/>
       <min value="0"/>
       <max value="*"/>
       <type>

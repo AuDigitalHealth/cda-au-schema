@@ -38,6 +38,7 @@
     <element id="TEL">
       <path value="TEL"/>
       <short value="Australian adaptation of the HL7 International CDA TelecommunicationAddress datatype"/>
+      <definition value="The electronic communication details of entities"/>
       <min value="1"/>
       <max value="*"/>
       <constraint>
@@ -50,6 +51,9 @@
     <element id="TEL.value">
       <path value="TEL.value"/>
       <representation value="xmlAttr"/>
+      <definition value="A code representing a type of communication mechanism.
+        &#xa;&#xa;A  unique combination of characters used as input to electronic telecommunication equipmentforthe purpose
+        of contacting an entity."/>
       <comment value="Makes up part of the value attribute as ‘tel:phone number’, ‘mailto:email address’, ‘http:URL’, etc."/>
       <min value="1"/>
       <max value="1"/>
@@ -86,7 +90,7 @@
       <representation value="xmlAttr"/>
       <comment value="Space separated list of codes. The section AS 5017-2006: Health Care Client Electronic Communication Usage Code explains how to map AS 5017-2006 to HL7 Telecommunication-AddressUse (HL7 TAU) code"/>
       <label value="Use Code"/>
-      <definition value="One or more codes advising a system or user which telecommunication address in a set of like addresses to select for a given telecommunication need."/>
+      <definition value="The manner of use that is applied to an electronic communication medium."/>
       <min value="0"/>
       <max value="1"/>
       <type>
