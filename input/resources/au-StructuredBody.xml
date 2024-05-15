@@ -121,10 +121,12 @@
     </element>
     <element id="StructuredBody.component.section">
       <path value="StructuredBody.component.section"/>
+      <short value="Australian-adapted Section class"/>
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Section"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Section"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Section"/>
       </type>
     </element>
   </differential>
