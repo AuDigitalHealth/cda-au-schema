@@ -1660,26 +1660,8 @@
 		<page>
 			<sourceUrl value="index.html"/>
 			<name value="index.html"/>
-			<title value="IG Home Page"/>
-			<generation value="markdown"/>
-			<page>
-				<sourceUrl value="overview.html"/>
-				<name value="overview.html"/>
-				<title value="Overview"/>
-				<generation value="markdown"/>
-				<page>
-					<sourceUrl value="implementation.html"/>
-					<name value="implementation.html"/>
-					<title value="Implementation Notes"/>
-					<generation value="markdown"/>
-				</page>
-				<page>
-					<sourceUrl value="narrative.html"/>
-					<name value="narrative.html"/>
-					<title value="Narrative Block"/>
-					<generation value="markdown"/>
-				</page>
-			</page>
+			<title value="Home"/>
+			<generation value="markdown"/>			
 			<page>
 				<sourceUrl value="downloads.html"/>
 				<name value="downloads.html"/>
@@ -1702,6 +1684,12 @@
 				<sourceUrl value="disclaimers.html"/>
 				<name value="disclaimers.html"/>
 				<title value="Disclaimers"/>
+				<generation value="markdown"/>
+			</page>
+			<page>
+				<sourceUrl value="auscdadefinition.html"/>
+				<name value="auscdadefinition.html"/>
+				<title value="Australian CDA Definitions"/>
 				<generation value="markdown"/>
 			</page>
 		</page>

@@ -1,143 +1,33 @@
-### Overview
+### Introduction
 
 This Australian Digital Health Agency FHIR Implementation Guide is a representation of the [Clinical Document Architecture (CDA) R2.0 specification](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=7) using HL7<sup>&reg;</sup> FHIR<sup>&reg;&copy;</sup> Logical Models expressed as HL7<sup>&reg;</sup> FHIR<sup>&reg;&copy;</sup> StructureDefinition instances.
 
 It is an adaptation of the [HL7 International CDA Logical Model Specification](https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/) with specific modifications and inclusions to represent Australian CDA schema extensions using the FHIR StructureDefinition framework. 
 
-### Australian CDA schema extensions
+### Document purpose and scope
 
-Australian CDA schema extensions are published here [Australian Digital Health Agency CDA Schema Extension 3.0 - CDA Schema v20201203](https://developer.digitalhealth.gov.au/resources/australian-digital-health-agency-cda-schema-extension-3-0-cda-schema-v20201203).
+The primary aim of this implementation guide is to support implementers who are implementing CDA. It contains CDA extensions in Australian context and the HL7 CDA classes using the Australian extensions. 
 
-The following table outlines the specific CDA classes and extensions that are Australian specific. All unmodified CDA classes are listed on the following page: [HL7 CDA Definitions](hl7cdadefinition.html).
+This implementation guide does not describe presentation of the information, user experience, or expected behaviour of producing and receiving systems.
 
-The entry point for this specification is the [ADHA ClinicalDocument](StructureDefinition-au-ClinicalDocument.html) class.
+Wherever possible, material in this specification is based on existing standards. All efforts have been made to minimise divergence from the HL7 international CDA classes to provide for system interoperability and compatibility with other classes. Issues of an editorial nature in the source material (such as spelling or punctuation errors) are intentionally reproduced.
 
-<table class="cda-table">
-	<tbody>
-	<tr>
-		<td>
-			<h3>ADHA CDA Classes</h3>
-			<ul>
-				<li><a href="StructureDefinition-au-ClinicalDocument.html"><b>ADHA ClinicalDocument</b></a></li>
-				<li><a href="StructureDefinition-au-Act.html">au-Act</a></li>
-				<li><a href="StructureDefinition-au-AssignedAuthor.html">au-AssignedAuthor</a></li>
-				<li><a href="StructureDefinition-au-AssignedEntity.html">au-AssignedEntity</a></li>
-				<li><a href="StructureDefinition-au-AssignedCustodian.html">au-AssignedCustodian</a></li>
-				<li><a href="StructureDefinition-au-AssociatedEntity.html">au-AssociatedEntity</a></li>
-				<li><a href="StructureDefinition-au-Author.html">au-Author</a></li>
-				<li><a href="StructureDefinition-au-AuthoringDevice.html">au-AuthoringDevice</a></li>
-				<li><a href="StructureDefinition-au-ComponentOf.html">au-ComponentOf</a></li>
-				<li><a href="StructureDefinition-au-Custodian.html">au-Custodian</a></li>
-				<li><a href="StructureDefinition-au-CustodianOrganization.html">au-CustodianOrganization</a></li>
-				<li><a href="StructureDefinition-au-EncompassingEncounter.html">au-EncompassingEncounter</a></li>
-				<li><a href="StructureDefinition-au-Encounter.html">au-Encounter</a></li>
-				<li><a href="StructureDefinition-au-Entity.html">au-Entity</a></li>
-				<li><a href="StructureDefinition-au-Entry.html">au-Entry</a></li>
-				<li><a href="StructureDefinition-au-EntryRelationship.html">au-EntryRelationship</a></li>
-				<li><a href="StructureDefinition-au-ExternalDocument.html">au-ExternalDocument</a></li>
-				<li><a href="StructureDefinition-au-HealthCareFacility.html">au-HealthCareFacility</a></li>
-				<li><a href="StructureDefinition-au-Informant.html">au-Informant</a></li>
-				<li><a href="StructureDefinition-au-InformationRecipient.html">au-InformationRecipient</a></li>
-				<li><a href="StructureDefinition-au-IntendedRecipient.html">au-IntendedRecipient</a></li>                
-				<li><a href="StructureDefinition-au-languageCommunication.html">au-languageCommunication</a></li>
-				<li><a href="StructureDefinition-au-LegalAuthenticator.html">au-LegalAuthenticator</a></li>
-				<li><a href="StructureDefinition-au-ManufacturedProduct.html">au-ManufacturedProduct</a></li>
-				<li><a href="StructureDefinition-au-Material.html">au-Material</a></li>
-				<li><a href="StructureDefinition-au-Observation.html">au-Observation</a></li>
-				<li><a href="StructureDefinition-au-ObservationMedia.html">au-ObservationMedia</a></li>
-				<li><a href="StructureDefinition-au-ObservationRange.html">au-ObservationRange</a></li>
-				<li><a href="StructureDefinition-au-Order.html">au-Order</a></li>
-				<li><a href="StructureDefinition-au-Organization.html">au-Organization</a></li>
-				<li><a href="StructureDefinition-au-OrganizationPartOf.html">au-OrganizationPartOf</a></li>
-				<li><a href="StructureDefinition-au-Organizer.html">au-Organizer</a></li>
-				<li><a href="StructureDefinition-au-ParentDocument.html">au-ParentDocument</a></li>
-				<li><a href="StructureDefinition-au-Participant1.html">au-Participant1</a></li>
-				<li><a href="StructureDefinition-au-Participant2.html">au-Participant2</a></li>
-				<li><a href="StructureDefinition-au-ParticipantRole.html">au-ParticipantRole</a></li>
-				<li><a href="StructureDefinition-au-Patient.html">au-Patient</a></li>
-				<li><a href="StructureDefinition-au-PatientRole.html">au-PatientRole</a></li>
-				<li><a href="StructureDefinition-au-Person.html">au-Person</a></li>
-				<li><a href="StructureDefinition-au-Performer2.html">au-Performer2</a></li>
-				<li><a href="StructureDefinition-au-Place.html">au-Place</a></li>
-				<li><a href="StructureDefinition-au-Precondition.html">au-Precondition</a></li>
-				<li><a href="StructureDefinition-au-Procedure.html">au-Procedure</a></li>
-				<li><a href="StructureDefinition-au-RecordTarget.html">au-RecordTarget</a></li>
-				<li><a href="StructureDefinition-au-Reference.html">au-Reference</a></li>
-				<li><a href="StructureDefinition-au-RegionOfInterest.html">au-RegionOfInterest</a></li>
-				<li><a href="StructureDefinition-au-RelatedDocument.html">au-RelatedDocument</a></li>
-				<li><a href="StructureDefinition-au-Section.html">au-Section</a></li>
-				<li><a href="StructureDefinition-au-Specimen.html">au-Specimen</a></li>
-				<li><a href="StructureDefinition-au-SpecimenRole.html">au-SpecimenRole</a></li>
-				<li><a href="StructureDefinition-au-SubstanceAdministration.html">au-SubstanceAdministration</a></li>
-				<li><a href="StructureDefinition-au-Supply.html">au-Supply</a></li>
-			</ul>
-		</td>
-		<td>
-			<h3>ADHA Extensions</h3>
-			<ul>
-				<li><a href="StructureDefinition-addr.html">address</a></li>	
-				<li><a href="StructureDefinition-administrativeGenderCode.html">administrativeGenderCode</a></li>				
-				<li><a href="StructureDefinition-admissionReferralSourceCode.html">admissionReferralSourceCode</a></li>
-				<li><a href="StructureDefinition-asEmployment.html">asEmployment</a></li>
-				<li><a href="StructureDefinition-asEntityIdentifier.html">asEntityIdentifier</a></li>
-				<li><a href="StructureDefinition-asIngredient.html">asIngredient</a></li>
-				<li><a href="StructureDefinition-asQualifications.html">asQualifications</a></li>				
-				<li><a href="StructureDefinition-asQualifiedEntity.html">asQualifiedEntity</a></li>
-				<li><a href="StructureDefinition-asSpecimenInContainer.html">asSpecimenInContainer</a></li>
-				<li><a href="StructureDefinition-code.html">code</a></li>
-				<li><a href="StructureDefinition-completionCode.html">completionCode</a></li>
-				<li><a href="StructureDefinition-controlAct.html">controlAct</a></li>
-				<li><a href="StructureDefinition-coverage.html">coverage</a></li>
-				<li><a href="StructureDefinition-coverage2.html">coverage2</a></li>
-				<li><a href="StructureDefinition-desc.html">desc</a></li>
-				<li><a href="StructureDefinition-deceasedInd.html">deceasedInd</a></li>
-				<li><a href="StructureDefinition-deceasedTime.html">deceasedTime</a></li>
-				<li><a href="StructureDefinition-dischargeDispositionCode.html">dischargeDispositionCode</a></li>
-				<li><a href="StructureDefinition-entitlement.html">entitlement</a></li>
-				<li><a href="StructureDefinition-expirationTime.html">expirationTime</a></li>
-				<li><a href="StructureDefinition-formCode.html">formCode</a></li>
-				<li><a href="StructureDefinition-id.html">id</a></li>
-				<li><a href="StructureDefinition-interpreterRequiredInd.html">interpreterRequiredInd</a></li>
-				<li><a href="StructureDefinition-methodCode.html">methodCode</a></li>
-				<li><a href="StructureDefinition-multipleBirthInd.html">multipleBirthInd</a></li>                
-				<li><a href="StructureDefinition-multipleBirthOrderNumber.html">multipleBirthOrderNumber</a></li>
-				<li><a href="StructureDefinition-name.html">name</a></li>
-				<li><a href="StructureDefinition-participant.html">participant</a></li>
-				<li><a href="StructureDefinition-personalRelationship.html">personalRelationship</a></li>
-				<li><a href="StructureDefinition-policy.html">policy</a></li>
-				<li><a href="StructureDefinition-PolicyOrAccount.html">policyOrAccount</a></li>
-				<li><a href="StructureDefinition-subjectOf1.html">subjectOf1</a></li>
-				<li><a href="StructureDefinition-subjectOf2.html">subjectOf2</a></li>
-				<li><a href="StructureDefinition-telecom.html">telecom</a></li>
-			</ul>
-		</td>
-		<td>
-			<h3>ADHA Complex Data Types</h3>
-			<ul>
-				<li><a href="StructureDefinition-au-Address.html">au-Address</a></li>
-				<li><a href="StructureDefinition-au-EntityName.html">au-EntityName</a></li>
-				<li><a href="StructureDefinition-au-OrganizationName.html">au-OrganizationName</a></li>
-				<li><a href="StructureDefinition-au-PersonName.html">au-PersonName</a></li>
-				<li><a href="StructureDefinition-au-Telecom.html">au-Telecom</a></li>
-			</ul>
-		</td>
-	</tr>
-	</tbody>
-</table>
+### Context and use
 
-### Vocabularies
+This CDA extensions logical model FHIR implementation guide should be read in conjunction with the remaining documentation available from [HL7 International CDA Logical Model Specification](https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/).
 
-This section lists all ValueSets and CodeSystems defined as part of this specification. 
+The guide includes:
+* CDA extensions used in Australian context
+* CDA classes in the form of structure definitions
+* Vocabularies for the content exchange
 
-#### Code systems
+### Intended audience
 
-{% include res-list-generator.md type="CodeSystem" %}
+This implementation guide is aimed at software development teams, architects, and designers of CDA implmentation in Australia.
 
-#### Value sets
+This implementation guide and related artefacts are technical in nature and the audience is expected to be familiar with the language of health data specifications and to have some familiarity with health information standards and specifications, such as CDA.
 
-{% include res-list-generator.md type="ValueSet" %}
-
-### Other information
+### Document information
 
 #### Intellectual property considerations
 
@@ -154,3 +44,25 @@ This implementation guide builds on other specifications, helping ensure a consi
 #### Global profiles
 
 {% include globals-table.xhtml %}
+
+### Known issues
+
+This table lists known issues with this specification at the time of publishing. We are working on solutions to these issues and encourage comments to help us develop these solutions.
+
+<table border="1" cellpadding="1" valign="middle">
+ <tbody>
+   <col width="15%" />
+   <col width="auto" />
+   <tr bgcolor="#DCDCDC">
+     <th>Reference</th>
+     <th>Description</th>
+   </tr>
+   <tr>
+     <td>TBD</td>
+     <td>TBD</td>
+   </tr>
+ </tbody>
+</table> 
+
+
+
