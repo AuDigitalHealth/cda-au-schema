@@ -214,7 +214,7 @@
       <short value="ADHA CDA extension to represent document lifecycle codes"/>
       <definition
         value="The completionCode extension attribute allows the implementer to identify the lifecycle status of a document."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
