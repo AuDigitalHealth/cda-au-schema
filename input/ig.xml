@@ -1559,6 +1559,16 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="ValueSet/CDAActCode" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDAAddressUse" />
+			</reference>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="ValueSet/CDAActMood" />
 			</reference>
 		</resource>

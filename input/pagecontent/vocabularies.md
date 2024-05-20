@@ -1,7 +1,7 @@
 
 This page lists ValueSets and CodeSystems used in the CDA Classes, Extensions and Complex Data Types defined as part of this CDA specification. 
 
-#### Code Systems
+### Code Systems
 
 The following code systems are taken from [HL7 International CDA Logical Model Specification](https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/).
 
@@ -19,7 +19,7 @@ The following code systems are taken from [HL7 International CDA Logical Model S
 
 
 
-#### Value Sets
+### Value Sets
 
 The following value sets are taken from [HL7 International CDA Logical Model Specification](https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/).
 

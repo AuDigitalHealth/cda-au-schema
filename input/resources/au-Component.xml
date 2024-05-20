@@ -90,7 +90,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-StructuredBody"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/StructuredBody"/>
         <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-StructuredBody"/>
       </type>
     </element>
