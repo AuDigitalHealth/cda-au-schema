@@ -20,6 +20,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-au-AssociatedEntity.html">au-AssociatedEntity</a></li>
 				<li><a href="StructureDefinition-au-Author.html">au-Author</a></li>
 				<li><a href="StructureDefinition-au-AuthoringDevice.html">au-AuthoringDevice</a></li>
+				<li><a href="StructureDefinition-au-Component.html">au-Component</a></li>
 				<li><a href="StructureDefinition-au-ComponentOf.html">au-ComponentOf</a></li>
 				<li><a href="StructureDefinition-au-Custodian.html">au-Custodian</a></li>
 				<li><a href="StructureDefinition-au-CustodianOrganization.html">au-CustodianOrganization</a></li>
@@ -62,6 +63,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-au-Section.html">au-Section</a></li>
 				<li><a href="StructureDefinition-au-Specimen.html">au-Specimen</a></li>
 				<li><a href="StructureDefinition-au-SpecimenRole.html">au-SpecimenRole</a></li>
+				<li><a href="StructureDefinition-au-StructuredBody.html">au-StructuredBody</a></li>
 				<li><a href="StructureDefinition-au-SubstanceAdministration.html">au-SubstanceAdministration</a></li>
 				<li><a href="StructureDefinition-au-Supply.html">au-Supply</a></li>
 			</ul>
