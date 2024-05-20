@@ -122,13 +122,38 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 
 ### Vocabularies
 
-This section lists all ValueSets and CodeSystems defined as part of this specification. 
+This section lists all ValueSets and CodeSystems that are Australian specific. 
+
+The rest of the ValueSets and CodeSystems which are used in the specification are at [HL7 Vocabulary](vocabularies.html)
 
 #### Code systems
-
-{% include res-list-generator.md type="CodeSystem" %}
+<table class="cda-table">
+    <tbody>
+    <tr>
+        <td>
+            <ul>
+                <li><a href="CodeSystem-dh-AUSStates.html">dh-AUSStates</a></li>
+                <li><a href="CodeSystem-dh-HealthCareGeographicArea.html">dh-HealthCareGeographicArea</a></li>
+                <li><a href="CodeSystem-dh-NctisAdminCodesDocumentStatus.html">dh-NctisAdminCodesDocumentStatus</a></li>                
+                <li><a href="CodeSystem-dh-entitynameuse.html">dh-EntityNameUse</a></li>
+            </ul>
+        </td>
+    </tr>
+    </tbody>
+</table>
 
 #### Value sets
-
-{% include res-list-generator.md type="ValueSet" %}
-
+<table class="cda-table">
+    <tbody>
+    <tr>
+        <td>
+            <ul>
+                <li><a href="ValueSet-dh-AUSStates.html">dh-AUSStates</a></li>
+                <li><a href="ValueSet-dh-HealthCareGeographicArea.html">dh-HealthCareGeographicArea</a></li>
+                <li><a href="ValueSet-dh-NctisAdminCodesDocumentStatus.html">dh-NctisAdminCodesDocumentStatus</a></li>                
+                <li><a href="ValueSet-dh-entitynameuse.html">dh-EntityNameUse</a></li>
+            </ul>
+        </td>
+    </tr>
+    </tbody>
+</table>

@@ -23,7 +23,7 @@ The guide includes:
 
 ### Intended audience
 
-This implementation guide is aimed at software development teams, architects, and designers of CDA implmentation in Australia.
+This implementation guide is aimed at software development teams, architects, and designers of CDA implementation in Australia.
 
 This implementation guide and related artefacts are technical in nature and the audience is expected to be familiar with the language of health data specifications and to have some familiarity with health information standards and specifications, such as CDA.
 
