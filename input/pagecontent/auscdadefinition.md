@@ -26,6 +26,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-au-CustodianOrganization.html">au-CustodianOrganization</a></li>
 				<li><a href="StructureDefinition-au-EncompassingEncounter.html">au-EncompassingEncounter</a></li>
 				<li><a href="StructureDefinition-au-Encounter.html">au-Encounter</a></li>
+				<li><a href="StructureDefinition-au-EncounterParticipant.html">au-EncounterParticipant</a></li>
 				<li><a href="StructureDefinition-au-Entity.html">au-Entity</a></li>
 				<li><a href="StructureDefinition-au-Entry.html">au-Entry</a></li>
 				<li><a href="StructureDefinition-au-EntryRelationship.html">au-EntryRelationship</a></li>

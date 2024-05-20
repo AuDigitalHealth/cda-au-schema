@@ -157,7 +157,8 @@
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/EncounterParticipant"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-EncounterParticipant"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-EncounterParticipant"/>
       </type>
     </element>
     <element id="EncompassingEncounter.location">

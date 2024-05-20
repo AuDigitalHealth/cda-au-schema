@@ -1453,6 +1453,12 @@
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-EncounterParticipant"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
 		<!--ADHA Complex dataTypes-->
 		<resource>
 			<reference>
