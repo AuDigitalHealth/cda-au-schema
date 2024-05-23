@@ -57,6 +57,18 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
     </element>
+    <element id="IntendedRecipient.code">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <path value="IntendedRecipient.code"/>
+      <short value="ADHA CDA extension to represent intended recipient's role code"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+      </type>
+    </element>
     <element id="IntendedRecipient.addr">
       <path value="IntendedRecipient.addr"/>
       <short value="Australian-adapted PostalAddress datatype"/>
