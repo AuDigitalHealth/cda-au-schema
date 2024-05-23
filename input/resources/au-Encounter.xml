@@ -129,7 +129,7 @@
       <path value="Encounter.admissionReferralSourceCode"/>
       <short value="ADHA CDA extension to represent admission referral source code"/>
       <min value="0"/>
-      <max value="*"/>
+      <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
@@ -141,7 +141,7 @@
       <path value="Encounter.dischargeDispositionCode"/>
       <short value="ADHA CDA extension to represent discharge disposition code"/>
       <min value="0"/>
-      <max value="*"/>
+      <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
