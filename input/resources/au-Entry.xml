@@ -168,5 +168,18 @@
         <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Supply"/>
       </type>
     </element>
+    <element id="Entry.controlAct">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <path value="Entry.controlAct"/>      
+      <short value="ADHA CDA extension to represent control act"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/controlAct"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/controlAct"/>
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
