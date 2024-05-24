@@ -82,7 +82,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
       </type>
       <binding>
         <strength value="example"/>
@@ -163,9 +163,9 @@
       <max value="1"/>
       <type>
         <code
-          value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
         <profile
-          value="http://hl7.org/cda/stds/core/StructureDefinition/CD"
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"
         />
       </type>
     </element>

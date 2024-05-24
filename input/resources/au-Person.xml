@@ -93,9 +93,9 @@
       <max value="1"/>
       <type>
         <code
-          value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
         <profile
-          value="http://hl7.org/cda/stds/core/StructureDefinition/CE"
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"
         />
       </type>
     </element>

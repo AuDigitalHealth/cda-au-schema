@@ -155,7 +155,7 @@
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
       </type>
     </element>
     <element id="ClinicalDocument.title">
@@ -179,7 +179,7 @@
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
       </type>
     </element>
     <element id="ClinicalDocument.languageCode">
@@ -217,7 +217,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
       </type>
       <binding>
         <strength value="required"/>

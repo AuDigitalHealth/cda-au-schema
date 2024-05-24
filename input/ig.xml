@@ -1490,6 +1490,18 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-Code"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-CE"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
 		
 		
 		<!-- Vocabulary -->

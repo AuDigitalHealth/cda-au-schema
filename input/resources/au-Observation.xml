@@ -97,7 +97,7 @@
       <max value="1"/>
       <representation value="typeAttr"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
       </type>
       <binding>
         <strength value="example"/>
@@ -146,7 +146,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
       </type>
       <binding>
         <strength value="example"/>
@@ -191,13 +191,13 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ST"/>
       </type>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
       </type>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CV"/>
       </type>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
       </type>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CO"/>
@@ -256,7 +256,7 @@
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
       </type>
       <binding>
         <strength value="required"/>
@@ -268,7 +268,7 @@
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
       </type>
       <binding>
         <strength value="example"/>
@@ -281,7 +281,7 @@
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
       </type>
     </element>
     <element id="Observation.subject">
