@@ -93,5 +93,19 @@
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Organization"/>
       </type>
     </element>
+    <element id="ManufacturedProduct.subjectOf1">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <short value="ADHA CDA extension to represent subjectOf1"/>
+      <path value="ManufacturedProduct.subjectOf1"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/subjectOf1"/>
+        <profile
+          value="http://ns.electronichealth.net.au/cda/StructureDefinition/subjectOf1"/>
+      </type>
+    </element>
   </differential>
 </StructureDefinition>
