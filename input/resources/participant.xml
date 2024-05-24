@@ -23,7 +23,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="Australian Digital Health Agency extension for participant."/>
+  <description value="Australian Digital Health Agency extension for participant used with ADHA entitlement extension."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/participant"/>
