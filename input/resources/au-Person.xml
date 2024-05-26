@@ -166,7 +166,7 @@
       <path value="Person.personalRelationship"/>
       <short value="ADHA CDA extension to represent a person's personal relationship with a patient"/>
       <min value="0"/>
-      <max value="1"/>
+      <max value="*"/>
       <type>
         <code
           value="http://ns.electronichealth.net.au/cda/StructureDefinition/personalRelationship"/>
