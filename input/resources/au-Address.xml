@@ -161,7 +161,7 @@
       </type>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://ns.electronichealth.net.au/cda/ValueSet/dh-AUSStates"/>
+        <valueSet value="https://healthterminologies.gov.au/fhir/ValueSet/australian-states-territories-2"/>
       </binding>
     </element>
     <element id="AD.item.state.partType">

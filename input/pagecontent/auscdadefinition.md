@@ -136,7 +136,6 @@ The rest of the ValueSets and CodeSystems which are used in the specification ar
     <tr>
         <td>
             <ul>
-                <li><a href="CodeSystem-dh-AUSStates.html">dh-AUSStates</a></li>
                 <li><a href="CodeSystem-dh-HealthCareGeographicArea.html">dh-HealthCareGeographicArea</a></li>
                 <li><a href="CodeSystem-dh-NctisAdminCodesDocumentStatus.html">dh-NctisAdminCodesDocumentStatus</a></li>                
                 <li><a href="CodeSystem-dh-entitynameuse.html">dh-EntityNameUse</a></li>
@@ -152,7 +151,6 @@ The rest of the ValueSets and CodeSystems which are used in the specification ar
     <tr>
         <td>
             <ul>
-                <li><a href="ValueSet-dh-AUSStates.html">dh-AUSStates</a></li>
                 <li><a href="ValueSet-dh-HealthCareGeographicArea.html">dh-HealthCareGeographicArea</a></li>
                 <li><a href="ValueSet-dh-NctisAdminCodesDocumentStatus.html">dh-NctisAdminCodesDocumentStatus</a></li>                
                 <li><a href="ValueSet-dh-entitynameuse.html">dh-EntityNameUse</a></li>
