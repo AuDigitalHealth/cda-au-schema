@@ -63,7 +63,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
       </type>
     </element>
     <element id="personalRelationship.addr">
@@ -99,7 +99,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
       </type>
     </element>
     <element id="personalRelationship.effectiveTime">

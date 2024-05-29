@@ -10,14 +10,6 @@ Files/folders related to the FHIR logical models:
 * ig.ini
 * publish.bat
 
-## adha-template-cda
-
-To build this CDA FHIR Implementation guide you need to have adha.template.cda#dev located in your ..\.fhir\packages folder
-
-you can build that template locally by running IG Publsiher via VS Code terminal or a bash terminal and exectuting the below command
-
-e.g. java -jar "/c/work/git/fhir-ig-publisher/publisher.jar" .
-
 ## CDA Schema
 
 The original (normative) schema and update schema with extensions is maintained at https://github.com/HL7/CDA-core-2.0.

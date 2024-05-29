@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="code"/> 
+  <id value="au-CV"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>Coded data, consists of a coded value (CV) and, optionally, coded value(s) from other coding systems that identify the same concept. Used when alternative codes may exist.</p>
+      <p>Coded data, consists of a code, display name, code system, and original text. Used when a single code value must be sent.</p>
     </div>
   </text>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
@@ -26,35 +26,33 @@
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-container">
     <valueUri value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
   </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/code"/>
-  <name value="code"/>
-  <title value="ADHA extension code: CodedWithEquivalents (V3 Data Type)"/>
+  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CV"/>
+  <name value="CV"/>
+  <title value="ADHA CV: CodedValue (V3 Data Type)"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
-  <description value="**Australian adaptation of the HL7 International CDA CE datatype**. &#xa;&#xa;Coded data that consists of a coded value (CV) and, optionally, coded value(s) from other coding systems that identify the same concept. Used when alternative codes may exist."/>
+  <description value="**Australian adaptation of the [HL7 International CDA CV dataType](
+    https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-CV.html)**.
+    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
-  <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/code"/>
+  <type value="http://hl7.org/cda/stds/core/StructureDefinition/CV"/>
   <baseDefinition value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
   <derivation value="specialization"/>
   <differential>
-    <element id="code">
-      <path value="code"/>
-      <short value="ADHA CDA extension to represent code"/>
-      <definition value="Coded data, consists of a coded value (CV) and, optionally, coded value(s) from other coding systems that identify the same concept. Used when alternative codes may exist."/>
+    <element id="CV">
+      <path value="CV"/>
+      <definition value="Coded data, consists of a code, display name, code system, and original text. Used when a single code value must be sent."/>
       <min value="1"/>
       <max value="*"/>
     </element>
-    <element id="code.qualifier">
-      <path value="code.qualifier"/>
-      <label value="Qualifier"/>
-      <definition value="Specifies additional codes that increase the specificity of the the primary code."/>
+    <element id="CV.translation">
+      <path value="CV.translation"/>
+      <label value="Translation"/>
+      <definition value="A set of other concept descriptors that translate this concept descriptor into other code systems."/>
       <min value="0"/>
       <max value="0"/>
-      <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CR"/>
-      </type>
     </element>
   </differential>
 </StructureDefinition>

@@ -74,7 +74,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CV"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CV"/>
       </type>
     </element>
     <element id="ManufacturedMaterial.desc">

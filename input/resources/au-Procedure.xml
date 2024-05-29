@@ -88,7 +88,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
       </type>
     </element>
     <element id="Procedure.negationInd">
@@ -168,7 +168,7 @@
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
       </type>
     </element>
     <element id="Procedure.targetSiteCode">
@@ -177,7 +177,7 @@
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
       </type>
     </element>
     <element id="Procedure.subject">
@@ -259,6 +259,18 @@
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Precondition"/>
       </type>
-    </element>    
+    </element>  
+    <element id="Procedure.InFulfillmentOf1">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <path value="Procedure.InFulfillmentOf1"/>
+      <short value="ADHA CDA extension to represent InFulfillmentOf1"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/InFulfillmentOf1"/>
+      </type>
+    </element>
   </differential>
 </StructureDefinition>

@@ -105,9 +105,6 @@
 				</name>
 				<ext:asEntityIdentifier classCode="IDENT">
 					<ext:id root="1.2.36.1.2001.1003.0.8003615833334118" assigningAuthorityName="HPI-I" />
-					<ext:assigningGeographicArea classCode="PLC">
-						<ext:name>National Identifier</ext:name>
-					</ext:assigningGeographicArea>
 				</ext:asEntityIdentifier>
 				<ext:asEmployment classCode="EMP">
 					<ext:employerOrganization>
@@ -125,9 +122,6 @@
 								</addr>
 								<ext:asEntityIdentifier classCode="IDENT">
 									<ext:id root="1.2.36.1.2001.1003.0.8003620833333789" assigningAuthorityName="HPI-O" />
-									<ext:assigningGeographicArea classCode="PLC">
-										<ext:name>National Identifier</ext:name>
-									</ext:assigningGeographicArea>
 								</ext:asEntityIdentifier>
 							</wholeOrganization>
 						</asOrganizationPartOf>
@@ -139,9 +133,6 @@
 				<name use="ORGX">Hay Bill Hospital</name>
 				<ext:asEntityIdentifier classCode="IDENT">
 					<ext:id root="1.2.36.1.2001.1003.0.8003620833333789" assigningAuthorityName="HPI-O" />
-					<ext:assigningGeographicArea classCode="PLC">
-						<ext:name>National Identifier</ext:name>
-					</ext:assigningGeographicArea>
 				</ext:asEntityIdentifier>
 			</scopingOrganization>
 		</associatedEntity>

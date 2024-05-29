@@ -2,7 +2,7 @@
 
 This Australian Digital Health Agency FHIR Implementation Guide is a representation of the [Clinical Document Architecture (CDA) R2.0 specification](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=7) using HL7<sup>&reg;</sup> FHIR<sup>&reg;&copy;</sup> Logical Models expressed as HL7<sup>&reg;</sup> FHIR<sup>&reg;&copy;</sup> StructureDefinition instances.
 
-It is an adaptation of the [HL7 International CDA Logical Model Specification](https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/) with specific modifications and inclusions to represent Australian CDA schema extensions using the FHIR StructureDefinition framework. 
+It is an adaptation of the [HL7 International CDA Logical Model Specification](https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/) with specific modifications and inclusions to represent the CDA schema including Australian CDA extensions using the FHIR StructureDefinition framework. 
 
 ### Document purpose and scope
 

@@ -1502,7 +1502,12 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
-		
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/au-CV"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
 		
 		<!-- Vocabulary -->
 		<resource>
@@ -1518,11 +1523,6 @@
 		<resource>
 			<reference>
 				<reference value="CodeSystem/dh-NctisAdminCodesDocumentStatus"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="CodeSystem/dh-AUSStates"/>
 			</reference>
 		</resource>
 		<resource>
@@ -1673,11 +1673,6 @@
 		<resource>
 			<reference>
 				<reference value="ValueSet/dh-NctisAdminCodesDocumentStatus"/>
-			</reference>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="ValueSet/dh-AUSStates"/>
 			</reference>
 		</resource>
 		<resource>
