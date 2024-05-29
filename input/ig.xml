@@ -1,18 +1,19 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-	<id value="au.digitalhealth.cda.extensions"/>
-	<url value="http://ns.electronichealth.net.au/cda/ImplementationGuide/au.digitalhealth.cda.extensions"/>
-	<version value="0.0.1"/>
-	<name value="ClinicalDocumentArchitectureAuSchemaExtensions"/>
-	<title value="Clinical Document Architecture with Australian Schema Extensions"/>
+	<id value="au.digitalhealth.cda.schema"/>
+	<url
+		value="http://ns.electronichealth.net.au/cda/ImplementationGuide/au.digitalhealth.cda.schema"/>
+	<version value="0.1.0"/>
+	<name value="ClinicalDocumentArchitectureAuSchema"/>
+	<title value="Clinical Document Architecture with Australian Schema"/>
 	<status value="draft"/>
 	<experimental value="false"/>
 	<publisher value="Australian Digital Health Agency"/>
 	<contact>
 		<name value="Australian Digital Health Agency"/>
-        <telecom>
-            <system value="email"/>
-            <value value="mailto:help@digitalhealth.gov.au"/>
-        </telecom>
+		<telecom>
+			<system value="email"/>
+			<value value="mailto:help@digitalhealth.gov.au"/>
+		</telecom>
 	</contact>
 	<jurisdiction>
 		<coding>
@@ -20,9 +21,10 @@
 			<code value="AU"/>
 		</coding>
 	</jurisdiction>
-	<copyright value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)."/>
-    <packageId value="au.digitalhealth.cda.extensions"/>
-	<fhirVersion value="5.0.0"/>	
+	<copyright
+		value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)."/>
+	<packageId value="au.digitalhealth.cda.schema"/>
+	<fhirVersion value="5.0.0"/>
 	<dependsOn id="terminology">
 		<uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
 		<packageId value="hl7.terminology"/>
@@ -49,103 +51,103 @@
 		</grouping>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Act" />
+				<reference value="StructureDefinition/Act"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AD" />
+				<reference value="StructureDefinition/AD"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ADXP" />
+				<reference value="StructureDefinition/ADXP"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AlternateIdentification" />
+				<reference value="StructureDefinition/AlternateIdentification"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ANY" />
+				<reference value="StructureDefinition/ANY"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AssignedAuthor" />
+				<reference value="StructureDefinition/AssignedAuthor"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AssignedCustodian" />
+				<reference value="StructureDefinition/AssignedCustodian"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AssignedEntity" />
+				<reference value="StructureDefinition/AssignedEntity"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AssociatedEntity" />
+				<reference value="StructureDefinition/AssociatedEntity"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Authenticator" />
+				<reference value="StructureDefinition/Authenticator"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Author" />
+				<reference value="StructureDefinition/Author"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AuthoringDevice" />
+				<reference value="StructureDefinition/AuthoringDevice"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Authorization" />
+				<reference value="StructureDefinition/Authorization"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Birthplace" />
+				<reference value="StructureDefinition/Birthplace"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/BL" />
+				<reference value="StructureDefinition/BL"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/CD" />
+				<reference value="StructureDefinition/CD"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/CE" />
+				<reference value="StructureDefinition/CE"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
@@ -156,740 +158,743 @@
 			<groupingId value="classes"/>
 		</resource>-->
 		<resource>
-			<extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format">
-					<valueCode value="application/xml"/>
+			<extension
+				url="http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format">
+				<valueCode value="application/xml"/>
 			</extension>
 			<reference>
-					<reference value="Binary/clinicaldocument-example"/>
-				</reference>
+				<reference value="Binary/clinicaldocument-example"/>
+			</reference>
 			<name value="Example CDA document"/>
 			<description value="Example CDA document from original CDA release"/>
 			<isExample value="true"/>
-			<profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-ClinicalDocument"/>
+			<profile
+				value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-ClinicalDocument"
+			/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/CO" />
+				<reference value="StructureDefinition/CO"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Component" />
+				<reference value="StructureDefinition/Component"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ComponentOf" />
+				<reference value="StructureDefinition/ComponentOf"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Consent" />
+				<reference value="StructureDefinition/Consent"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/CR" />
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Criterion" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/CS" />
+				<reference value="StructureDefinition/CR"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Custodian" />
+				<reference value="StructureDefinition/Criterion"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/CustodianOrganization" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/CV" />
+				<reference value="StructureDefinition/CS"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/DataEnterer" />
+				<reference value="StructureDefinition/Custodian"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Device" />
+				<reference value="StructureDefinition/CustodianOrganization"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/DocumentationOf" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Performer1" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Performer2" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ED" />
+				<reference value="StructureDefinition/CV"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/EIVL-TS" />
+				<reference value="StructureDefinition/DataEnterer"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Device"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/DocumentationOf"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Performer1"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Performer2"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ED"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/EN" />
+				<reference value="StructureDefinition/EIVL-TS"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/EncompassingEncounter" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Encounter" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/EncounterParticipant" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Entity" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Entry" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/EntryRelationship" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ENXP" />
+				<reference value="StructureDefinition/EN"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ExternalAct" />
+				<reference value="StructureDefinition/EncompassingEncounter"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ExternalDocument" />
+				<reference value="StructureDefinition/Encounter"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ExternalObservation" />
+				<reference value="StructureDefinition/EncounterParticipant"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ExternalProcedure" />
+				<reference value="StructureDefinition/Entity"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Guardian" />
+				<reference value="StructureDefinition/Entry"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/HealthCareFacility" />
+				<reference value="StructureDefinition/EntryRelationship"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/IdentifiedBy" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/II" />
+				<reference value="StructureDefinition/ENXP"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Informant" />
+				<reference value="StructureDefinition/ExternalAct"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/InformationRecipient" />
+				<reference value="StructureDefinition/ExternalDocument"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/InfrastructureRoot" />
+				<reference value="StructureDefinition/ExternalObservation"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/InFulfillmentOf" />
+				<reference value="StructureDefinition/ExternalProcedure"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/InFulfillmentOf1" />
+				<reference value="StructureDefinition/Guardian"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/INT" />
+				<reference value="StructureDefinition/HealthCareFacility"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/IdentifiedBy"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/II"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/INT-POS" />
+				<reference value="StructureDefinition/Informant"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/InformationRecipient"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/InfrastructureRoot"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/InFulfillmentOf"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/InFulfillmentOf1"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/INT"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/IntendedRecipient" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/IVL-INT" />
+				<reference value="StructureDefinition/INT-POS"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/IVL-PQ" />
+				<reference value="StructureDefinition/IntendedRecipient"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/IVL-INT"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/IVL-TS" />
+				<reference value="StructureDefinition/IVL-PQ"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/IVXB-INT" />
+				<reference value="StructureDefinition/IVL-TS"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/IVXB-PQ" />
+				<reference value="StructureDefinition/IVXB-INT"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/IVXB-TS" />
+				<reference value="StructureDefinition/IVXB-PQ"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/LabeledDrug" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/LanguageCommunication" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/LegalAuthenticator" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/MaintainedEntity" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ManufacturedProduct" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Material" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/MO" />
+				<reference value="StructureDefinition/IVXB-TS"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/NonXMLBody" />
+				<reference value="StructureDefinition/LabeledDrug"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Observation" />
+				<reference value="StructureDefinition/LanguageCommunication"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ObservationMedia" />
+				<reference value="StructureDefinition/LegalAuthenticator"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ObservationRange" />
+				<reference value="StructureDefinition/MaintainedEntity"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ON" />
+				<reference value="StructureDefinition/ManufacturedProduct"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Material"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/MO"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Order" />
+				<reference value="StructureDefinition/NonXMLBody"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Organization" />
+				<reference value="StructureDefinition/Observation"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/OrganizationPartOf" />
+				<reference value="StructureDefinition/ObservationMedia"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Organizer" />
+				<reference value="StructureDefinition/ObservationRange"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/OrganizerComponent" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ParentDocument" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Participant1" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Participant2" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ParticipantRole" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Patient" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/PatientRole" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Person" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/PIVL-TS" />
+				<reference value="StructureDefinition/ON"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Place" />
+				<reference value="StructureDefinition/Order"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/PlayingEntity" />
+				<reference value="StructureDefinition/Organization"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/PN" />
+				<reference value="StructureDefinition/OrganizationPartOf"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Organizer"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/OrganizerComponent"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ParentDocument"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Participant1"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Participant2"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ParticipantRole"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Patient"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/PatientRole"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Person"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/PIVL-TS"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/PQ" />
+				<reference value="StructureDefinition/Place"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/PlayingEntity"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/PN"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/PQR" />
+				<reference value="StructureDefinition/PQ"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Precondition" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Precondition2" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/PreconditionBase" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Procedure" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/QTY" />
+				<reference value="StructureDefinition/PQR"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/REAL" />
+				<reference value="StructureDefinition/Precondition"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Precondition2"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/PreconditionBase"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Procedure"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/QTY"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/RecordTarget" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Reference" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/RegionOfInterest" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/RelatedDocument" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/RelatedEntity" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/RelatedSubject" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/RTO-PQ-PQ" />
+				<reference value="StructureDefinition/REAL"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/SC" />
+				<reference value="StructureDefinition/RecordTarget"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Reference"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/RegionOfInterest"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/RelatedDocument"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/RelatedEntity"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/RelatedSubject"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/RTO-PQ-PQ"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Section" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ServiceEvent" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/Specimen" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/SpecimenRole" />
-			</reference>
-			<groupingId value="classes"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ST" />
+				<reference value="StructureDefinition/SC"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/StructuredBody" />
+				<reference value="StructureDefinition/Section"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Subject" />
+				<reference value="StructureDefinition/ServiceEvent"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/SubjectPerson" />
+				<reference value="StructureDefinition/Specimen"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/SubstanceAdministration" />
+				<reference value="StructureDefinition/SpecimenRole"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/Supply" />
+				<reference value="StructureDefinition/ST"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/StructuredBody"/>
 			</reference>
 			<groupingId value="classes"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/SXCM-TS" />
+				<reference value="StructureDefinition/Subject"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SubjectPerson"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SubstanceAdministration"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/Supply"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SXCM-TS"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/SXPR-TS" />
+				<reference value="StructureDefinition/SXPR-TS"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/TEL" />
+				<reference value="StructureDefinition/TEL"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/TN" />
+				<reference value="StructureDefinition/TN"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/TS" />
+				<reference value="StructureDefinition/TS"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/bin" />
+				<reference value="StructureDefinition/bin"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/bl-simple" />
+				<reference value="StructureDefinition/bl-simple"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/bn" />
+				<reference value="StructureDefinition/bn"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/cs-simple" />
+				<reference value="StructureDefinition/cs-simple"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/int-simple" />
+				<reference value="StructureDefinition/int-simple"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/oid" />
+				<reference value="StructureDefinition/oid"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/probability" />
+				<reference value="StructureDefinition/probability"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/real-simple" />
+				<reference value="StructureDefinition/real-simple"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ruid" />
+				<reference value="StructureDefinition/ruid"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/st-simple" />
+				<reference value="StructureDefinition/st-simple"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ts-simple" />
+				<reference value="StructureDefinition/ts-simple"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/uid" />
+				<reference value="StructureDefinition/uid"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/url" />
+				<reference value="StructureDefinition/url"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/uuid" />
+				<reference value="StructureDefinition/uuid"/>
 			</reference>
 			<groupingId value="datatypes-simple"/>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/xs-ID" />
+				<reference value="StructureDefinition/xs-ID"/>
 			</reference>
 			<groupingId value="datatypes-xml"/>
 		</resource>
@@ -1091,7 +1096,7 @@
 				<reference value="StructureDefinition/asQualifiedEntity"/>
 			</reference>
 			<groupingId value="datatypes-complex"/>
-		</resource>	
+		</resource>
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/subjectOf1"/>
@@ -1508,11 +1513,11 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
-		
+
 		<!-- Vocabulary -->
 		<resource>
 			<reference>
-				<reference value="CodeSystem/BinaryDataEncoding" />
+				<reference value="CodeSystem/BinaryDataEncoding"/>
 			</reference>
 		</resource>
 		<resource>
@@ -1532,137 +1537,137 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/BinaryDataEncoding" />
+				<reference value="ValueSet/BinaryDataEncoding"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDACompressionAlgorithm" />
+				<reference value="ValueSet/CDACompressionAlgorithm"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAEntityNameUse" />
+				<reference value="ValueSet/CDAEntityNameUse"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAInformationRecipientRole" />
+				<reference value="ValueSet/CDAInformationRecipientRole"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAPostalAddressUse" />
+				<reference value="ValueSet/CDAPostalAddressUse"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDASignatureCode" />
+				<reference value="ValueSet/CDASignatureCode"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDANullFlavor" />
-			</reference>
-		</resource>	
-		<resource>
-			<reference>
-				<reference value="ValueSet/CDAActClass" />
+				<reference value="ValueSet/CDANullFlavor"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAActClassObservation" />
+				<reference value="ValueSet/CDAActClass"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAActCode" />
+				<reference value="ValueSet/CDAActClassObservation"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAAddressUse" />
+				<reference value="ValueSet/CDAActCode"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAActMood" />
+				<reference value="ValueSet/CDAAddressUse"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAActMoodIntent" />
+				<reference value="ValueSet/CDAActMood"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAActRelationshipType" />
+				<reference value="ValueSet/CDAActMoodIntent"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAContextControl" />
+				<reference value="ValueSet/CDAActRelationshipType"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAEntityNamePartQualifier" />
+				<reference value="ValueSet/CDAContextControl"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAParticipationType" />
+				<reference value="ValueSet/CDAEntityNamePartQualifier"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDARoleClass" />
+				<reference value="ValueSet/CDAParticipationType"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDARoleClassAssociative" />
+				<reference value="ValueSet/CDARoleClass"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDARoleClassMutualRelationship" />
+				<reference value="ValueSet/CDARoleClassAssociative"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDARoleClassRoot" />
+				<reference value="ValueSet/CDARoleClassMutualRelationship"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDASetOperator" />
+				<reference value="ValueSet/CDARoleClassRoot"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAActSubstanceAdministrationCode" />
+				<reference value="ValueSet/CDASetOperator"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAEntityCode" />
+				<reference value="ValueSet/CDAActSubstanceAdministrationCode"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAMaterialEntityClassType" />
+				<reference value="ValueSet/CDAEntityCode"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDAObservationInterpretation" />
+				<reference value="ValueSet/CDAMaterialEntityClassType"/>
 			</reference>
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/CDARoleCode" />
+				<reference value="ValueSet/CDAObservationInterpretation"/>
+			</reference>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/CDARoleCode"/>
 			</reference>
 		</resource>
 		<resource>
@@ -1684,7 +1689,7 @@
 			<sourceUrl value="index.html"/>
 			<name value="index.html"/>
 			<title value="Home"/>
-			<generation value="markdown"/>			
+			<generation value="markdown"/>
 			<page>
 				<sourceUrl value="downloads.html"/>
 				<name value="downloads.html"/>
@@ -1770,7 +1775,7 @@
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
 				<code value="releaselabel"/>
 			</code>
-			<value value="ci-build"/>
+			<value value="draft"/>
 		</parameter>
 		<!-- IG publisher output logging -->
 		<!-- progress: Overall progress messages -->
@@ -1783,7 +1788,8 @@
 		</parameter>
 		<!-- IG publisher output logging -->
 		<!-- tx:  Messages describing the use of the terminology server -->
-		<parameter>			<code>
+		<parameter>
+			<code>
 				<code value="logging"/>
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
 			</code>
@@ -1811,9 +1817,9 @@
 			<code>
 				<code value="special-url-base"/>
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
-			</code>			
+			</code>
 			<value value="http://hl7.org/cda/stds/core"/>
-		</parameter>	
+		</parameter>
 		<parameter>
 			<code>
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
