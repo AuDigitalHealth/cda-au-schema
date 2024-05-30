@@ -49,7 +49,7 @@
       <path value="personalRelationship.id"/>
       <short value="ADHA CDA extension to represent identification details"/>
       <min value="0"/>
-      <max value="*"/>
+      <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
       </type>
@@ -60,7 +60,7 @@
       </extension>
       <path value="personalRelationship.code"/>
       <short value="ADHA CDA extension to represent code"/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
@@ -73,7 +73,7 @@
       <path value="personalRelationship.addr"/>
       <short value="ADHA CDA extension to represent address details"/>
       <min value="0"/>
-      <max value="*"/>
+      <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Address"/>
       </type>
@@ -85,7 +85,7 @@
       <path value="personalRelationship.telecom"/>
       <short value="ADHA CDA extension to represent telecommunication details"/>
       <min value="0"/>
-      <max value="*"/>
+      <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Telecom"/>
       </type>
@@ -120,7 +120,7 @@
       </extension>
       <path value="personalRelationship.asPersonalRelationship"/>
       <short value="ADHA CDA extension to represent further personal relationship details"/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/asPersonalRelationship"/>
