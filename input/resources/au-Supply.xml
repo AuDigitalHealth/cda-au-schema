@@ -303,7 +303,7 @@
       <path value="Supply.SubjectOf2"/>
       <short value="ADHA CDA extension to represent SubjectOf2"/>
       <min value="0"/>
-      <max value="*"/>
+      <max value="1"/>
       <type>
         <code
           value="http://ns.electronichealth.net.au/cda/StructureDefinition/subjectOf2"/>
