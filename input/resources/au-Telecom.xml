@@ -55,7 +55,7 @@
         &#xa;&#xa;A  unique combination of characters used as input to electronic telecommunication equipmentforthe purpose
         of contacting an entity."/>
       <comment value="Makes up part of the value attribute as ‘tel:phone number’, ‘mailto:email address’, ‘http:URL’, etc."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <type>
         <code value="url"/>
