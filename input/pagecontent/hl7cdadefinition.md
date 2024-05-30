@@ -158,7 +158,9 @@ The following table outlines the CDA classes and extensions that are unmodified 
 	</tbody>
 </table>
 
-### Code Systems
+### Vocabularies 
+
+#### Code Systems
 
 The following code systems are taken from [HL7 International CDA Logical Model Specification](https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/).
 
@@ -175,8 +177,7 @@ The following code systems are taken from [HL7 International CDA Logical Model S
 </table>
 
 
-
-### Value Sets
+#### Value Sets
 
 The following value sets are taken from [HL7 International CDA Logical Model Specification](https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/).
 
