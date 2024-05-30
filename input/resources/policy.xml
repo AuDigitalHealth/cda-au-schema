@@ -56,6 +56,14 @@
         <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActMood"/>
       </binding>
     </element>
+    <element id="policy.id">      
+      <path value="policy.id"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
+      </type>
+    </element>
     <element id="policy.code">
       <path value="policy.code"/>
       <min value="1"/>

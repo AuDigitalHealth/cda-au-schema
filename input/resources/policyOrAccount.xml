@@ -60,6 +60,14 @@
         <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActMood"/>
       </binding>
     </element>
+    <element id="PolicyOrAccount.id">      
+      <path value="PolicyOrAccount.id"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/II"/>
+      </type>
+    </element>
     <element id="PolicyOrAccount.code">
       <path value="PolicyOrAccount.code"/>
       <min value="1"/>
