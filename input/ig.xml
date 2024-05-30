@@ -1691,15 +1691,9 @@
 			<title value="Home"/>
 			<generation value="markdown"/>
 			<page>
-				<sourceUrl value="downloads.html"/>
-				<name value="downloads.html"/>
-				<title value="Downloads"/>
-				<generation value="markdown"/>
-			</page>
-			<page>
-				<sourceUrl value="vocabularies.html"/>
-				<name value="vocabularies.html"/>
-				<title value="Vocabularies"/>
+				<sourceUrl value="auscdadefinition.html"/>
+				<name value="auscdadefinition.html"/>
+				<title value="Australian CDA Definitions"/>
 				<generation value="markdown"/>
 			</page>
 			<page>
@@ -1709,15 +1703,15 @@
 				<generation value="markdown"/>
 			</page>
 			<page>
-				<sourceUrl value="disclaimers.html"/>
-				<name value="disclaimers.html"/>
-				<title value="Disclaimers"/>
+				<sourceUrl value="downloads.html"/>
+				<name value="downloads.html"/>
+				<title value="Downloads"/>
 				<generation value="markdown"/>
 			</page>
 			<page>
-				<sourceUrl value="auscdadefinition.html"/>
-				<name value="auscdadefinition.html"/>
-				<title value="Australian CDA Definitions"/>
+				<sourceUrl value="disclaimers.html"/>
+				<name value="disclaimers.html"/>
+				<title value="Disclaimers"/>
 				<generation value="markdown"/>
 			</page>
 		</page>
@@ -1775,7 +1769,7 @@
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
 				<code value="releaselabel"/>
 			</code>
-			<value value="draft"/>
+			<value value="ci-build"/>
 		</parameter>
 		<!-- IG publisher output logging -->
 		<!-- progress: Overall progress messages -->

@@ -19,3 +19,80 @@ The code '78615007' is valid but is not active
 A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 The CDA Template 2.16.840.1.113883.10.20.22.2.10 / 2014-06-09 is not known
 The CDA Template 2.16.840.1.113883.10.20.22.1.4 / 2024-05-01 is not known
+
+# Deprecated ValueSet
+Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+
+# HealthCareGeographicArea valueSet
+This property has only a code ('original-code') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+
+# SD_TYPE_NOT_MATCH_NS
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/AD SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/addr for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Act SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Act for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/AD SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Address for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/AssignedAuthor SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-AssignedAuthor for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/AssignedCustodian SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-AssignedCustodian for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/AssignedEntity SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-AssignedEntity for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/AssociatedEntity SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-AssociatedEntity for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Author SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Author for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/AuthoringDevice SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-AuthoringDevice for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/CE SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/CV SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-CV for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-ClinicalDocument for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/CD SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Component SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Component for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/ComponentOf SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-ComponentOf for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Custodian SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Custodian for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/CustodianOrganization SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-CustodianOrganization for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Device SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Device for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/EncompassingEncounter SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-EncompassingEncounter for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Encounter SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Encounter for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/EncounterParticipant SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-EncounterParticipant for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Entity SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Entity for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/EN SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-EntityName for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Entry SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Entry for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/EntryRelationship SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-EntryRelationship for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/ExternalAct SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-ExternalAct for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/ExternalDocument SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-ExternalDocument for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/HealthCareFacility SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-HealthCareFacility for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/InFulfillmentOf SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-InFulfillmentOf for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Informant SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Informant for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/InformationRecipient SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-InformationRecipient for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/IntendedRecipient SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-IntendedRecipient for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/LegalAuthenticator SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-LegalAuthenticator for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/ManufacturedProduct SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-ManufacturedProduct for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Material SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Material for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Observation SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Observation for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/ObservationMedia SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-ObservationMedia for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/ObservationRange SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-ObservationRange for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Order SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Order for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Organization SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Organization for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/ON SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-OrganizationName for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/OrganizationPartOf SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-OrganizationPartOf for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Organizer SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Organizer for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/ParentDocument SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-ParentDocument for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Participant1 SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Participant1 for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Participant2 SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Participant2 for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/ParticipantRole SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-ParticipantRole for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Patient SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Patient for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/PatientRole SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-PatientRole for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Performer2 SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Performer2 for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Person SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Person for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/PN SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-PersonName for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/PlayingEntity SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-PlayingEntity for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Precondition SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Precondition for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Procedure SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Procedure for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/RecordTarget SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-RecordTarget for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Reference SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Reference for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/RegionOfInterest SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-RegionOfInterest for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/RelatedDocument SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-RelatedDocument for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Section SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Section for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Specimen SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Specimen for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/SpecimenRole SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-SpecimenRole for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/StructuredBody SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-StructuredBody for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/SubstanceAdministration SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-SubstanceAdministration for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/Supply SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Supply for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/TEL SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-Telecom for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/LanguageCommunication SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/au-languageCommunication for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/controlAct SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/controlAct for the definition of the type
+The type namespace http://hl7.org/cda/stds/core/StructureDefinition/TEL SHOULD match the url namespace http://ns.electronichealth.net.au/cda/StructureDefinition/telecom for the definition of the type

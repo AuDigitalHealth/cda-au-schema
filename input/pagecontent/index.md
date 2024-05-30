@@ -58,8 +58,8 @@ This table lists known issues with this specification at the time of publishing.
      <th>Description</th>
    </tr>
    <tr>
-     <td>TBD</td>
-     <td>TBD</td>
+     <td><a href="https://github.com/HL7/CDA-core-sd/issues/19.html">https://github.com/HL7/CDA-core-sd/issues/19</a></td>
+     <td>The terminology binding on the au-Participant1 `@typeCode` attribute has been changed to use the <a href="http://terminology.hl7.org/ValueSet/v3-ParticipationType">v3-ParticipationType valueSet</a> rather than the valueSet as used in <a href="https://hl7.org/cda/stds/core/2.0.0-sd-snapshot1/StructureDefinition-Participant1.html">HL7 International CDA Participant1 class</a>. This is due to the attribute value of `PART`, which is mandated in many of the My Health Record CDA implementations.</td>
    </tr>
  </tbody>
 </table> 
