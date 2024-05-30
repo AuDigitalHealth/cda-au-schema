@@ -128,7 +128,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 
 This section lists all ValueSets and CodeSystems that are Australian specific. 
 
-The rest of the ValueSets and CodeSystems which are used in the specification are at [HL7 Vocabulary](vocabularies.html)
+The rest of the ValueSets and CodeSystems which are used in the specification are at [HL7 CDA Definitions](hl7cdadefinition.html) page
 
 #### Code systems
 <table class="cda-table">
