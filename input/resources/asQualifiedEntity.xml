@@ -17,7 +17,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="asQualifiedEntity extension."/>
+  <description value="The asQualifications extension describes a list of professional certifications, and certificates recognising having passed a course."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/asQualifications"/>

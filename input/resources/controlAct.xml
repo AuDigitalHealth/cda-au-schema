@@ -23,7 +23,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
-  <description value="controlAct extension."/>
+  <description value="This extension is the same as the Act class without languageCode."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/controlAct"/>

@@ -17,7 +17,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="A Specimen In Container"/>
+  <description value="This extension identifies the container containing the specimen."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/asSpecimenInContainer"/>
