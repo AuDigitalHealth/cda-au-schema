@@ -17,7 +17,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="Expiration Time"/>
+  <description value="This extension specifies a point in time when the material gets expired."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/expirationTime"/>

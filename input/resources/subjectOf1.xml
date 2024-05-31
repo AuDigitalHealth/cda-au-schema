@@ -17,7 +17,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="SubjectOf2"/>
+  <description value="This extension applies to the Policy (Pursuant to Regulation 24) and State Authority Number."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/subjectOf1"/>

@@ -13,11 +13,11 @@
   </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/coverage"/>
   <name value="coverage"/>
-  <title value="This extension included information about insurance coverage."/>
+  <title value="Agency extension coverage"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="coverage"/>
+  <description value="This extension includes information about insurance coverage."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/coverage"/>

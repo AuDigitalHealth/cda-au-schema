@@ -17,7 +17,7 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
-  <description value="Australian Digital Health Agency extension for formCode"/>
+  <description value="This extension describes the formulation or presentation of the overall substance."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/formCode"/>
