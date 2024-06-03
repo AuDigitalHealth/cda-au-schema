@@ -1,0 +1,27 @@
+{
+  "package-id": "au.digitalhealth.cda.schema",
+  "title": "Clinical Document Architecture with Australian Schema",
+  "canonical": "http://ns.electronichealth.net.au/cda",
+  "introduction" : "The Australian Digital Health Agency Clinical Document Architecture with Australian Schema Extensions FHIR Implementation Guide in HL7™ FHIR® Release 5 (R5) is a representation of the Clinical Document Architecture (CDA) R2.0 specification using HL7® FHIR®© Logical Models expressed as HL7® FHIR®© StructureDefinition instances. It is an adaptation of the HL7 International CDA Logical Model Specification with specific modifications and inclusions to represent the CDA schema including Australian CDA extensions using the FHIR StructureDefinition framework. Wherever possible, material in this specification is based on existing standards. All efforts have been made to minimise divergence from the HL7 Australia profiles of HL7 International standards to provide for system interoperability and compatibility with other profiles.",
+  "category": "CDA",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous integration build (latest in version control) - content subject to frequent changes.",
+      "path": "https://build.fhir.org/ig/AuDigitalHealth/cda-au-schema",
+      "status": "ci-build",
+      "fhirversion": "5.0.0",
+      "current": true
+    },
+    {
+      "version": "1.0.0",
+      "date": "2024-07-01",
+      "desc": "Release of the Australian Digital Health Agency Clinical Document Architecture with Australian Schema Extensions FHIR Implementation Guide in HL7™ FHIR® Release 5 (R5).",
+      "path": "https://developer.digitalhealth.gov.au/fhir/cda-au-schema/1.0.0",
+      "fhirversion": "5.0.0",
+      "status": "release",
+      "sequence": "R5",
+      "current": true
+    }
+  ]
+}
