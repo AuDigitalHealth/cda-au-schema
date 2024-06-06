@@ -200,7 +200,7 @@
       </extension>
       <path value="EntryRelationship.controlAct"/>      
       <short value="ADHA CDA extension to represent control act"/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/controlAct"/>
