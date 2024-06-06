@@ -3,7 +3,7 @@
     <id value="dh-HealthCareGeographicArea"/>
     <url value="http://ns.electronichealth.net.au/cda/CodeSystem/dh-HealthCareGeographicArea"/>
     <name value="dh-HealthCareGeographicArea"/>
-    <title value="dh-HealthCareGeographicArea"/>
+    <title value="Health Care Geographic Area"/>
     <status value="draft"/>
     <experimental value="false"/>
     <description value="Health Care Client Identifier Geographic Area"/>

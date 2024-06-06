@@ -3,7 +3,7 @@
     <id value="dh-entitynameuse"/>
     <url value="http://ns.electronichealth.net.au/cda/ValueSet/dh-entitynameuse"/>
     <name value="entitynameuse"/>
-    <title value="dh-EntityNameUse"/>
+    <title value="Entity Name Use"/>
     <status value="draft"/>
     <experimental value="false"/>
     <description value="Extended Entity Name Use code value set with Organisation Name Use Value from AS 4846-2006 Organisation Name Usage"/>

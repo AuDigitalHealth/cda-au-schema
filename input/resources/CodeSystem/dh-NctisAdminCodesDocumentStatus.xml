@@ -7,7 +7,7 @@
         <value value="urn:oid:1.2.36.1.2001.1001.101.104.20104"/>
     </identifier>
     <name value="dh-NctisAdminCodesDocumentStatus"/>
-    <title value="dh-NctisAdminCodesDocumentStatus"/>
+    <title value="NCTIS Admin Codes Document Status"/>
     <status value="draft"/>
     <experimental value="false"/>
     <description value="NCTIS Admin Codes Document Status"/>
