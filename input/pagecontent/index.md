@@ -31,7 +31,7 @@ This implementation guide and related artefacts are technical in nature and the 
 
 #### Intellectual property considerations
 
-This implementation guide and the underlying FHIR specification are licensed as public domain under the [FHIR license](http://hl7.org/fhir/R4/license.html).
+This implementation guide and the underlying FHIR specification are licensed as public domain under the [FHIR license](http://hl7.org/fhir/R5/license.html).
 
 {% include ip-statements.xhtml %}
 
