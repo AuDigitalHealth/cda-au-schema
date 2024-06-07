@@ -378,8 +378,8 @@
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Component"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/Component"/>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Component"/>
+        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Component"/>
       </type>
     </element>
   </differential>
