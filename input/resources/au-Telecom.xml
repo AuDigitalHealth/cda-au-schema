@@ -26,9 +26,24 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency"/>
+  <contact>
+    <name value="Australian Digital Health Agency"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:help@digitalhealth.gov.au"/>
+    </telecom>
+  </contact>
   <description value="**Australian adaptation of the [HL7 International CDA TelecommunicationAddress datatype](
     https://hl7.org/cda/stds/core/2.0.0-sd/StructureDefinition-TEL.html)**.
     &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="AU"/>
+    </coding>
+  </jurisdiction>
+  <copyright
+    value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/TEL"/>

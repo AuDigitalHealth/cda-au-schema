@@ -1,10 +1,6 @@
 <?xml version="1.0"?>
 <!-- Sample document provided with original CDA specification -->
-<ClinicalDocument xmlns="urn:hl7-org:v3" 
-	xmlns:ext="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0" 
-	xmlns:voc="urn:hl7-org:v3/voc" 
-	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<!-- 
 ********************************************************
   CDA Header
@@ -20,8 +16,6 @@
 	<languageCode code="en-US"/>
 	<setId extension="BB35" root="2.16.840.1.113883.19.7"/>
 	<versionNumber value="2"/>
-	<ext:completionCode code="F" codeSystem="1.2.36.1.2001.1001.101.104.20104"
-		codeSystemName="NCTIS Document Status Values" displayName="Final"/>
 	<recordTarget>
 		<patientRole>
 			<id extension="12345" root="2.16.840.1.113883.19.5"/>
@@ -63,7 +57,6 @@
 			</representedCustodianOrganization>
 		</assignedCustodian>
 	</custodian>
-	
 	<legalAuthenticator>
 		<time value="20000408"/>
 		<signatureCode code="S"/>
@@ -81,62 +74,6 @@
 			</representedOrganization>
 		</assignedEntity>
 	</legalAuthenticator>
-	<participant typeCode="PART">
-		<functionCode code="PCP" />
-		<associatedEntity classCode="PROV">
-			<id root="900cdfa6-69e6-4556-b469-b17bea986474" />
-			<code code="8601" codeSystem="1.2.36.1.2001.1005.47" codeSystemName="ANZSIC 2006" displayName="Aged Care Residential Services" />
-			<addr use="WP">
-				<country>Australia</country>
-				<state>NSW</state>
-				<city>Nehtaville</city>
-				<postalCode>5555</postalCode>
-				<streetAddressLine>1 Clinician Street</streetAddressLine>
-				<additionalLocator>32568931</additionalLocator>
-			</addr>
-			<telecom value="tel:0345754566" use="WP" />
-			<telecom value="mailto:authen@globalauthens.com" use="WP" />
-			<associatedPerson>
-				<name use="L">
-					<family>Grant</family>
-					<given>Sally</given>
-					<given>Wally</given>
-					<prefix>Miss</prefix>
-				</name>
-				<ext:asEntityIdentifier classCode="IDENT">
-					<ext:id root="1.2.36.1.2001.1003.0.8003615833334118" assigningAuthorityName="HPI-I" />
-				</ext:asEntityIdentifier>
-				<ext:asEmployment classCode="EMP">
-					<ext:employerOrganization>
-						<id root="829f2a02-9cb2-4079-bc7f-d2b9f19a1013" />
-						<asOrganizationPartOf>
-							<wholeOrganization>
-								<name use="ORGX">Hay Bill Hospital</name>
-								<addr use="WP">
-									<country>Australia</country>
-									<state>NSW</state>
-									<city>Nehtaville</city>
-									<postalCode>5555</postalCode>
-									<streetAddressLine>1 Clinician Street</streetAddressLine>
-									<additionalLocator>32568931</additionalLocator>
-								</addr>
-								<ext:asEntityIdentifier classCode="IDENT">
-									<ext:id root="1.2.36.1.2001.1003.0.8003620833333789" assigningAuthorityName="HPI-O" />
-								</ext:asEntityIdentifier>
-							</wholeOrganization>
-						</asOrganizationPartOf>
-					</ext:employerOrganization>
-				</ext:asEmployment>
-			</associatedPerson>
-			<scopingOrganization>
-				<id root="e6a432cd-7a2c-4491-bd6b-7ec090bd6d71" />
-				<name use="ORGX">Hay Bill Hospital</name>
-				<ext:asEntityIdentifier classCode="IDENT">
-					<ext:id root="1.2.36.1.2001.1003.0.8003620833333789" assigningAuthorityName="HPI-O" />
-				</ext:asEntityIdentifier>
-			</scopingOrganization>
-		</associatedEntity>
-	</participant>
 	<relatedDocument typeCode="RPLC">
 		<parentDocument>
 			<id extension="a123" root="2.16.840.1.113883.19.4"/>

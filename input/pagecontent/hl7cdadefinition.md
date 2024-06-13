@@ -6,6 +6,7 @@ The following table outlines the CDA classes and extensions that are unmodified 
 		<td>
 			<h3>CDA Classes</h3>
 			<ul style="columns:2; column-gap:5em">
+				<li><a href="StructureDefinition-ClinicalDocument.html">ClinicalDocument</a></li>
 				<li><a href="StructureDefinition-Act.html">Act</a></li>
 				<li><a href="StructureDefinition-AlternateIdentification.html">AlternateIdentification</a></li>
 				<li><a href="StructureDefinition-AssignedAuthor.html">AssignedAuthor</a></li>

@@ -151,12 +151,12 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
-		<!--<resource>
+		<resource>
 			<reference>
 				<reference value="StructureDefinition/ClinicalDocument" />
 			</reference>
 			<groupingId value="classes"/>
-		</resource>-->
+		</resource>
 		<resource>
 			<extension
 				url="http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format">
@@ -1721,6 +1721,34 @@
 				<code value="copyrightyear"/>
 			</code>
 			<value value="2024+"/>
+		</parameter>
+		<parameter>
+			<code>
+				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+				<code value="apply-copyright"/>
+			</code>
+			<value value="false"/>
+		</parameter>
+		<parameter>
+			<code>
+				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+				<code value="apply-jurisdiction"/>
+			</code>
+			<value value="false"/>
+		</parameter>
+		<parameter>
+			<code>
+				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+				<code value="apply-contact"/>
+			</code>
+			<value value="false"/>
+		</parameter>
+		<parameter>
+			<code>
+				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+				<code value="apply-publisher"/>
+			</code>
+			<value value="false"/>
 		</parameter>
 		<parameter>
 			<code>

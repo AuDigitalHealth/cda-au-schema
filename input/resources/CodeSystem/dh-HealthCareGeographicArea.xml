@@ -2,6 +2,10 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="dh-HealthCareGeographicArea"/>
     <url value="http://ns.electronichealth.net.au/cda/CodeSystem/dh-HealthCareGeographicArea"/>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:2.16.840.1.113883.13.63"/>
+    </identifier>
     <name value="dh-HealthCareGeographicArea"/>
     <title value="Health Care Geographic Area"/>
     <status value="draft"/>

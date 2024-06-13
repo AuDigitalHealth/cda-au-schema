@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="au-ClinicalDocument"/>
+  <id value="ClinicalDocument"/> 
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>The ClinicalDocument class is the entry point into the CDA R-MIM, and corresponds to the
-        &lt;ClinicalDocument&gt; XML element that is the root element of a CDA document.</p>
-      <p>A CDA document is logically broken up into a CDA Header and a CDA Body. The CDA Header is
-        comprised of ClinicalDocument attributes, participants, and act relationships. The CDA Body
-        is the target of the ClinicalDocument component act relationship.</p>
-      <p>The ClinicalDocument class inherits various attributes from the InfrastructureRoot class of
-        the RIM, including ClinicalDocument.templateId and ClinicalDocument.typeId. When
-        ClinicalDocument.templateId is valued in an instance, it signals the imposition of a set of
-        template-defined constraints. In addition, the templateId attribute is available in all
-        other CDA classes, thus enabling the imposition of a set of template-defined constraints at
-        any level of granularity. The value of this attribute provides a unique identifier for the
-        template(s) in question.</p>
-      <p>ClinicalDocument.typeId is a technology-neutral explicit reference to this CDA, Release Two
-        specification, and must be valued as follows: ClinicalDocument.typeId.root =
-        "2.16.840.1.113883.1.3" (which is the OID for HL7 Registered models);
-        ClinicalDocument.typeId.extension = "POCD_HD000040" (which is the unique identifier for the
-        CDA, Release Two Hierarchical Description).</p>
+      <p>The ClinicalDocument class is the entry point into the CDA R-MIM, and corresponds to the &lt;ClinicalDocument&gt; XML element that is the root element of a CDA document.</p>
+      <p>A CDA document is logically broken up into a CDA Header and a CDA Body. The CDA Header is comprised of ClinicalDocument attributes, participants, and act relationships. The CDA Body is the target of the ClinicalDocument component act relationship.</p>
+      <p>The ClinicalDocument class inherits various attributes from the InfrastructureRoot class of the RIM, including ClinicalDocument.templateId and ClinicalDocument.typeId. When ClinicalDocument.templateId is valued in an instance, it signals the imposition of a set of template-defined constraints. In addition, the templateId attribute is available in all other CDA classes, thus enabling the imposition of a set of template-defined constraints at any level of granularity. The value of this attribute provides a unique identifier for the template(s) in question.</p>
+      <p>ClinicalDocument.typeId is a technology-neutral explicit reference to this CDA, Release Two specification, and must be valued as follows: ClinicalDocument.typeId.root = "2.16.840.1.113883.1.3" (which is the OID for HL7 Registered models); ClinicalDocument.typeId.extension = "POCD_HD000040" (which is the unique identifier for the CDA, Release Two Hierarchical Description).</p>
     </div>
   </text>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
@@ -35,36 +22,17 @@
   </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
     <valueString value="ClinicalDocument"/>
-  </extension>
+  </extension> 
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/type-profile-style">
     <valueUri value="cda"/>
-  </extension>
-  <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-ClinicalDocument"/>
-  <name value="au-ClinicalDocument"/>
-  <title value="ADHA ClinicalDocument (CDA Class)"/>
+  </extension> 
+  <url value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
+  <name value="ClinicalDocument"/>
+  <title value="ClinicalDocument (CDA Class)"/>
   <status value="active"/>
   <experimental value="false"/>
-  <publisher value="Australian Digital Health Agency"/>
-  <contact>
-    <name value="Australian Digital Health Agency"/>
-    <telecom>
-      <system value="email"/>
-      <value value="mailto:help@digitalhealth.gov.au"/>
-    </telecom>
-  </contact>
-  <description value="**Australian adaptation of the [HL7 International CDA ClinicalDocument class](
-    https://hl7.org/cda/stds/core/2.0.0-sd/StructureDefinition-ClinicalDocument.html)**.
-    &#xa;&#xa;This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="AU"/>
-    </coding>
-  </jurisdiction>
-  <copyright
-    value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)."/>
-  <copyright
-    value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)."/>
+  <publisher value="HL7"/>
+  <description value="This is a generated StructureDefinition that describes CDA - that is, CDA as it actually is for R2. The intent of this StructureDefinition is to enable CDA to be a FHIR resource. That enables the FHIR infrastructure - API, conformance, query - to be used directly against CDA"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://hl7.org/cda/stds/core/StructureDefinition/ClinicalDocument"/>
@@ -74,7 +42,6 @@
   <differential>
     <element id="ClinicalDocument">
       <path value="ClinicalDocument"/>
-      <short value="Australian adaptation of the HL7 International CDA ClinicalDocument class"/>
       <min value="1"/>
       <max value="1"/>
     </element>
@@ -87,7 +54,7 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
-      <fixedCode value="DOCCLIN"/>
+      <fixedCode value="DOCCLIN"/>      
       <binding>
         <strength value="example"/>
         <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActClass"/>
@@ -102,7 +69,7 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
-      <fixedCode value="EVN"/>
+      <fixedCode value="EVN"/>      
       <binding>
         <strength value="required"/>
         <valueSet value="http://hl7.org/cda/stds/core/ValueSet/CDAActMood"/>
@@ -110,8 +77,7 @@
     </element>
     <element id="ClinicalDocument.realmCode">
       <path value="ClinicalDocument.realmCode"/>
-      <definition
-        value="When valued in an instance, this attribute signals the imposition of realm-specific constraints. The value of this attribute identifies the realm in question"/>
+      <definition value="When valued in an instance, this attribute signals the imposition of realm-specific constraints. The value of this attribute identifies the realm in question"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -120,8 +86,7 @@
     </element>
     <element id="ClinicalDocument.typeId">
       <path value="ClinicalDocument.typeId"/>
-      <definition
-        value="ClinicalDocument.typeId is a technology-neutral explicit reference to this CDA, Release Two specification, and must be valued as follows: ClinicalDocument.typeId.root = &quot;2.16.840.1.113883.1.3&quot; (which is the OID for HL7 Registered models); ClinicalDocument.typeId.extension = &quot;POCD_HD000040&quot; (which is the unique identifier for the CDA, Release Two Hierarchical Description)."/>
+      <definition value="ClinicalDocument.typeId is a technology-neutral explicit reference to this CDA, Release Two specification, and must be valued as follows: ClinicalDocument.typeId.root = &quot;2.16.840.1.113883.1.3&quot; (which is the OID for HL7 Registered models); ClinicalDocument.typeId.extension = &quot;POCD_HD000040&quot; (which is the unique identifier for the CDA, Release Two Hierarchical Description)."/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -134,25 +99,23 @@
       <definition value="Identifies the type as an HL7 Registered model"/>
       <min value="1"/>
       <max value="1"/>
-      <fixedString value="2.16.840.1.113883.1.3"/>
+      <fixedString value="2.16.840.1.113883.1.3" />
     </element>
     <element id="ClinicalDocument.typeId.extension">
       <path value="ClinicalDocument.typeId.extension"/>
       <representation value="xmlAttr"/>
-      <definition
-        value="A character string as a unique identifier within the scope of the identifier root."/>
+      <definition value="A character string as a unique identifier within the scope of the identifier root."/>
       <min value="1"/>
       <max value="1"/>
       <type>
         <code value="string"/>
-        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/st-simple"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/st-simple" />
       </type>
       <fixedString value="POCD_HD000040"/>
     </element>
     <element id="ClinicalDocument.templateId">
       <path value="ClinicalDocument.templateId"/>
-      <definition
-        value="When valued in an instance, this attribute signals the imposition of a set of template-defined constraints. The value of this attribute provides a unique identifier for the templates in question"/>
+      <definition value="When valued in an instance, this attribute signals the imposition of a set of template-defined constraints. The value of this attribute provides a unique identifier for the templates in question"/>
       <min value="0"/>
       <max value="*"/>
       <type>
@@ -172,8 +135,12 @@
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
+      <binding>
+        <strength value="example"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/doc-typecodes"/>
+      </binding>
     </element>
     <element id="ClinicalDocument.title">
       <path value="ClinicalDocument.title"/>
@@ -182,6 +149,25 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ST"/>
       </type>
+    </element>
+    <element id="ClinicalDocument.sdtcStatusCode">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="urn:hl7-org:sdtc"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+        <valueString value="statusCode"/>
+      </extension>
+      <path value="ClinicalDocument.sdtcStatusCode"/>
+      <definition value="The statusCode extension attribute allows the implementer to identify a ClinicalDocument that is in other than the completed state. It was created to support the Structured Form Definition IG to identify that the document itself is an unfinished product currently being completed for a patient."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ActStatus"/>
+      </binding>
     </element>
     <element id="ClinicalDocument.effectiveTime">
       <path value="ClinicalDocument.effectiveTime"/>
@@ -196,7 +182,7 @@
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
     </element>
     <element id="ClinicalDocument.languageCode">
@@ -206,6 +192,10 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
       </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/all-languages"/>
+      </binding>
     </element>
     <element id="ClinicalDocument.setId">
       <path value="ClinicalDocument.setId"/>
@@ -223,25 +213,6 @@
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/INT"/>
       </type>
     </element>
-    <element id="ClinicalDocument.completionCode">
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
-        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
-      </extension>
-      <path value="ClinicalDocument.completionCode"/>
-      <short value="ADHA CDA extension to represent document lifecycle codes"/>
-      <definition
-        value="The completionCode extension attribute allows the implementer to identify the lifecycle status of a document."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
-      </type>
-      <binding>
-        <strength value="required"/>
-        <valueSet
-          value="http://ns.electronichealth.net.au/cda/ValueSet/dh-NctisAdminCodesDocumentStatus"/>
-      </binding>
-    </element>
     <element id="ClinicalDocument.copyTime">
       <path value="ClinicalDocument.copyTime"/>
       <min value="0"/>
@@ -252,22 +223,18 @@
     </element>
     <element id="ClinicalDocument.recordTarget">
       <path value="ClinicalDocument.recordTarget"/>
-      <short value="Australian-adapted RecordTarget class"/>
       <min value="1"/>
       <max value="*"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-RecordTarget"/>
-        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-RecordTarget"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/RecordTarget"/>
       </type>
     </element>
     <element id="ClinicalDocument.author">
       <path value="ClinicalDocument.author"/>
-      <short value="Australian-adapted Author class"/>
       <min value="1"/>
       <max value="*"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Author"/>
-        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Author"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Author"/>
       </type>
     </element>
     <element id="ClinicalDocument.dataEnterer">
@@ -280,47 +247,34 @@
     </element>
     <element id="ClinicalDocument.informant">
       <path value="ClinicalDocument.informant"/>
-      <short value="Australian-adapted Informant class"/>
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Informant"/>
-        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Informant"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Informant"/>
       </type>
     </element>
     <element id="ClinicalDocument.custodian">
       <path value="ClinicalDocument.custodian"/>
-      <short value="Australian-adapted Custodian class"/>
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Custodian"/>
-        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Custodian"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Custodian"/>
       </type>
     </element>
     <element id="ClinicalDocument.informationRecipient">
       <path value="ClinicalDocument.informationRecipient"/>
-      <short value="Australian-adapted InformationRecipient class"/>
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code
-          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-InformationRecipient"/>
-        <profile
-          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-InformationRecipient"
-        />
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/InformationRecipient"/>
       </type>
     </element>
     <element id="ClinicalDocument.legalAuthenticator">
       <path value="ClinicalDocument.legalAuthenticator"/>
-      <short value="Australian-adapted LegalAuthenticator class"/>
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code
-          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-LegalAuthenticator"/>
-        <profile
-          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-LegalAuthenticator"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/LegalAuthenticator"/>
       </type>
     </element>
     <element id="ClinicalDocument.authenticator">
@@ -333,23 +287,18 @@
     </element>
     <element id="ClinicalDocument.participant">
       <path value="ClinicalDocument.participant"/>
-      <short value="Australian-adapted Participant class"/>
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Participant1"/>
-        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Participant1"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Participant1"/>
       </type>
     </element>
     <element id="ClinicalDocument.inFulfillmentOf">
       <path value="ClinicalDocument.inFulfillmentOf"/>
-      <short value="Australian-adapted InFulfillmentOf class"/>
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-InFulfillmentOf"/>
-        <profile
-          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-InFulfillmentOf"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/InFulfillmentOf"/>
       </type>
     </element>
     <element id="ClinicalDocument.documentationOf">
@@ -362,13 +311,10 @@
     </element>
     <element id="ClinicalDocument.relatedDocument">
       <path value="ClinicalDocument.relatedDocument"/>
-      <short value="Australian-adapted RelatedDocument class"/>
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-RelatedDocument"/>
-        <profile
-          value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-RelatedDocument"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/RelatedDocument"/>
       </type>
     </element>
     <element id="ClinicalDocument.authorization">
@@ -381,22 +327,18 @@
     </element>
     <element id="ClinicalDocument.componentOf">
       <path value="ClinicalDocument.componentOf"/>
-      <short value="Australian-adapted ComponentOf class"/>
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-ComponentOf"/>
-        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-ComponentOf"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/ComponentOf"/>
       </type>
     </element>
     <element id="ClinicalDocument.component">
       <path value="ClinicalDocument.component"/>
-      <short value="Australian-adapted Component class"/>
       <min value="1"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Component"/>
-        <profile value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Component"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/Component"/>
       </type>
     </element>
   </differential>

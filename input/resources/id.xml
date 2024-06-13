@@ -23,7 +23,22 @@
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
+  <contact>
+    <name value="Australian Digital Health Agency"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:help@digitalhealth.gov.au"/>
+    </telecom>
+  </contact>
   <description value="Australian Digital Health Agency CDA extension for an Australian identifier that uniquely identifies a thing or object. Examples are object identifier for HL7 RIM objects, medical record number, order id, service catalog item id, Vehicle Identification Number (VIN), etc. Instance identifiers are defined based on ISO object identifiers."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="AU"/>
+    </coding>
+  </jurisdiction>
+  <copyright
+    value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)."/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/id"/>
