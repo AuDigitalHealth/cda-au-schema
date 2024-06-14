@@ -151,12 +151,12 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
-		<resource>
+		<!--<resource>
 			<reference>
 				<reference value="StructureDefinition/ClinicalDocument" />
 			</reference>
 			<groupingId value="classes"/>
-		</resource>
+		</resource>-->
 		<resource>
 			<extension
 				url="http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format">
