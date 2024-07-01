@@ -11,9 +11,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace">
     <valueUri value="urn:hl7-org:v3"/>
   </extension>
+  <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-name">
+    <valueString value="asSpecimenInContainer"/>
+  </extension>
   <url value="http://ns.electronichealth.net.au/cda/StructureDefinition/asSpecimenInContainer"/>
   <name value="asSpecimenInContainer"/>
-  <title value="ADHA extension asSpecimenInContainer"/>
+  <title value="ADHA extension SpecimenInContainer"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="Australian Digital Health Agency" />
@@ -45,11 +48,25 @@
       <min value="1"/>
       <max value="1"/>      
     </element>
-    <element id="asSpecimenInContainer.Container">
+    <element id="asSpecimenInContainer.classCode">
+      <path value="asSpecimenInContainer.classCode"/>
+      <representation value="xmlAttr"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+        <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://terminology.hl7.org/ValueSet/v3-EntityClassRoot"/>
+      </binding>
+    </element>
+    <element id="asSpecimenInContainer.container">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <path value="asSpecimenInContainer.Container"/>
+      <path value="asSpecimenInContainer.container"/>
 	  <short value="ADHA CDA extension to represent container"/>
       <definition value="Container"/>
       <min value="1"/>

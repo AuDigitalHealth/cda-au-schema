@@ -67,7 +67,7 @@
       <path value="assigningGeographicArea.name"/>
       <short value="ADHA CDA extension to represent the extent that the identifier applies to the object"/>
       <comment value="Element ext:name MAY be used and, if it is used, SHALL be the range and extent that the identifier applies to the object with which it is associated that is populated directly from the geographic area. This SHOULD NOT be used for machine readability purposes."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ST"/>

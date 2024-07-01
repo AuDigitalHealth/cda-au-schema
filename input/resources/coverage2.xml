@@ -54,7 +54,7 @@
         <code value="code"/>
         <profile value="http://hl7.org/cda/stds/core/StructureDefinition/cs-simple"/>
       </type>
-      <fixedCode value="IDENT"/>      
+      <fixedCode value="COVBY"/>      
     </element>
     <element id="coverage2.entitlement">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
