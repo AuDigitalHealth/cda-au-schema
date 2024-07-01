@@ -3575,8 +3575,7 @@
                             <name use="ORGX">Super Healthy Hospital</name>
                             <ext:asEntityIdentifier classCode="IDENT">
                               <ext:id root="1.2.36.1.2001.1003.0.8003620000045562" assigningAuthorityName="HPI-O" />
-                              <ext:assigningGeographicArea classCode="PLC">
-                                
+                              <ext:assigningGeographicArea classCode="PLC">                                
                               </ext:assigningGeographicArea>
                             </ext:asEntityIdentifier>
                           </wholeOrganization>
