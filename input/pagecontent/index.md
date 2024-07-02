@@ -6,7 +6,7 @@ It is an adaptation of the [HL7 International CDA Logical Model Specification](h
 
 ### Document purpose and scope
 
-The primary aim of this implementation guide is to support implementers who are implementing CDA. It contains CDA extensions in Australian context and the HL7 CDA classes using the Australian extensions. 
+The primary aim of this implementation guide is to support implementers who are contemplating a transition from CDA to FHIR. It contains CDA extensions in Australian context and the HL7 CDA classes using the Australian extensions.
 
 This implementation guide does not describe presentation of the information, user experience, or expected behaviour of producing and receiving systems.
 
