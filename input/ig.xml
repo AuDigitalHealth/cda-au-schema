@@ -2,7 +2,7 @@
 	<id value="au.digitalhealth.cda.schema"/>
 	<url
 		value="http://ns.electronichealth.net.au/cda/ImplementationGuide/au.digitalhealth.cda.schema"/>
-	<version value="0.1.0"/>
+	<version value="1.0.0"/>
 	<name value="ClinicalDocumentArchitectureAuSchema"/>
 	<title value="Clinical Document Architecture with Australian Schema"/>
 	<status value="draft"/>
@@ -1495,24 +1495,6 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/au-Code"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/au-CE"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/au-CV"/>
-			</reference>
-			<groupingId value="datatypes-complex"/>
-		</resource>
 
 		<!-- Vocabulary -->
 		<resource>
@@ -1797,7 +1779,7 @@
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
 				<code value="releaselabel"/>
 			</code>
-			<value value="ci-build"/>
+			<value value="current"/>
 		</parameter>
 		<!-- IG publisher output logging -->
 		<!-- progress: Overall progress messages -->
@@ -1812,17 +1794,17 @@
 		<!-- tx:  Messages describing the use of the terminology server -->
 		<parameter>
 			<code>
-				<code value="logging"/>
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+				<code value="logging"/>				
 			</code>
 			<value value="tx"/>
 		</parameter>
 		<!-- IG publisher output logging -->
 		<!-- generate: Log when producing an individual resource -->
 		<parameter>
-			<code>
-				<code value="logging"/>
+			<code>				
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+				<code value="logging"/>
 			</code>
 			<value value="generate"/>
 		</parameter>
@@ -1830,15 +1812,15 @@
 		<!-- html: Log when validating an html page -->
 		<parameter>
 			<code>
-				<code value="logging"/>
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+				<code value="logging"/>
 			</code>
 			<value value="html"/>
 		</parameter>
 		<parameter>
 			<code>
-				<code value="special-url-base"/>
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+				<code value="special-url-base"/>
 			</code>
 			<value value="http://hl7.org/cda/stds/core"/>
 		</parameter>

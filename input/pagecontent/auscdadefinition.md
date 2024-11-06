@@ -112,7 +112,6 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 			<h3>ADHA Complex Data Types</h3>
 			<ul>
 				<li><a href="StructureDefinition-au-Address.html">au-Address</a></li>
-				<li><a href="StructureDefinition-au-Code.html">au-Code</a></li>
 				<li><a href="StructureDefinition-au-EntityName.html">au-EntityName</a></li>
 				<li><a href="StructureDefinition-au-OrganizationName.html">au-OrganizationName</a></li>
 				<li><a href="StructureDefinition-au-PersonName.html">au-PersonName</a></li>

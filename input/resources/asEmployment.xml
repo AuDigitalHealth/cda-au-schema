@@ -67,7 +67,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="asEmployment.effectiveTime">
@@ -92,7 +92,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="asEmployment.jobClassCode">
@@ -105,7 +105,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="asEmployment.employerOrganization">
