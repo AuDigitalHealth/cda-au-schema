@@ -265,6 +265,9 @@
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/RTO-PQ-PQ"/>
       </type>
+      <type>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CS"/>
+      </type>
     </element>
     <element id="Observation.interpretationCode">
       <path value="Observation.interpretationCode"/>
