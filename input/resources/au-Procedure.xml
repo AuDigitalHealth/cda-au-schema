@@ -103,7 +103,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="Procedure.negationInd">
@@ -149,7 +149,7 @@
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
       <binding>
         <strength value="example"/>
@@ -174,7 +174,7 @@
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-CE"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CE"/>
       </type>
     </element>
     <element id="Procedure.approachSiteCode">
@@ -183,7 +183,7 @@
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="Procedure.targetSiteCode">
@@ -192,7 +192,7 @@
       <min value="0"/>
       <max value="*"/>
       <type>
-        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-Code"/>
+        <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
     </element>
     <element id="Procedure.subject">
