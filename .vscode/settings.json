@@ -1,0 +1,8 @@
+{
+    "xml.fileAssociations": [
+        {
+            "pattern": "**/*.xml",
+            "systemId": "input-cache/schemas/R5/fhir-single.xsd"
+        }
+    ]
+}

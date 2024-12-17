@@ -51,6 +51,12 @@
       <definition value="Australian Digital Health Agency CDA extension for identifier."/>
       <min value="1"/>
       <max value="*"/>
+      <constraint>
+        <key value="II-1"/>
+        <severity value="error"/>
+        <human value="An II instance must have either a root or an nullFlavor."/>
+        <expression value="root.exists() or nullFlavor.exists()"/>
+      </constraint>
     </element>
     <element id="id.assigningAuthorityName">
       <path value="id.assigningAuthorityName"/>
