@@ -261,7 +261,7 @@
         address.        
         &#xa;&#xa;A composite of one or more low level standard address components describing a geographical/physical location that, used in conjunction with the other high level address components, e.g. Australian suburb/town/locality name, Australian postcode and Australian State/Territory, forms a complete geographical/physical address."/>
       <min value="0"/>
-      <max value="1"/>
+      <max value="*"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ADXP"/>
       </type>
