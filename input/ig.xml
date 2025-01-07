@@ -15,12 +15,12 @@
 			<value value="mailto:help@digitalhealth.gov.au"/>
 		</telecom>
 	</contact>
-	<jurisdiction>
+	<!--<jurisdiction>
 		<coding>
 			<system value="urn:iso:std:iso:3166"/>
 			<code value="AU"/>
 		</coding>
-	</jurisdiction>
+	</jurisdiction>-->
 	<copyright
 		value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)."/>
 	<packageId value="au.digitalhealth.cda.schema"/>
@@ -1675,7 +1675,13 @@
 			<page>
 				<sourceUrl value="auscdadefinition.html"/>
 				<name value="auscdadefinition.html"/>
-				<title value="Australian CDA Definitions"/>
+				<title value="CDA Definitions and Extensions"/>
+				<generation value="markdown"/>
+			</page>
+			<page>
+				<sourceUrl value="deviations.html"/>
+				<name value="deviations.html"/>
+				<title value="Deviations from hl7.cda.uv.core"/>
 				<generation value="markdown"/>
 			</page>
 			<page>
@@ -1714,7 +1720,7 @@
 		<parameter>
 			<code>
 				<system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
-				<code value="apply-jurisdiction"/>
+				<code value="default-jurisdiction"/>
 			</code>
 			<value value="false"/>
 		</parameter>

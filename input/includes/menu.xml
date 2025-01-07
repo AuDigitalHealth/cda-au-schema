@@ -1,6 +1,18 @@
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li><a href="index.html">Home</a></li>
-  <li><a href="auscdadefinition.html">Australian CDA Definitions </a></li>  
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Australian CDA Definitions
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="auscdadefinition.html">CDA Definitions and Extensions</a>
+      </li>
+      <li>
+        <a href="deviations.html">Deviations from hl7.cda.uv.core</a>
+      </li>
+    </ul>
+  </li>  
   <li><a href="hl7cdadefinition.html">HL7 CDA Definitions</a></li>  
   <li><a href="downloads.html">Downloads</a></li>
   <li><a href="disclaimers.html">Disclaimers</a></li>
