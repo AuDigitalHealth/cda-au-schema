@@ -68,6 +68,19 @@
       </type>
       <fixedCode value="EVN"/>      
     </element>
+    <element id="entitlement.templateId">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
+        <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
+      </extension>
+      <path value="entitlement.templateId"/>
+      <short value="ADHA CDA extension to represent entitlement templateId"/>
+      <definition value="A number or code issued for the purpose of identifying the entitlement or right of a participant to act in a given capacity (as defined by Entitlement Type) within a healthcare context."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="http://ns.electronichealth.net.au/cda/StructureDefinition/templateId"/>
+      </type>
+    </element>
     <element id="entitlement.id">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>

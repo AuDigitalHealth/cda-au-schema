@@ -372,6 +372,12 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/templateId"/>
+			</reference>
+			<groupingId value="datatypes-complex"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/Informant"/>
 			</reference>
 			<groupingId value="classes"/>
