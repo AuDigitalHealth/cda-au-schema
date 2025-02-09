@@ -106,6 +106,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-subjectOf1.html">subjectOf1</a></li>
 				<li><a href="StructureDefinition-subjectOf2.html">subjectOf2</a></li>
 				<li><a href="StructureDefinition-telecom.html">telecom</a></li>
+				<li><a href="StructureDefinition-templateId.html">templateId</a></li>
 			</ul>
 		</td>
 		<td>
