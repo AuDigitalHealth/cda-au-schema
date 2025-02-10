@@ -46,6 +46,7 @@ The entry point for this specification is the [ADHA ClinicalDocument](StructureD
 				<li><a href="StructureDefinition-au-Organization.html">au-Organization</a></li>
 				<li><a href="StructureDefinition-au-OrganizationPartOf.html">au-OrganizationPartOf</a></li>
 				<li><a href="StructureDefinition-au-Organizer.html">au-Organizer</a></li>
+				<li><a href="StructureDefinition-au-OrganizerComponent.html">au-OrganizerComponent</a></li>
 				<li><a href="StructureDefinition-au-ParentDocument.html">au-ParentDocument</a></li>
 				<li><a href="StructureDefinition-au-Participant1.html">au-Participant1</a></li>
 				<li><a href="StructureDefinition-au-Participant2.html">au-Participant2</a></li>

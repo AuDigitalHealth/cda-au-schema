@@ -1166,6 +1166,12 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/au-OrganizerComponent"/>
+			</reference>
+			<groupingId value="classes"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/au-ComponentOf"/>
 			</reference>
 			<groupingId value="classes"/>
