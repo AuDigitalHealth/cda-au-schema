@@ -1242,7 +1242,7 @@
                           <methodCode code="122575003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Urine specimen" />
                           <targetSiteCode code="88738008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Subcutaneous tissue structure of lateral surface of index finger">
                             <qualifier>
-                              <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="with laterality" />
+                              <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="With laterality" />
                               <value code="7771000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Left" />
                             </qualifier>
                           </targetSiteCode>
@@ -1306,7 +1306,7 @@
                               <methodCode code="82078001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Collection of blood specimen for laboratory" />
                               <targetSiteCode code="88738008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Subcutaneous tissue structure of lateral surface of index finger">
                                 <qualifier>
-                                  <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="with laterality" />
+                                  <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="With laterality" />
                                   <value code="7771000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Left" />
                                 </qualifier>
                               </targetSiteCode>
@@ -1485,7 +1485,7 @@
                               <methodCode code="122575003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Urine specimen" />
                               <targetSiteCode code="88738008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Subcutaneous tissue structure of lateral surface of index finger">
                                 <qualifier>
-                                  <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="with laterality" />
+                                  <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="With laterality" />
                                   <value code="7771000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Left" />
                                 </qualifier>
                               </targetSiteCode>
@@ -1946,7 +1946,7 @@
                       <methodCode code="371573008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Ultrasonography" />
                       <targetSiteCode code="88738008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Subcutaneous tissue structure of lateral surface of index finger">
                         <qualifier>
-                          <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="with laterality" />
+                          <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="With laterality" />
                           <value code="7771000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Left" />
                         </qualifier>
                       </targetSiteCode>
@@ -1990,7 +1990,7 @@
                               <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal" />
                               <targetSiteCode code="88738008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Subcutaneous tissue structure of lateral surface of index finger">
                                 <qualifier>
-                                  <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="with laterality" />
+                                  <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="With laterality" />
                                   <value code="7771000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Left" />
                                 </qualifier>
                               </targetSiteCode>
@@ -2049,7 +2049,7 @@
                               <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal" />
                               <targetSiteCode code="88738008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Subcutaneous tissue structure of lateral surface of index finger">
                                 <qualifier>
-                                  <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="with laterality" />
+                                  <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="With laterality" />
                                   <value code="7771000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Left" />
                                 </qualifier>
                               </targetSiteCode>
@@ -2522,7 +2522,7 @@
                       <methodCode code="371573008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Ultrasonography" />
                       <targetSiteCode code="88738008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Subcutaneous tissue structure of lateral surface of index finger">
                         <qualifier>
-                          <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="with laterality" />
+                          <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="With laterality" />
                           <value code="7771000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Left" />
                         </qualifier>
                       </targetSiteCode>
@@ -2566,7 +2566,7 @@
                               <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal" />
                               <targetSiteCode code="88738008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Subcutaneous tissue structure of lateral surface of index finger">
                                 <qualifier>
-                                  <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="with laterality" />
+                                  <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="With laterality" />
                                   <value code="7771000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Left" />
                                 </qualifier>
                               </targetSiteCode>
@@ -2625,7 +2625,7 @@
                               <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" codeSystemName="HL7 ObservationInterpretationNormality" displayName="Normal" />
                               <targetSiteCode code="88738008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Subcutaneous tissue structure of lateral surface of index finger">
                                 <qualifier>
-                                  <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="with laterality" />
+                                  <name code="78615007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="With laterality" />
                                   <value code="7771000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Left" />
                                 </qualifier>
                               </targetSiteCode>
