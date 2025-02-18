@@ -7,6 +7,9 @@
       <p>A name for an organization. A sequence of name parts, such as given name or family name, prefix, suffix, etc. Examples for organization name values are "Health Level Seven, Inc.", "Hospital", etc. An organization name may be as simple as a character string or may consist of several person name parts, such as, "Health Level 7", "Inc.". ON differs from EN because certain person related name parts are not possible.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">

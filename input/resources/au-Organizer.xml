@@ -8,6 +8,9 @@
       <p>NOTE: CDA entries such as Observation can also contain other CDA entries by traversing the entryRelationship class. There is no requirement that the Organizer entry be used in order to group CDA entries.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">

@@ -7,6 +7,9 @@
       <p>Can be used to represent any other participant that cannot be represented with one of the more specific participants. The participant can be ascribed to a CDA entry, and propagates to nested CDA entries, unless overridden.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">

@@ -11,6 +11,9 @@
       <p>CDA Release One allowed for additional person identifiers, corresponding to the Patient.id attribute in CDA Release Two. This attribute is included for backwards compatibility and has been deprecated because having two different ways to identify a patient can result in inconsistent usage. Further use of Patient.id is discouraged.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">

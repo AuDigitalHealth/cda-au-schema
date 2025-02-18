@@ -14,6 +14,9 @@
         specializations.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
@@ -120,8 +123,8 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <short value="ADHA CDA extension to represent entity's name"/>
       <path value="Entity.name"/>
+      <short value="ADHA CDA extension to represent entity's name"/>
       <min value="0"/>
       <max value="*"/>
       <type>

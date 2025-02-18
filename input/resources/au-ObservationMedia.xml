@@ -9,6 +9,9 @@
       <p>The distinction between ObservationMedia and ExternalObservation is that ObservationMedia entries are part of the attested content of the document whereas ExternalObservations are not. For instance, when a clinician draws a picture as part of a progress note, that picture is represented as a CDA ObservationMedia. If that clinician is also describing a finding seen on a chest-x-ray, the referenced chest-x-ray is represented as a CDA ExternalObservation.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">

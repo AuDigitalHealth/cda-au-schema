@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="au-ManufacturedProduct"/> 
+  <id value="au-ManufacturedProduct"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
@@ -112,8 +115,8 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/xml-namespace">
         <valueUri value="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"/>
       </extension>
-      <short value="ADHA CDA extension to represent subjectOf1"/>
       <path value="ManufacturedProduct.subjectOf1"/>
+      <short value="ADHA CDA extension to represent subjectOf1"/>
       <min value="0"/>
       <max value="*"/>
       <type>

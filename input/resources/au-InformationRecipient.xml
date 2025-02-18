@@ -9,6 +9,9 @@
       <p>Where a person is the intended recipient (IntendedRecipient class), the playing entity is a person (Person class), optionally scoped by an organization (Organization class). Where the intended recipient is an organization, the IntendedRecipient.classCode is valued with "ASSIGNED", and the recipient is reflected by the presence of a scoping Organization, without a playing entity. Where a health chart is the intended recipient, the IntendedRecipient.classCode is valued with "HLTHCHRT" (health chart). In this case there is no playing entity, and an optional scoping organization (Organization class).</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">

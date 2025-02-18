@@ -9,6 +9,9 @@
       <p>The model for CDA entries is derived from the shared HL7 Clinical Statement model, which is a collaborative project between several committees striving to provide a consistent representation of clinical observations and acts across various V3 specifications.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
