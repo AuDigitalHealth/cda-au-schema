@@ -7,6 +7,9 @@
       <p>Mailing and home or office addresses. A sequence of address parts, such as street or post office Box, city, postal code, country, etc.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">

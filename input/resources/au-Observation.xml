@@ -8,6 +8,9 @@
       <p>Observation.negationInd, when set to "true", is a positive assertion that the Observation as a whole is negated. Some properties such as Observation.id, Observation.moodCode, and the participations are not negated. These properties always have the same meaning: i.e., the author remains the author of the negative Observation. An observation statement with negationInd is still a statement about the specific fact described by the Observation. For instance, a negated "finding of wheezing on July 1" means that the author positively denies that there was wheezing on July 1, and that he takes the same responsibility for such statement and the same requirement to have evidence for such statement than if he had not used negation.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
@@ -108,9 +111,9 @@
     </element>
     <element id="Observation.code">
       <path value="Observation.code"/>
+      <representation value="typeAttr"/>
       <min value="1"/>
       <max value="1"/>
-      <representation value="typeAttr"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/CD"/>
       </type>
@@ -129,9 +132,9 @@
     </element>
     <element id="Observation.text">
       <path value="Observation.text"/>
+      <representation value="typeAttr"/>
       <min value="0"/>
       <max value="1"/>
-      <representation value="typeAttr"/>
       <type>
         <code value="http://hl7.org/cda/stds/core/StructureDefinition/ED"/>
       </type>

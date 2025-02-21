@@ -7,6 +7,9 @@
       <p>This class represents those orders that are fulfilled by this document. For instance, a provider orders an X-Ray. The X-Ray is performed. A radiologist reads the X-Ray and generates a report. The X-Ray order identifier is transmitted in the Order class, the performed X-Ray procedure is transmitted in the ServiceEvent class, and the ClinicalDocument.code would be valued with "Diagnostic Imaging Report".</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">

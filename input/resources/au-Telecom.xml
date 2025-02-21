@@ -7,6 +7,9 @@
       <p>A telephone number (voice or fax), e-mail address, or other locator for a resource (information or service) mediated by telecommunication equipment. The address is specified as a Universal Resource Locator (URL) qualified by time specification and use codes that help in deciding which address to use for a given time and purpose.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
@@ -103,9 +106,9 @@
     <element id="TEL.use">
       <path value="TEL.use"/>
       <representation value="xmlAttr"/>
-      <comment value="Space separated list of codes. The section AS 5017-2006: Health Care Client Electronic Communication Usage Code explains how to map AS 5017-2006 to HL7 Telecommunication-AddressUse (HL7 TAU) code"/>
       <label value="Use Code"/>
       <definition value="The manner of use that is applied to an electronic communication medium."/>
+      <comment value="Space separated list of codes. The section AS 5017-2006: Health Care Client Electronic Communication Usage Code explains how to map AS 5017-2006 to HL7 Telecommunication-AddressUse (HL7 TAU) code"/>
       <min value="0"/>
       <max value="1"/>
       <type>

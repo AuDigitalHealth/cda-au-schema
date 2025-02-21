@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="admissionReferralSourceCode"/> 
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
@@ -33,7 +36,6 @@
   </jurisdiction>
   <copyright
     value="Copyright © 2024 Australian Digital Health Agency - All rights reserved. This content is licensed under a Creative Commons Attribution 4.0 International License. See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)."/>
-  <kind value="logical"/>
   <kind value="logical"/>
   <abstract value="false"/>
   <type value="http://ns.electronichealth.net.au/cda/StructureDefinition/admissionReferralSourceCode"/>

@@ -9,6 +9,9 @@
       <p>EncompassingEncounter.dischargeDispositionCode can be used to depict the disposition of the patient at the time of hospital discharge (e.g., discharged to home, expired, against medical advice, etc.).</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension> 
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">

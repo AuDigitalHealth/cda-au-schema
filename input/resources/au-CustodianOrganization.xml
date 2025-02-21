@@ -7,6 +7,9 @@
       <p>The steward organization (CustodianOrganization class) is an entity scoping the role of AssignedCustodian, and has a required CustodianOrganization.id.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension> 
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">

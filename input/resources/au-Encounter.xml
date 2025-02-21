@@ -8,6 +8,9 @@
       <p>NOTE: The EncompassingEncounter class in the CDA Header (see Header Relationships (§ 4.2.3 )) represents the setting of the clinical encounter during which the documented act occurred. The Encounter class in the CDA Body is used to represent other related encounters.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">

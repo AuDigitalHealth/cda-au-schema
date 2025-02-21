@@ -7,6 +7,9 @@
       <p>ExternalDocument is a derivative of the RIM Document class, used for representing external documents. ExternalDocument.text is modeled as an ED data type - allowing for the expression of the MIME type of the external document.</p>
     </div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/> 
+  </extension>
   <extension url="http://hl7.org/fhir/tools/StructureDefinition/logical-target">
     <valueBoolean>
       <extension url="http://hl7.org/fhir/StructureDefinition/data-absent-reason">
