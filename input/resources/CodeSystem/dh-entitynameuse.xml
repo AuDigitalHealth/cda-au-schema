@@ -10,50 +10,116 @@
     <title value="Entity Name Use"/>
     <status value="draft"/>
     <experimental value="false"/>
-    <description value="Extended Entity Name Use Code System with Organisation Name Use Value from AS 4846-2006 Organisation Name Usage"/>
+    <description value="Extended Entity Name Use Code System with Organisation Name Use Value including AS 4846-2006 Organisation Name Usage"/>
     <caseSensitive value="true"/>
     <content value="complete"/>
     <count value="14"/>
     <concept>
+        <code value="ABC"/>
+        <display value="ABC"/>
+    </concept>
+    <concept>
+        <code value="C"/>
+        <display value="C"/>
+    </concept>
+    <concept>
+        <code value="IDE"/>
+        <display value="IDE"/>
+    </concept>
+    <concept>
+        <code value="L"/>
+        <display value="L"/>
+    </concept>
+    <concept>
+        <code value="OR"/>
+        <display value="OR"/>
+    </concept>
+    <concept>
+        <code value="SYL"/>
+        <display value="SYL"/>
+    </concept>
+    <concept>
+        <code value="A"/>
+        <display value="A"/>
+    </concept>
+    <concept>
+        <code value="I"/>
+        <display value="I"/>
+    </concept>
+    <concept>
+        <code value="P"/>
+        <display value="P"/>
+    </concept>
+    <concept>
+        <code value="R"/>
+        <display value="R"/>
+    </concept>
+    <concept>
+        <code value="PHON"/>
+        <display value="PHON"/>
+    </concept>
+    <concept>
+        <code value="SRCH"/>
+        <display value="SRCH"/>
+    </concept>
+    <concept>
+        <code value="SNDX"/>
+        <display value="SNDX"/>
+    </concept>
+    <concept>
         <code value="T"/>
+        <display value="T"/>
     </concept>
     <concept>
         <code value="DN"/>
+        <display value="DN"/>
     </concept>
     <concept>
         <code value="M"/>
+        <display value="M"/>
     </concept>
     <concept>
         <code value="NB"/>
+        <display value="NB"/>
     </concept>
     <concept>
         <code value="UI"/>
+        <display value="UI"/>
     </concept>
     <concept>
         <code value="SP"/>
+        <display value="SP"/>
     </concept>
     <concept>
         <code value="ORGU"/>
+        <display value="Organizational unit/section/division name"/>
     </concept>
     <concept>
         <code value="ORGS"/>
+        <display value="Service location name"/>
     </concept>
     <concept>
         <code value="ORGB"/>
+        <display value="Business name"/>
     </concept>
     <concept>
         <code value="ORGL"/>
+        <display value="Locally used name"/>
     </concept>
     <concept>
         <code value="ORGA"/>
+        <display value="Abbreviated name"/>
     </concept>
     <concept>
         <code value="ORGE"/>
+        <display value="Enterprise name"/>
     </concept>
     <concept>
         <code value="ORGX"/>
+        <display value="Other"/>
     </concept>
     <concept>
         <code value="ORGY"/>
+        <display value="Unknown"/>
     </concept>
 </CodeSystem>
