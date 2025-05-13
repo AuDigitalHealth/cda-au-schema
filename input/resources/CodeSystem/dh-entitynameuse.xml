@@ -13,7 +13,7 @@
     <description value="Extended Entity Name Use Code System with Organisation Name Use Value including AS 4846-2006 Organisation Name Usage"/>
     <caseSensitive value="true"/>
     <content value="complete"/>
-    <count value="14"/>
+    <count value="27"/>
     <concept>
         <code value="ABC"/>
         <display value="ABC"/>
