@@ -154,27 +154,13 @@
 			</reference>
 			<groupingId value="datatypes-complex"/>
 		</resource>
-		<!--<resource>
+		<resource>
 			<reference>
 				<reference value="StructureDefinition/ClinicalDocument" />
 			</reference>
 			<groupingId value="classes"/>
-		</resource>-->
-		<resource>
-			<extension
-				url="http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format">
-				<valueCode value="application/xml"/>
-			</extension>
-			<reference>
-				<reference value="Binary/clinicaldocument-example"/>
-			</reference>
-			<name value="Example CDA document"/>
-			<description value="Example CDA document from original CDA release"/>
-			<isExample value="true"/>
-			<profile
-				value="http://ns.electronichealth.net.au/cda/StructureDefinition/au-ClinicalDocument"
-			/>
 		</resource>
+		
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/CO"/>
